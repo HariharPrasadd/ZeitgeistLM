@@ -1,4 +1,4 @@
-"""Serve the immutable ZeitgeistLM checkpoint as a bounded public demo."""
+"""Serve the final ZeitgeistLM checkpoint as a bounded public demo."""
 
 from pathlib import Path
 
@@ -29,7 +29,7 @@ class DemoModel:
         from train_gpt2 import GPT
 
         volume.reload()
-        checkpoint = torch.load("/data/checkpoints/tokens_1000M.pt",
+        checkpoint = torch.load("/data/checkpoints/final_2967M.pt",
                                 map_location="cpu", weights_only=False)
         self.model = GPT(checkpoint["config"])
         self.model.load_state_dict(checkpoint["model"])
@@ -50,24 +50,28 @@ class DemoModel:
 
         prompt = str(payload.get("prompt", "")).strip()
         try:
-            year = int(payload.get("year", 2020))
+            date_text = str(payload.get("date") or payload.get("year", "2020"))
+            date_utc = parse_date(date_text)
+            year = int(date_text[:4])
             count = int(payload.get("new_tokens", 60))
             seed = int(payload.get("seed", 42))
         except (ValueError, TypeError):
             raise HTTPException(400, "Invalid numeric parameter")
-        if not prompt or len(prompt) > 160 or not 2011 <= year <= 2023 or not 1 <= count <= 64:
-            raise HTTPException(400, "Prompt, year, or token count out of range")
+        if not prompt or len(prompt) > 160 or not 2008 <= year <= 2024 or not 1 <= count <= 64:
+            raise HTTPException(400, "Prompt, date, or token count out of range")
         tokens = self.encoder.encode(prompt)
         if not 1 <= len(tokens) <= 64:
             raise HTTPException(400, "Prompt must contain 1–64 GPT-2 tokens")
-        tau = (parse_date(str(year)) - self.bounds[0]) / (self.bounds[1] - self.bounds[0])
+        # Dates outside 2011–2020 extrapolate the learned affine time embedding.
+        tau = (date_utc - self.bounds[0]) / (self.bounds[1] - self.bounds[0])
         with torch.autocast("cuda", dtype=torch.bfloat16):
             result = generate(self.model, tokens, tau, count, 50, 0.8, seed,
-                              "cuda", self.encoder.n_vocab)
+                              "cuda", self.encoder.n_vocab,
+                              min_document_tokens=12, eot_token=self.encoder.eot_token)
         continuation = result[len(tokens):]
         # Keep the live reader inside a single document even when EOS is sampled.
         if self.encoder.eot_token in continuation:
             continuation = continuation[:continuation.index(self.encoder.eot_token)]
-        return {"prompt": prompt, "year": year, "tau": tau,
+        return {"prompt": prompt, "date": date_text, "year": year, "tau": tau,
                 "continuation": self.encoder.decode(continuation),
                 "checkpoint_tokens_seen": self.tokens_seen}

@@ -1,4 +1,4 @@
-"""Serve the built static paper site through a lightweight Modal web function."""
+"""Serve the minimal ZeitgeistLM chat through a lightweight Modal web function."""
 
 from pathlib import Path
 
@@ -16,7 +16,7 @@ image = (
 @app.function(image=image, scaledown_window=300)
 @modal.asgi_app()
 def paper():
-    """Return static assets and the article without requiring a long-lived server."""
+    """Return static chat assets without requiring a long-lived server."""
     from fastapi import FastAPI
     from fastapi.responses import FileResponse
     from fastapi.staticfiles import StaticFiles

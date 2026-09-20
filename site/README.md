@@ -1,11 +1,11 @@
-# ZeitgeistLM research paper website
+# ZeitgeistLM chat
 
-The site is a single-column research report with left-side section navigation. Its claims and figures come from the fixed-checkpoint outputs in `../analysis/`. React renders the paper; shadcn/ui provides the controls for the forecast figure and the one conditional-generation example. Plus Jakarta Sans is bundled locally.
+A minimal React interface for dated text generation. The page uses Geist, plain
+CSS, and no component library. The slider covers January 2008 through December
+2024 and marks dates outside the 2011–2020 training interval as extrapolation.
+Each prompt is completed independently by the final 2.967B-token checkpoint.
 
-Run `python build_data.py` after changing analysis results, then `npm install` and `npm run dev`. `npm run build` produces a static `dist/` folder for deployment.
-
-The site bundles only compact figures, sampled public posts, and fixed generation examples. The 1B-token model weights remain on the `zeitgeistlm-data` Modal Volume. `inference_modal.py` deploys a separate GPU web function that loads the checkpoint once per container and responds to bounded text-generation requests. The frontend reads its URL from `VITE_MODAL_GENERATE_URL`; if unavailable, the measured preset examples and every other interaction still work.
-
-Deploy the API with `modal deploy inference_modal.py`. A10 containers scale to zero after two idle minutes, so the first request can take longer. The endpoint is public; requests are capped at 160 characters, 64 prompt tokens, and 64 new tokens, with at most two containers. It should be disabled after the public demo if continued GPU usage is unwanted.
-
-Run `npm run build && modal deploy web_modal.py` to serve the static paper through Modal. The public API URL is a build-time Vite setting in `.env.production`; update it before rebuilding if the API deployment changes.
+Run `npm install` and `npm run dev` locally. `VITE_MODAL_GENERATE_URL` points to
+the separate Modal GPU endpoint. Build with `npm run build`, then deploy the
+page with `modal deploy web_modal.py`. Deploy model changes with
+`modal deploy inference_modal.py`. The GPU container scales to zero when idle.

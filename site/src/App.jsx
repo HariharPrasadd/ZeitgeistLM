@@ -1,86 +1,271 @@
-import { useEffect, useState } from 'react'
-import { ArrowUpRight, RotateCcw } from 'lucide-react'
-import { Button } from '@/components/ui/button'
-import { Textarea } from '@/components/ui/textarea'
-import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import data from './data/analysis.json'
+import { useState, useRef, useEffect, useCallback } from 'react'
 
-const prompts = ['nobody:', 'bro really thought', 'when you realize']
-const sections = [['abstract', 'Abstract'], ['introduction', '1. Introduction'], ['corpus', '2. Corpus'], ['model', '3. Model and training'], ['evaluation', '4. Evaluation'], ['generation', '5. Generation'], ['genealogy', '6. Similarity analysis'], ['discussion', '7. Discussion'], ['reproducibility', '8. Reproducibility'], ['references', 'References']]
-const fmt = (n, digits = 3) => Number(n).toFixed(digits)
+const FIRST_MONTH = 2008 * 12
+const LAST_MONTH = 2024 * 12 + 11
+const INITIAL_MONTH = 2020 * 12 + 6
+const GENERATE_URL = import.meta.env.VITE_MODAL_GENERATE_URL
+const TOTAL_MONTHS = LAST_MONTH - FIRST_MONTH
+const MO = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+const MO_FULL = ['January','February','March','April','May','June',
+                 'July','August','September','October','November','December']
 
-function Sidebar() {
-  const [active, setActive] = useState('abstract')
+function monthToDate(m) {
+  const year = Math.floor(m / 12)
+  const mo = m % 12
+  return { year, mo, label: `${MO_FULL[mo]} ${year}`, iso: `${year}-${String(mo+1).padStart(2,'0')}-01` }
+}
+
+// ── Dial geometry ────────────────────────────────────────────────────────────
+const R = 100, CX = 130, CY = 130, SIZE = 260
+const ARC_START = 135, ARC_SWEEP = 270, ARC_END = ARC_START + ARC_SWEEP
+const TRAIN_T0 = (2011 * 12 - FIRST_MONTH) / TOTAL_MONTHS
+const TRAIN_T1 = (2020 * 12 + 11 - FIRST_MONTH) / TOTAL_MONTHS
+
+const toRad = d => (d * Math.PI) / 180
+const pt = (angle, r = R) => [CX + r * Math.cos(toRad(angle)), CY + r * Math.sin(toRad(angle))]
+const arcD = (a1, a2) => {
+  const [sx, sy] = pt(a1), [ex, ey] = pt(a2)
+  const sw = ((a2 - a1) % 360 + 360) % 360
+  return `M ${sx.toFixed(2)} ${sy.toFixed(2)} A ${R} ${R} 0 ${sw > 180 ? 1 : 0} 1 ${ex.toFixed(2)} ${ey.toFixed(2)}`
+}
+
+function Dial({ month, onChange }) {
+  const svgRef = useRef(null)
+  const dragging = useRef(false)
+  const t = (month - FIRST_MONTH) / TOTAL_MONTHS
+  const thumbAngle = ARC_START + t * ARC_SWEEP
+  const [tx, ty] = pt(thumbAngle)
+  const { year, mo } = monthToDate(month)
+  const extrapolated = year < 2011 || year > 2020
+
+  const resolve = useCallback((cx, cy) => {
+    const rect = svgRef.current.getBoundingClientRect()
+    const mx = cx - rect.left - CX, my = cy - rect.top - CY
+    let a = Math.atan2(my, mx) * 180 / Math.PI
+    if (a < 0) a += 360
+    let o = (a - ARC_START + 360) % 360
+    if (o > ARC_SWEEP) o = o - ARC_SWEEP < (360 - ARC_SWEEP) / 2 ? ARC_SWEEP : 0
+    onChange(Math.round(FIRST_MONTH + (o / ARC_SWEEP) * TOTAL_MONTHS))
+  }, [onChange])
+
   useEffect(() => {
-    // The active link follows the section at the top of the reading column.
-    const observer = new IntersectionObserver(entries => {
-      const first = entries.filter(e => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0]
-      if (first) setActive(first.target.id)
-    }, { rootMargin: '-12% 0px -72% 0px' })
-    sections.forEach(([id]) => { const element = document.getElementById(id); if (element) observer.observe(element) })
-    return () => observer.disconnect()
-  }, [])
-  return <aside className="sidebar"><a className="sidebar-brand" href="#top">Z<span>LM</span><small>RESEARCH PAPER</small></a><nav aria-label="Paper sections"><p>CONTENTS</p>{sections.map(([id, title]) => <a key={id} href={'#' + id} className={active === id ? 'current' : ''} aria-current={active === id ? 'location' : undefined}>{title}</a>)}</nav><div className="sidebar-bottom">Fixed checkpoint analysis<br />1,000,079,360 tokens</div></aside>
+    const move = e => {
+      if (!dragging.current) return
+      const p = e.touches?.[0] ?? e
+      resolve(p.clientX, p.clientY)
+    }
+    const up = () => { dragging.current = false }
+    window.addEventListener('mousemove', move)
+    window.addEventListener('mouseup', up)
+    window.addEventListener('touchmove', move, { passive: true })
+    window.addEventListener('touchend', up)
+    return () => {
+      window.removeEventListener('mousemove', move)
+      window.removeEventListener('mouseup', up)
+      window.removeEventListener('touchmove', move)
+      window.removeEventListener('touchend', up)
+    }
+  }, [resolve])
+
+  const ticks = Array.from({ length: 17 }, (_, i) => {
+    const y = 2008 + i
+    const tickT = Math.min(1, Math.max(0, (y * 12 - FIRST_MONTH) / TOTAL_MONTHS))
+    const a = ARC_START + tickT * ARC_SWEEP
+    const isKey = y === 2011 || y === 2020
+    const [x1, y1] = pt(a, R - 6)
+    const [x2, y2] = pt(a, R + 6)
+    return { y, a, isKey, x1, y1, x2, y2 }
+  })
+
+  // Year labels at the four key points
+  const yearLabels = [
+    { year: 2008, t: 0 },
+    { year: 2011, t: TRAIN_T0 },
+    { year: 2020, t: TRAIN_T1 },
+    { year: 2024, t: 1 },
+  ].map(({ year: y, t: lt }) => {
+    const a = ARC_START + lt * ARC_SWEEP
+    const [lx, ly] = pt(a, R + 22)
+    const anchor = lx < CX - 10 ? 'end' : lx > CX + 10 ? 'start' : 'middle'
+    return { y, lx, ly, anchor }
+  })
+
+  return (
+    <div
+      className="dial"
+      onMouseDown={e => { dragging.current = true; resolve(e.clientX, e.clientY) }}
+      onTouchStart={e => { dragging.current = true; const p = e.touches[0]; resolve(p.clientX, p.clientY) }}
+    >
+      <svg
+        ref={svgRef}
+        width={SIZE}
+        height={SIZE}
+        viewBox={`0 0 ${SIZE} ${SIZE}`}
+        style={{ display: 'block', cursor: 'pointer', touchAction: 'none', userSelect: 'none' }}
+        aria-label={`Time dial — ${monthToDate(month).label}`}
+        role="slider"
+        aria-valuenow={month}
+        aria-valuemin={FIRST_MONTH}
+        aria-valuemax={LAST_MONTH}
+        aria-valuetext={monthToDate(month).label}
+      >
+        {/* Glow behind filled arc */}
+        {t > 0.002 && (
+          <path d={arcD(ARC_START, thumbAngle)}
+            fill="none" stroke="rgba(0,0,0,.04)" strokeWidth="12" strokeLinecap="round" />
+        )}
+
+        {/* Background track */}
+        <path d={arcD(ARC_START, ARC_END)}
+          fill="none" stroke="rgba(0,0,0,.06)" strokeWidth="4" strokeLinecap="round" />
+
+        {/* Training window band */}
+        <path d={arcD(ARC_START + TRAIN_T0 * ARC_SWEEP, ARC_START + TRAIN_T1 * ARC_SWEEP)}
+          fill="none" stroke="rgba(0,0,0,.13)" strokeWidth="4" strokeLinecap="round" />
+
+        {/* Filled arc */}
+        {t > 0.002 && (
+          <path d={arcD(ARC_START, thumbAngle)}
+            fill="none" stroke="#111" strokeWidth="4" strokeLinecap="round" />
+        )}
+
+        {/* Year ticks */}
+        {ticks.map(({ y, isKey, x1, y1, x2, y2 }) => (
+          <line key={y}
+            x1={x1.toFixed(2)} y1={y1.toFixed(2)}
+            x2={x2.toFixed(2)} y2={y2.toFixed(2)}
+            stroke={isKey ? 'rgba(0,0,0,.45)' : 'rgba(0,0,0,.13)'}
+            strokeWidth={isKey ? '1.5' : '1'}
+            strokeLinecap="round"
+          />
+        ))}
+
+        {/* Year labels */}
+        {yearLabels.map(({ y, lx, ly, anchor }) => (
+          <text key={y}
+            x={lx.toFixed(2)} y={ly.toFixed(2)}
+            textAnchor={anchor}
+            fontSize="10"
+            fontFamily="Inter, sans-serif"
+            fill="rgba(0,0,0,.32)"
+            dominantBaseline="middle"
+          >{y}</text>
+        ))}
+
+        {/* Thumb */}
+        <circle
+          cx={tx.toFixed(2)} cy={ty.toFixed(2)} r="9"
+          fill="#fff"
+          stroke="#111"
+          strokeWidth="2.5"
+          style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,.22))' }}
+        />
+      </svg>
+
+      <div className="dial-info" aria-hidden="true">
+        <span className={`dial-year${extrapolated ? ' dial-year--dim' : ''}`}>{year}</span>
+        <span className="dial-mo">{MO_FULL[mo]}</span>
+        {extrapolated && <span className="dial-extrap">extrap.</span>}
+      </div>
+    </div>
+  )
 }
-function Section({ id, number, title, children }) {
-  return <section className="paper-section" id={id}><div className="section-label">{number}</div><h2>{title}</h2>{children}</section>
-}
-function Equation({ number, children }) {
-  return <div className="equation-row"><div>{children}</div><span>({number})</span></div>
-}
-function Figure({ number, title, caption, children }) {
-  return <figure className="paper-figure"><div className="figure-heading"><span>FIGURE {number}</span><strong>{title}</strong></div>{children}<figcaption><b>Figure {number}.</b> {caption}</figcaption></figure>
-}
-function ForecastFigure() {
-  const [mode, setMode] = useState('both')
-  const [selected, setSelected] = useState(null)
-  const width = 760, height = 285, left = 42, right = 12, top = 16, bottom = 35
-  const x = p => left + ((p.year + (p.month - .5) / 12 - 2021) / 1.64) * (width - left - right)
-  const y = v => top + (2.95 - v) / .85 * (height - top - bottom)
-  const line = (rows, key) => rows.map((row, i) => (i ? 'L' : 'M') + x(row).toFixed(1) + ',' + y(row[key]).toFixed(1)).join(' ')
-  const groups = [data.forecast.filter(p => p.year === 2021), data.forecast.filter(p => p.year === 2022)]
-  return <Figure number="1" title="Paired forecasting loss by month" caption="Each point is the monthly mean of 24 windows, stratified by submissions and comments. The break separates 2021 validation from 2022 test. The interval across months does not capture variation across training runs."><div className="figure-control"><span>Cross-entropy · nats/token</span><Tabs value={mode} onValueChange={setMode}><TabsList><TabsTrigger value="both">Both conditions</TabsTrigger><TabsTrigger value="actual">Actual date</TabsTrigger></TabsList></Tabs></div><div className="chart-frame"><svg viewBox={'0 0 ' + width + ' ' + height} role="img" aria-label="Monthly actual-date and fixed-date loss in 2021 and 2022">{[2.2, 2.4, 2.6, 2.8].map(v => <g key={v}><line className="gridline" x1={left} x2={width-right} y1={y(v)} y2={y(v)} /><text className="axis-label" x={left-9} y={y(v)+4} textAnchor="end">{v.toFixed(1)}</text></g>)}<line className="splitline" x1={x({year: 2022, month: .5})} x2={x({year: 2022, month: .5})} y1={top} y2={height-bottom} />{groups.map((rows, i) => <g key={i}>{mode === 'both' && <path className="forecast-fixed" d={line(rows, 'fixed')} />}<path className="forecast-actual" d={line(rows, 'actual')} />{rows.map(p => <g key={p.year + '-' + p.month}><circle className="point-target" cx={x(p)} cy={y(p.actual)} r="11" onClick={() => setSelected(p)}><title>{p.year}-{p.month}: {fmt(p.actual)} actual; {fmt(p.fixed)} fixed</title></circle><circle className={selected === p ? 'point selected' : 'point'} cx={x(p)} cy={y(p.actual)} r="3.2" /></g>)}</g>)}{[2021, 2021.5, 2022, 2022.5].map(v => <text key={v} className="axis-label" x={left + (v-2021)/1.64*(width-left-right)} y={height-8} textAnchor="middle">{v % 1 ? 'JUL' : v}</text>)}</svg></div><div className="chart-key"><span><i className="key-actual" />Actual date</span>{mode === 'both' && <span><i className="key-fixed" />Fixed at 2020-07-01</span>}<b>{selected ? selected.year + '-' + String(selected.month).padStart(2, '0') + ': ' + fmt(selected.actual) + ' vs ' + fmt(selected.fixed) : 'Select a monthly point'}</b></div></Figure>
-}
-function GenerationFigure() {
-  const [preset, setPreset] = useState(prompts[0])
-  const [draft, setDraft] = useState(prompts[0])
-  const [year, setYear] = useState(2016)
-  const [live, setLive] = useState(null)
-  const [busy, setBusy] = useState(false)
-  const [error, setError] = useState('')
-  const endpoint = import.meta.env.VITE_MODAL_GENERATE_URL
-  const sample = data.generation.find(item => item.prompt === preset && item.date === String(year))
-  const fresh = live?.prompt === draft && live?.year === year
-  // Packed documents may contain a separator; display only the first continuation.
-  const output = (fresh ? live.text : sample?.continuation || '').split('<|endoftext|>')[0].trim()
-  async function generate() {
-    if (!endpoint || !draft.trim()) return
-    setBusy(true); setError('')
-    try {
-      const response = await fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ prompt: draft.trim(), year, new_tokens: 60, seed: Math.floor(Math.random() * 1_000_000) }) })
-      if (!response.ok) throw new Error('Generation failed (' + response.status + ')')
-      const result = await response.json()
-      setLive({ prompt: draft, year, text: result.continuation })
-    } catch (err) { setError(err.message) } finally { setBusy(false) }
-  }
-  return <Figure number="2" title="Controlled continuation probe" caption="Fixed examples use the same text seed, top-50 sampling, temperature 0.8, and random seed 42. They illustrate conditioning, not forecast accuracy. The 2023 coordinate has no 2023 ground truth in this corpus."><div className="probe"><div className="probe-controls"><label htmlFor="probe-prompt">Prompt</label><div className="prompt-presets">{prompts.map(p => <Button key={p} variant={preset === p ? 'default' : 'outline'} size="sm" onClick={() => { setPreset(p); setDraft(p); setLive(null) }}>{p}</Button>)}</div><Textarea id="probe-prompt" value={draft} maxLength={100} rows={2} onChange={e => { setDraft(e.target.value); setLive(null) }} /><div className="probe-years"><span>Conditioning year</span><Tabs value={String(year)} onValueChange={v => { setYear(Number(v)); setLive(null) }}><TabsList>{[2016, 2020, 2022, 2023].map(y => <TabsTrigger key={y} value={String(y)}>{y}</TabsTrigger>)}</TabsList></Tabs></div></div><div className="probe-response"><div className="response-head"><span>MODEL CONTINUATION / {year}</span><span>{year > 2020 ? 'OUTSIDE TRAINING RANGE' : 'WITHIN TRAINING RANGE'}</span></div><div className="chat-line"><span>INPUT</span><p>{draft || '—'}</p></div><div className="chat-line model-line"><span>MODEL</span><p>{draft === preset || fresh ? output || 'No text before document boundary.' : 'Choose a preset to view a fixed sample, or generate from your edited prompt.'}</p></div></div><div className="probe-footer"><p>{endpoint ? 'Fresh generation uses a new random seed.' : 'Live inference is unavailable; fixed examples remain available.'}</p><Button variant="outline" size="sm" onClick={generate} disabled={!endpoint || busy || !draft.trim()}><RotateCcw size={14} />{busy ? 'Generating…' : 'Generate fresh'}</Button></div>{error && <p className="probe-error" role="alert">{error}</p>}</div></Figure>
-}
+
 export default function App() {
-  const { val, test } = data.forecastSummary
-  useEffect(() => {
-    // Older shared links point to the former landing-page section names.
-    const aliases = { experiment: 'generation', findings: 'evaluation', method: 'model' }
-    const target = aliases[window.location.hash.slice(1)]
-    if (target) requestAnimationFrame(() => document.getElementById(target)?.scrollIntoView())
-  }, [])
-  return <div className="site-shell" id="top"><Sidebar /><main className="paper"><div className="paper-top"><span>ZEITGEISTLM</span><span>RESEARCH REPORT · SEPTEMBER 2026</span></div><header className="paper-header"><p className="submission-line">A fixed-checkpoint study of time-conditioned language modeling</p><h1>Learning a continuous time coordinate for internet language</h1><p className="paper-subtitle">Training a small GPT on dated Reddit text and measuring whether time changes its predictions beyond the training years</p><div className="paper-meta"><span>ZeitgeistLM</span><span>124M parameters</span><span>2011–2022 corpus</span><span>1B-token checkpoint</span></div></header>
-  <section className="abstract" id="abstract"><h2>Abstract</h2><p>Internet language changes quickly, but a conventional language model treats documents from different years as exchangeable. We train a 124M-parameter decoder-only transformer from scratch on timestamped Reddit submissions and comments. A normalized date is mapped to a learned vector and prepended as a causal prefix. The model sees text through 2020; 2021 is used for validation and available months of 2022 for a held-out future evaluation.</p><p>At a stable checkpoint after 1,000,079,360 training tokens, scoring the same 2022 windows at their actual dates rather than at a fixed mid-2020 date reduces mean cross-entropy from 2.61161 to 2.60516 nats per token. The gain is 0.00645 nats per token across 192 sampled windows and is positive in all eight sampled 2022 months. Prompt-dependent generation shifts are visible. A chronology-constrained phrase graph is secondary: its labels reward word overlap and its model reranking advantage is uncertain. The evidence supports a modest benefit from continuous-time conditioning for these sampled future windows; it does not establish accurate cultural forecasting or causal meme lineages.</p><div className="keywords"><b>Keywords</b> temporal language modeling · distribution shift · internet language · controlled evaluation</div></section>
-  <Section id="introduction" number="01" title="Introduction"><p>Words, templates, and references acquire meaning at particular times. In a decade of online posts, the same fragment can precede ordinary dialogue in one period and a recognizable meme format in another. A model trained over the full period without dates must average those contexts. We ask whether a small autoregressive model can use a continuous timestamp to improve next-token prediction when text arrives after its training interval.</p><p>Our primary test holds the token sequence and model weights fixed, scores each future window twice, and changes only the date supplied to the model. This paired design asks whether the learned time input has predictive value beyond a static 2020 condition. Controlled generations and representation probes help interpret the model, but provide weaker evidence than held-out loss.</p><div className="contribution-list"><span>CONTRIBUTIONS</span><ol><li>A dated, audited corpus pipeline with chronological train, validation, and test splits.</li><li>A GPT-2-scale transformer with one continuous-time prefix vector and immutable training milestones.</li><li>A paired future-window evaluation and explicit lexical controls for phrase similarity.</li></ol></div></Section>
-  <Section id="corpus" number="02" title="Corpus and preparation"><p>We use Reddit submissions and comments from fifteen meme-oriented communities in the <em>open-index/arctic</em> corpus [3]. Available partitions span 2011 through August 2022. The split is chronological: 2011–2020 for training, 2021 for validation, and January–August 2022 for testing. Later text does not enter the training stream.</p><p>Cleaning retains timestamps and community identity while removing deleted text, bot and moderation boilerplate, media placeholders, URL-dominated entries, and pathological lengths. Per-month caps on prolific authors, threads, and copies reduce duplication. Each source partition receives an audit. The manifest checks the expected month/type set, token shapes, date counts, and whether timestamps belong to their source month before publishing a complete training set.</p><p>GPT-2 byte-pair encoding [1] marks document boundaries and packs each month and content type into 1,025-token windows: 1,024 inputs and shifted targets. A packed window can contain several posts, so its scalar date is the mean source time of the 1,024 input tokens. This is an approximation to document-level time. Short incomplete tails are dropped within partitions rather than mixed across months.</p><div className="paper-table-wrap"><table><caption>Table 1. Chronological partition and role.</caption><thead><tr><th>Years</th><th>Role</th><th>Use here</th></tr></thead><tbody><tr><td>2011–2020</td><td>Train</td><td>Parameter updates; normalized τ ∈ [0, 1]</td></tr><tr><td>2021</td><td>Validation</td><td>288 windows; 294,912 scored tokens</td></tr><tr><td>2022 Jan–Aug</td><td>Future test</td><td>192 windows; 196,608 scored tokens</td></tr></tbody></table></div></Section>
-  <Section id="model" number="03" title="Model and training"><h3>3.1 Continuous-time prefix</h3><p>Let <i>u</i> be a window’s UTC timestamp, with <i>u</i><sub>0</sub> at the beginning of 2011 and <i>u</i><sub>1</sub> at the end of 2020. Dates after 2020 yield τ &gt; 1, so future evaluation extrapolates along the same scalar coordinate.</p><Equation number="1"><i>τ</i> = (<i>u</i> − <i>u</i><sub>0</sub>) / (<i>u</i><sub>1</sub> − <i>u</i><sub>0</sub>)</Equation><p>A learned affine map converts this scalar into a 768-dimensional vector. It occupies position zero before the text tokens, making time available to every prediction through causal attention without inserting a date string into the document.</p><Equation number="2"><i>e</i><sub>time</sub>(<i>τ</i>) = <i>Wτ</i> + <i>b</i>, &nbsp; <i>W, b</i> ∈ ℝ<sup>768</sup></Equation><p>The decoder adapts the build-nanogpt implementation [2] and has 12 transformer blocks, 12 attention heads, a 1,024-token text context, tied input and output token embeddings, and a 50,304-entry vocabulary allocation. The prefix adds one transformer position; loss is computed over the 1,024 text predictions. The experiment trains from scratch rather than loading pretrained GPT-2 weights.</p><h3>3.2 Optimization and checkpoint</h3><p>The loader samples packed windows uniformly across the manifest and uses gradient accumulation for effective batches of 262,144 tokens. Training uses AdamW, warmup followed by cosine learning-rate decay, gradient clipping at norm 1, and BF16 autocast on GPU. Checkpoints preserve model, optimizer, loader random states, and PyTorch random states for resumption. Immutable snapshots were saved near 100M, 250M, 500M, and 1B tokens.</p><p>All results here use the 1,000,079,360-token milestone. The original run later encountered a loss spike; measurements from a separate rerun are not mixed into this report. The stable checkpoint was chosen before opening the 2022 test set, although this is still an exploratory single-run study.</p><h3>3.3 Objective</h3><p>For text tokens <i>x</i><sub>1:T</sub> and time τ, the model minimizes mean next-token negative log-likelihood. The temporal prefix enters every conditional distribution:</p><Equation number="3">ℒ(<i>θ</i>) = − (1/<i>T</i>) ∑<sub>t=1</sub><sup>T</sup> log <i>p</i><sub>θ</sub>(<i>x</i><sub>t+1</sub> | <i>x</i><sub>≤t</sub>, <i>e</i><sub>time</sub>(τ))</Equation></Section>
-  <Section id="evaluation" number="04" title="Forecast evaluation"><h3>4.1 Paired protocol</h3><p>We deterministically sample 12 windows from every month × content-kind stratum with seed 20260920. Each 1,024-token window is scored at its stored timestamp and again at 2020-07-01. Tokens, weights, and scoring code are identical in both passes. BF16 inference accumulates cross-entropy in FP32. The difference isolates the value of the date coordinate for these sampled windows; it is not a comparison with a separately trained time-agnostic model.</p><Equation number="4">Δ = ℒ<sub>fixed 2020</sub> − ℒ<sub>actual date</sub></Equation><div className="paper-table-wrap"><table><caption>Table 2. Paired forecasting at the stable 1B-token checkpoint.</caption><thead><tr><th>Split</th><th>Windows</th><th>Actual date</th><th>Fixed 2020</th><th>Gain Δ</th><th>95% month interval</th></tr></thead><tbody><tr><td>2021 validation</td><td>{val.windows}</td><td>{fmt(val.actual_time_loss, 5)}</td><td>{fmt(val.fixed_2020_loss, 5)}</td><td>{fmt(val.loss_gain, 5)}</td><td>[{fmt(val.month_bootstrap_95pct_gain[0], 5)}, {fmt(val.month_bootstrap_95pct_gain[1], 5)}]</td></tr><tr><td>2022 test</td><td>{test.windows}</td><td>{fmt(test.actual_time_loss, 5)}</td><td>{fmt(test.fixed_2020_loss, 5)}</td><td>{fmt(test.loss_gain, 5)}</td><td>[{fmt(test.month_bootstrap_95pct_gain[0], 5)}, {fmt(test.month_bootstrap_95pct_gain[1], 5)}]</td></tr></tbody></table></div><p>Actual time wins in all eight sampled 2022 months. The gain is 0.00645 nats/token, about 0.25% of fixed-time loss; perplexity is 13.533 versus 13.621. The interval resamples months 10,000 times and does not represent variation from retraining or from other communities.</p><ForecastFigure /><p>The absolute loss increase from 2021 to 2022 cannot be assigned entirely to cultural drift: document composition also changes. The 2022 test set has now been evaluated and is no longer untouched.</p></Section>
-  <Section id="generation" number="05" title="Conditional generation and time response"><p>We hold a short prompt and sampling seed constant while changing the date. For “nobody:”, a 2016 continuation reads as quoted dialogue while later coordinates begin with a “Me:” meme-dialogue pattern. First-next-token Jensen–Shannon divergence between 2016 and 2023 is 0.0962 nats for that prompt, versus 0.0173 for “bro really thought” and 0.0247 for “when you realize”. Sensitivity is prompt dependent.</p><GenerationFigure /><p>These samples show conditioning, not forecasting accuracy. The 2023 coordinate lies beyond training and has no 2023 ground truth in this corpus. Plausible wording can still be historically wrong.</p><h3>5.1 A geometry caveat</h3><p>The affine encoder’s trajectory is necessarily a line. Centered vectors <i>e</i><sub>time</sub>(τ) have rank at most one, so a first principal component explaining approximately 100% of their variance follows from the architecture. At 1B tokens, ‖<i>W</i>‖₂ = 0.6695 and a 2023 midpoint maps to τ ≈ 1.2494. The interesting behavior lies in the transformer’s conditional predictions, not the prefix trajectory by itself.</p></Section>
-  <Section id="genealogy" number="06" title="Exploratory phrase similarity"><p>A predefined phrase-pattern scan of March and September submissions yields 485 posts across nine families. One of ten patterns returns no examples in this sample frame. For each post we search only earlier sampled posts and select a nearest neighbor. The resulting links are chronological similarities, not observed copying or descent.</p><p>The initial final-layer, final-token cosine method links 53.1% of 484 nonroot posts to the same phrase-family label. A shuffled-label control averages 12.1%, but a chronological word/bigram TF–IDF baseline reaches 79.3%. This baseline matters because the labels were assigned by phrase matching. A follow-up raises model-only accuracy to 74.6% using fixed-time, mean-pooled block-10 states. Taking the top 20 TF–IDF candidates and reranking with model cosine reaches 81.2% on all links.</p><div className="paper-table-wrap"><table><caption>Table 3. Same-family earlier-neighbor diagnostic on 484 links.</caption><thead><tr><th>Method</th><th>All links</th><th>2021–2022</th></tr></thead><tbody><tr><td>Original final-token cosine</td><td>53.1%</td><td>50.7%</td></tr><tr><td>Block-10 mean pooling, fixed time</td><td>74.6%</td><td>75.7%</td></tr><tr><td>TF–IDF words + bigrams</td><td>79.3%</td><td>81.9%</td></tr><tr><td>TF–IDF top 20 → model rerank</td><td>81.2%</td><td>85.4%</td></tr></tbody></table></div><p>The later-year reranker gain over TF–IDF is 3.5 percentage points, with a paired 95% interval of −4.2 to +11.1 points and exact discordant-pair <i>p</i> = 0.46. Those posts had already been inspected and are not a fresh holdout. A ten-group hand-authored nonlexical probe suggests some paraphrases missed by TF–IDF can be recovered, but it is not a benchmark on real mutations.</p><p>Earlier posts may share boilerplate, wording, emoji, or a community without influencing each other. Testing cultural lineage requires independently sampled variants, blinded labels, and time- and community-matched controls. We therefore present this as a similarity diagnostic, not a family tree.</p></Section>
-  <Section id="discussion" number="07" title="Discussion and limitations"><p>The paired future-window result is positive but small. It shows that the learned scalar date reduces loss on sampled 2022 Reddit text relative to a frozen 2020 input. One run cannot quantify variation across seeds or training runs. Since only the inference date changes, this also does not show whether the architecture beats a separately trained no-time model.</p><p>The corpus covers selected communities and available months. A packed-window date averages several posts; community markers and document mix may influence loss for reasons unrelated to meme semantics. Only three prompts were used for generation probes. Phrase labels are defined lexically, making the lexical baseline strong and same-family accuracy a poor proxy for cultural ancestry.</p><p>The next decisive experiments are a matched no-time training baseline, repeated seeds, a larger prespecified prompt panel, and independently labeled real phrase mutations. The present claim is narrower: the model uses its continuous date coordinate in a measurable way, including on text after its training years.</p></Section>
-  <Section id="reproducibility" number="08" title="Reproducibility and artifacts"><p>Analyses use immutable milestone checkpoint names rather than a mutable latest snapshot. Large cleaned Parquet files, token shards, and weights remain on a Modal Volume. Compact JSON results, tables, plots, and scripts are in the project workspace. The website fixture is generated from analysis output by <code>site/build_data.py</code>.</p><pre className="code-block"><code>modal run analysis/analysis_modal.py --phase collect{'\n'}modal run analysis/analysis_modal.py --phase analyze{'\n'}modal run analysis/genealogy_v2_modal.py{'\n'}python analysis/summarize.py{'\n'}python site/build_data.py</code></pre><p>Numerical outputs and methods are recorded in <code>analysis/FINDINGS.md</code>, <code>analysis/GENEALOGY_V2.md</code>, <code>analysis/summary.json</code>, and <code>analysis/forecast_windows.csv</code>. Implementations are in <code>model/train_gpt2.py</code>, <code>model/train_zeitgeist.py</code>, <code>clean_reddit.py</code>, <code>tokenize_modal.py</code>, and <code>data_manifest.py</code>.</p><div className="paper-end"><a href="https://github.com/HariharPrasadd/ZeitgeistLM" target="_blank" rel="noreferrer">Repository <ArrowUpRight size={15} /></a><a href="#top">Return to title ↑</a></div></Section><section className="references paper-section" id="references"><div className="section-label">REFERENCES</div><h2>References</h2><ol><li><span>[1]</span><a href="https://cdn.openai.com/better-language-models/language-models.pdf" target="_blank" rel="noreferrer">Radford et al. Language Models are Unsupervised Multitask Learners. 2019.</a></li><li><span>[2]</span><a href="https://github.com/karpathy/build-nanogpt" target="_blank" rel="noreferrer">Karpathy. build-nanogpt: from-scratch GPT-2 reproduction and code lecture.</a></li><li><span>[3]</span><a href="https://huggingface.co/datasets/open-index/arctic" target="_blank" rel="noreferrer">open-index. Arctic Shift Reddit Archive dataset.</a></li></ol></section><footer className="paper-footer"><span>ZeitgeistLM · Research report</span><span>Measurements from the fixed 1B-token checkpoint.</span></footer></main></div>
+  const [month, setMonth] = useState(INITIAL_MONTH)
+  const [draft, setDraft] = useState('')
+  const [messages, setMessages] = useState([])
+  const [busy, setBusy] = useState(false)
+
+  async function submit(e) {
+    e.preventDefault()
+    const prompt = draft.trim()
+    if (!prompt || busy) return
+    const id = crypto.randomUUID?.() ?? String(Date.now())
+    const date = monthToDate(month)
+    setMessages(prev => [{ id, prompt, date, status: 'pending' }, ...prev])
+    setDraft('')
+    setBusy(true)
+    try {
+      if (!GENERATE_URL) throw new Error('Model endpoint unavailable.')
+      const res = await fetch(GENERATE_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompt, date: date.iso, new_tokens: 64, seed: Math.floor(Math.random() * 1e6) }),
+      })
+      const json = await res.json()
+      if (!res.ok) throw new Error(json.detail || 'Generation failed.')
+      setMessages(prev => prev.map(m =>
+        m.id === id
+          ? { ...m, status: 'done', response: json.continuation?.trim() || 'The model ended this passage.' }
+          : m
+      ))
+    } catch (err) {
+      setMessages(prev => prev.map(m =>
+        m.id === id ? { ...m, status: 'error', response: err.message } : m
+      ))
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  return (
+    <main className="page">
+      <header className="hd">
+        <h1 className="brand">ZEITGEISTLM</h1>
+        <p className="byline">Dated text generation · 2.967 B tokens · trained 2011–2020</p>
+      </header>
+
+      <div className="card">
+        <div className="dial-wrap">
+          <Dial month={month} onChange={setMonth} />
+        </div>
+
+        <div className="card-rule" />
+
+        <form className="composer" onSubmit={submit}>
+          <label className="sr-only" htmlFor="prompt">Prompt</label>
+          <textarea
+            id="prompt"
+            value={draft}
+            maxLength={160}
+            rows={3}
+            placeholder="Begin a sentence and let the model continue it…"
+            onChange={e => setDraft(e.target.value)}
+            onKeyDown={e => {
+              if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) {
+                e.preventDefault()
+                e.currentTarget.form.requestSubmit()
+              }
+            }}
+          />
+          <div className="composer-foot">
+            <span className="char-count">{draft.length}/160</span>
+            <button type="submit" disabled={!draft.trim() || busy}>
+              {busy ? 'Generating…' : 'Generate'} <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      {messages.length > 0 && (
+        <section className="log" aria-label="Generations" aria-live="polite">
+          {messages.map(item => (
+            <article className="entry" key={item.id}>
+              <div className="entry-meta">
+                <time dateTime={item.date.iso}>{item.date.label}</time>
+                {(item.date.year < 2011 || item.date.year > 2020) && (
+                  <span className="tag">Extrapolated</span>
+                )}
+              </div>
+              <p className="entry-prompt">{item.prompt}</p>
+              <p className={`entry-resp${item.status === 'pending' ? ' pending' : ''}${item.status === 'error' ? ' err' : ''}`}>
+                {item.status === 'pending' ? 'Generating…' : item.response}
+              </p>
+            </article>
+          ))}
+        </section>
+      )}
+    </main>
+  )
 }
