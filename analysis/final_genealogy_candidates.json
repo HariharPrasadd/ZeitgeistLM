@@ -1,0 +1,3212 @@
+{
+  "source_nodes": 17014,
+  "clean_nodes": 16508,
+  "clean_edges": 1671,
+  "rejected": {
+    "single_word_repetition": 23,
+    "url": 176,
+    "bot_or_spam": 26,
+    "combining_mark_artifact": 254,
+    "punctuation_near_copy": 27
+  },
+  "selection": {
+    "random_pair_q999_cosine": 0.755451500415802,
+    "absolute_cosine_floor": 0.85,
+    "effective_cosine_threshold": 0.85,
+    "time_penalty_per_year": 0.02,
+    "null_pairs": 100000
+  },
+  "component_count": 201,
+  "components": [
+    {
+      "index": 0,
+      "size": 110,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "bonehurtingjuice": 109,
+        "2meirl4meirl": 1
+      },
+      "early": [
+        "ow ouch oofity ow ouchity ow",
+        "oof ouch owie my karma",
+        "Oof ouch owie my skin."
+      ],
+      "hubs": [
+        {
+          "text": "Oof ouch owie my skin.",
+          "children": 8
+        },
+        {
+          "text": "Oof ouch my existence",
+          "children": 7
+        },
+        {
+          "text": "oof ouch owie my karma",
+          "children": 7
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "size": 63,
+      "years": [
+        2016,
+        2022
+      ],
+      "subreddits": {
+        "2meirl4meirl": 63
+      },
+      "early": [
+        "2meirl4meirl\nI'm not very happy with my life.",
+        "2meirl4meirl\ni dont have any pictures to post sorry for wasting your time",
+        "2meirl4meirl\nHanging around here isn't good for me but I stay here anyway because misery loves company."
+      ],
+      "hubs": [
+        {
+          "text": "2meirl4meirl for you guys.",
+          "children": 7
+        },
+        {
+          "text": "2meirl4meirl\nI'm not very happy with my life.",
+          "children": 6
+        },
+        {
+          "text": "2meirl4meirl\ni hate myself",
+          "children": 6
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "size": 50,
+      "years": [
+        2014,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 50
+      },
+      "early": [
+        "The \"black uncle on the grill\" starter pack",
+        "The \"cool skater\" starter pack",
+        "The \"Bulking Phase\" starter kit"
+      ],
+      "hubs": [
+        {
+          "text": "The \"cool skater\" starter pack",
+          "children": 5
+        },
+        {
+          "text": "The \"Grandma's House\" starter pack",
+          "children": 4
+        },
+        {
+          "text": "The \"Childhood Summer Camp\" Starter pack",
+          "children": 4
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "size": 46,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 45,
+        "dankmemes": 1
+      },
+      "early": [
+        "Le nightmare has arrived",
+        "Le sculpture has arrived",
+        "Le plane has not arrived"
+      ],
+      "hubs": [
+        {
+          "text": "Le sculpture has arrived",
+          "children": 5
+        },
+        {
+          "text": "Le scary menu has arrived",
+          "children": 5
+        },
+        {
+          "text": "Le nightmare has arrived",
+          "children": 4
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "size": 30,
+      "years": [
+        2015,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 29,
+        "shitposting": 1
+      },
+      "early": [
+        "The Baltimore Protester Starter Pack",
+        "The Festie Chick Starter Pack",
+        "The West Side Vancouver Housewife Starter Pack"
+      ],
+      "hubs": [
+        {
+          "text": "The Christian Film Maker Starterpack.",
+          "children": 3
+        },
+        {
+          "text": "The Hipster Photographer Starter Pack",
+          "children": 3
+        },
+        {
+          "text": "The Baltimore Protester Starter Pack",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "size": 28,
+      "years": [
+        2015,
+        2022
+      ],
+      "subreddits": {
+        "dankmemes": 4,
+        "memes": 1,
+        "surrealmemes": 16,
+        "memeeconomy": 1,
+        "dogelore": 1,
+        "comedyheaven": 2,
+        "bonehurtingjuice": 2,
+        "shitposting": 1
+      },
+      "early": [
+        "F U N S E A S O N B O Y S",
+        "the C O L L E C T I V E",
+        "H E L E N K E L L E R"
+      ],
+      "hubs": [
+        {
+          "text": "T H E M A N H E A D D I S W A T C H I N G E V E R Y Y O U",
+          "children": 6
+        },
+        {
+          "text": "S T R E A M S N I P I N G",
+          "children": 6
+        },
+        {
+          "text": "H E L E N K E L L E R",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "size": 24,
+      "years": [
+        2013,
+        2022
+      ],
+      "subreddits": {
+        "copypasta": 18,
+        "okbuddyretard": 1,
+        "shitposting": 1,
+        "me_irl": 2,
+        "memeeconomy": 1,
+        "memes": 1
+      },
+      "early": [
+        "You can't just laugh on the Internet\nYOU CAN'T LAUGH OVER THE INTERNET DUMBASS. LOL! YOU SEE I JUST PROVE YOU ARE A REAL DUMB ASS. AND YOU KEEP SPAMMING \"-_-\" L",
+        "\"Stop fetishizing blacks you weak racist white faggots\"\nSTOP SAYING MC RIDE YOU 4CHAN SLAVE FAGGOTS I HAVE READ EVERY INTERVIEW WITH DEATH GRIPS THEY NEVER ACKN",
+        "me irl\nWARNING: IF YOU HAVE A HEART CONDITION DO NOT READ THIS. YOU WILL DROP THE FLOOR, FLOPPING LIKE A FISH, WHILE CLENCHING YOUR HEART SEEING AS YOU ARE HAVI"
+      ],
+      "hubs": [
+        {
+          "text": "Birthday Games on Google+ are maDE BY THE ILLUMINATI TO DISCOVER YOUR BIRTHDAY\nYOU IDIOTS! YOU DARE FALL FOR THE LIE THAT IS BIRTHDAY GAMES!? THEY ARE MADE BY T",
+          "children": 6
+        },
+        {
+          "text": "ME AND MY GIRLFRIEND WE MADE A DEAL , SINCE WERE GONNA GET MARRY IN 6 MONTHS, I TOLD HER TO NOT LET ME MARRY HER IF I CANT GET TO 100 DAYS NO PORN AND MASTURBAT",
+          "children": 4
+        },
+        {
+          "text": "\"Stop fetishizing blacks you weak racist white faggots\"\nSTOP SAYING MC RIDE YOU 4CHAN SLAVE FAGGOTS I HAVE READ EVERY INTERVIEW WITH DEATH GRIPS THEY NEVER ACKN",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "size": 24,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 24
+      },
+      "early": [
+        "Le health crisis has arrived",
+        "Le progressive disease has arrived",
+        "Le black emperor has arrived"
+      ],
+      "hubs": [
+        {
+          "text": "Le progressive disease has arrived",
+          "children": 5
+        },
+        {
+          "text": "Le thief has arrived",
+          "children": 2
+        },
+        {
+          "text": "Le black emperor has arrived",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "size": 24,
+      "years": [
+        2020,
+        2022
+      ],
+      "subreddits": {
+        "okbuddyretard": 22,
+        "copypasta": 2
+      },
+      "early": [
+        "when someone says I have to quarantine with my wife 😂🤣😂🤣🥶🥶🥵🥵🧐🧐🧐",
+        "LET ME TUCH TEM PLEEZ 😦😧😧😨😨🤯🤯🥵🥵🥵",
+        "MOM TOOK AWAY IPHONE 🤬🤬🤬😡😡😭😭😭😭😭😭😳😳😳😢😢😤😠😠😭"
+      ],
+      "hubs": [
+        {
+          "text": "LET ME TUCH TEM PLEEZ 😦😧😧😨😨🤯🤯🥵🥵🥵",
+          "children": 3
+        },
+        {
+          "text": "Get rekt kyle lmfao 🤭🤭🤣🤣🤣👿👿",
+          "children": 2
+        },
+        {
+          "text": "Bahahsha silly goose 😂🤣🤣😂🤪🥳",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "size": 23,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "2meirl4meirl": 4,
+        "shitposting": 3,
+        "okbuddyretard": 1,
+        "comedyheaven": 2,
+        "dankmemes": 4,
+        "memeeconomy": 1,
+        "wholesomememes": 2,
+        "memes": 4,
+        "me_irl": 1,
+        "surrealmemes": 1
+      },
+      "early": [
+        "It do be like dat sometimes",
+        "It really be like that tho",
+        "But it really be like that"
+      ],
+      "hubs": [
+        {
+          "text": "It do be like that....",
+          "children": 4
+        },
+        {
+          "text": "It really be like that tho",
+          "children": 4
+        },
+        {
+          "text": "It do be like dat sometimes",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "size": 21,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 21
+      },
+      "early": [
+        "Invest in this surprised baby",
+        "Invest in this hot, disgusting mess!",
+        "Invest in this quickie!"
+      ],
+      "hubs": [
+        {
+          "text": "Invest in this surprised baby",
+          "children": 4
+        },
+        {
+          "text": "Invest in this Facebook template!",
+          "children": 4
+        },
+        {
+          "text": "Invest in the afterlife",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "size": 21,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 21
+      },
+      "early": [
+        "Invest in appreciation memes",
+        "Invest in the lego format of memes",
+        "Invest in new format!"
+      ],
+      "hubs": [
+        {
+          "text": "Invest in this template for smashing returns!",
+          "children": 5
+        },
+        {
+          "text": "Invest in new format!",
+          "children": 4
+        },
+        {
+          "text": "Invest in new template",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "size": 20,
+      "years": [
+        2014,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 20
+      },
+      "early": [
+        "The football hooligan starter pack",
+        "The teenage weed dealer starter pack",
+        "The internet pickup artist starter pack"
+      ],
+      "hubs": [
+        {
+          "text": "The Albania starter pack",
+          "children": 5
+        },
+        {
+          "text": "The black dad starter pack",
+          "children": 4
+        },
+        {
+          "text": "The teenage weed dealer starter pack",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "size": 19,
+      "years": [
+        2016,
+        2022
+      ],
+      "subreddits": {
+        "memes": 1,
+        "shitposting": 4,
+        "dogelore": 1,
+        "wholesomememes": 2,
+        "dankmemes": 2,
+        "surrealmemes": 3,
+        "memeeconomy": 4,
+        "2meirl4meirl": 1,
+        "starterpacks": 1
+      },
+      "early": [
+        "I'M PREDICTING A SEROUS RISE IN CLOSE UP MEMES, BUY BUY BUY!!!",
+        "ADVANCED ARTIFICIAL INTELLIGENCE AL GORE RHYTHM PREDICTS SULTAN OF SWAT CARDS ARE ON THE RISE! POST HERE TO RESERVE THOSE TEMPLATES!",
+        "AMAZING FUNCTION NOW AVAILABLE ON YOUTUBE | YOU WON'T BELIEVE WHAT HAPPENS ✔✔✔"
+      ],
+      "hubs": [
+        {
+          "text": "ADVANCED ARTIFICIAL INTELLIGENCE AL GORE RHYTHM PREDICTS SULTAN OF SWAT CARDS ARE ON THE RISE! POST HERE TO RESERVE THOSE TEMPLATES!",
+          "children": 6
+        },
+        {
+          "text": "MR KRABS OVERDOSES ON KETAMINE AND DIES ANY PERCENT 40 SECOND SPEEDRUN",
+          "children": 3
+        },
+        {
+          "text": "CUCUMBER FIGHTS A CAT, WHAT HAPPEN NEXT IS UNBELIEVABLE!",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "size": 16,
+      "years": [
+        2015,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 16
+      },
+      "early": [
+        "The \"I'm not like other guys\" starter pack",
+        "The \"I'm a girl and totally into sports\" starter pack",
+        "The \"I text while driving\" starter pack."
+      ],
+      "hubs": [
+        {
+          "text": "The \"I play hockey\" starter pack.",
+          "children": 4
+        },
+        {
+          "text": "The \"I'm not like other guys\" starter pack",
+          "children": 4
+        },
+        {
+          "text": "The \"I text while driving\" starter pack.",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "size": 16,
+      "years": [
+        2015,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 16
+      },
+      "early": [
+        "\"Teenage weed dealer\" Starter pack",
+        "\"Black Father\" Starter Pack",
+        "\"Comic Book Nerd\" starter pack"
+      ],
+      "hubs": [
+        {
+          "text": "\"Facebook Meteorologist\" starter pack",
+          "children": 5
+        },
+        {
+          "text": "\"Teenage weed dealer\" Starter pack",
+          "children": 3
+        },
+        {
+          "text": "\"Popular British teenage girl\" starter pack",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "size": 16,
+      "years": [
+        2015,
+        2019
+      ],
+      "subreddits": {
+        "starterpacks": 16
+      },
+      "early": [
+        "Assistant High School Football Coach Starter Pack",
+        "British Supermarket Security Guard Starter Pack",
+        "Preachy Travel Blogger Starter Pack"
+      ],
+      "hubs": [
+        {
+          "text": "Preachy Travel Blogger Starter Pack",
+          "children": 3
+        },
+        {
+          "text": "British Supermarket Security Guard Starter Pack",
+          "children": 2
+        },
+        {
+          "text": "Assistant High School Football Coach Starter Pack",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "size": 16,
+      "years": [
+        2015,
+        2022
+      ],
+      "subreddits": {
+        "me_irl": 2,
+        "shitposting": 2,
+        "comedyheaven": 1,
+        "copypasta": 1,
+        "bonehurtingjuice": 3,
+        "2meirl4meirl": 2,
+        "dankmemes": 1,
+        "memes": 2,
+        "adviceanimals": 1,
+        "surrealmemes": 1
+      },
+      "early": [
+        "I don't know what kind of paradox my mom lives in...",
+        "I don't know what to say its ridiculous",
+        "I don't know how this is even possible"
+      ],
+      "hubs": [
+        {
+          "text": "I don’t know where this belongs",
+          "children": 2
+        },
+        {
+          "text": "I don't know how to do anything.",
+          "children": 2
+        },
+        {
+          "text": "I don’t think we were cool",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "size": 16,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 16
+      },
+      "early": [
+        "le dark matter has arrived",
+        "le black hole has arrived",
+        "le old man has arrived"
+      ],
+      "hubs": [
+        {
+          "text": "le scandal has arrived",
+          "children": 3
+        },
+        {
+          "text": "le death has arrived",
+          "children": 2
+        },
+        {
+          "text": "le black hole has arrived",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "size": 16,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 16
+      },
+      "early": [
+        "le anime has arrived",
+        "le creepy pasta has arrived",
+        "le ghost has arrived"
+      ],
+      "hubs": [
+        {
+          "text": "le gamer has arrived",
+          "children": 3
+        },
+        {
+          "text": "le creepy pasta has arrived",
+          "children": 3
+        },
+        {
+          "text": "le ghost has arrived",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "size": 16,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 16
+      },
+      "early": [
+        "Invest in dog love for unconditional profit!",
+        "Invest in charisma cat!",
+        "Invest in Botox cowboy"
+      ],
+      "hubs": [
+        {
+          "text": "Invest in steampunk cat template ;)",
+          "children": 5
+        },
+        {
+          "text": "Invest in Elon Musk template",
+          "children": 3
+        },
+        {
+          "text": "Invest in fearful pup",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "size": 15,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 15
+      },
+      "early": [
+        "Invest in James Charles now",
+        "Invest in Tom Hanks in Cast Away!",
+        "Invest in Terry Tate tackling Trump"
+      ],
+      "hubs": [
+        {
+          "text": "Invest in Terry Tate tackling Trump",
+          "children": 4
+        },
+        {
+          "text": "Invest in James Charles now",
+          "children": 2
+        },
+        {
+          "text": "Invest in the recent interview with Trump",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "size": 13,
+      "years": [
+        2015,
+        2019
+      ],
+      "subreddits": {
+        "copypasta": 13
+      },
+      "early": [
+        "It is COCKtober🍆\nIt's COCKtober🍆🎃 u know what that means 👀👅 Dick sucking awareness month😮🙆🏻👅 send this to 12 of ur closest hoes 👭😈 that love that dick 🍆🍆🍆💦💦💦",
+        "💯NicE🔥 fUckin🔥 ✔👌✔meme 💯👀m8y t0o bad 💯the👻🎃 sp0opky🎃👻 pirate💦💦 is 0n his 👀way tO steal👀👀 ur mEmeS repOst 👌this 💯👌to keep💯💯 ur b00ty👌🔥👀\n💯NicE🔥 fUckin🔥 ✔👌✔meme 💯👀",
+        "🔫🔫☣☢daNGerous shit🔫 ☢dangerous 🚬shit 💉 tHats some🔫 ☣ d angerous sHit 🔫🔫 right 💉thEre"
+      ],
+      "hubs": [
+        {
+          "text": "It is COCKtober🍆\nIt's COCKtober🍆🎃 u know what that means 👀👅 Dick sucking awareness month😮🙆🏻👅 send this to 12 of ur closest hoes 👭😈 that love that dick 🍆🍆🍆💦💦💦",
+          "children": 4
+        },
+        {
+          "text": "💯NicE🔥 fUckin🔥 ✔👌✔meme 💯👀m8y t0o bad 💯the👻🎃 sp0opky🎃👻 pirate💦💦 is 0n his 👀way tO steal👀👀 ur mEmeS repOst 👌this 💯👌to keep💯💯 ur b00ty👌🔥👀\n💯NicE🔥 fUckin🔥 ✔👌✔meme 💯👀",
+          "children": 2
+        },
+        {
+          "text": "👆While👆 🗿you🗿💔😬 were 😮inhaling😮 💦water💦 🌫vapor🌫 👨‍ I 👨‍ 👃👃inhaled👃👃👀 👱stacy's👱 vaginal👇🍑 farts🍑💨💨✔️☠\n👆While👆 🗿you🗿💔😬 were 😮inhaling😮 💦water💦 🌫vapor🌫 👨‍ I 👨‍ 👃👃i",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "size": 13,
+      "years": [
+        2020,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 13
+      },
+      "early": [
+        "Invest in legendary battle",
+        "Invest in heavy weapons",
+        "Invest in laser walrus"
+      ],
+      "hubs": [
+        {
+          "text": "Invest in heavy weapons",
+          "children": 4
+        },
+        {
+          "text": "Invest in cave paintings",
+          "children": 2
+        },
+        {
+          "text": "Invest in random construction guy",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "size": 12,
+      "years": [
+        2016,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 12
+      },
+      "early": [
+        "CIA agent starter pack",
+        "Cell phone salesman starterpack",
+        "Chain restaurant commercial starterpack"
+      ],
+      "hubs": [
+        {
+          "text": "Chain restaurant commercial starterpack",
+          "children": 4
+        },
+        {
+          "text": "Indian Youtube trending section starter pack",
+          "children": 2
+        },
+        {
+          "text": "Street fight comment section starter pack",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "size": 12,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "copypasta": 2,
+        "2meirl4meirl": 2,
+        "okbuddyretard": 1,
+        "wholesomememes": 2,
+        "shitposting": 1,
+        "comedyheaven": 1,
+        "me_irl": 2,
+        "memeeconomy": 1
+      },
+      "early": [
+        "Found this on r/tinder",
+        "Found this on r/wholesomebtq",
+        "Found this on instagram"
+      ],
+      "hubs": [
+        {
+          "text": "Found this on r/tinder",
+          "children": 2
+        },
+        {
+          "text": "Found this on Facebook",
+          "children": 2
+        },
+        {
+          "text": "Found this on r/funny",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "size": 12,
+      "years": [
+        2021,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 10,
+        "copypasta": 1,
+        "okbuddyretard": 1
+      },
+      "early": [
+        "1:1 AIRDROP FOR TOKEN HOLDERS MAY 18 2021! EXCHANGE COMING SOON! HUSKY AKITAS BROTHER",
+        "HOW TO BECOME A SIGMA MALE WITHIN A MONTH\n#5SIMPLESTEPS\n1-SUCK 10 DICKS A DAY AND SWALLOW THE CUM(testesterone boost)\n2-IGNORE ALL WOMAN AS THEY ARE JUST DISTRA",
+        "BREAKING NEWS: DOGECOIN WILL HIT $15 CENTS TODAY! INSANE!!! HERE IS WHY!! BREAKOUT HAPPENING .."
+      ],
+      "hubs": [
+        {
+          "text": "DOGECOIN BREAKING NEWS & PRICE PREDICTIONS! DOGE TO $1!!! ELON MUSK LATEST TWEET!!",
+          "children": 4
+        },
+        {
+          "text": "BREAKING NEWS: DOGECOIN WILL HIT $15 CENTS TODAY! INSANE!!! HERE IS WHY!! BREAKOUT HAPPENING ..",
+          "children": 2
+        },
+        {
+          "text": "DOGECOIN & SHIBA INU LATEST NEWS & UPDATES!! MARK CUBAN DOGECOIN PATH TO $1",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "size": 11,
+      "years": [
+        2011,
+        2012
+      ],
+      "subreddits": {
+        "memes": 8,
+        "adviceanimals": 3
+      },
+      "early": [
+        "I don't always mistype my password...",
+        "I don't always shower at the gym...",
+        "I don't always clean..."
+      ],
+      "hubs": [
+        {
+          "text": "I don't always touch penis...",
+          "children": 4
+        },
+        {
+          "text": "I don't always clean...",
+          "children": 3
+        },
+        {
+          "text": "I don't always shower at the gym...",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "size": 11,
+      "years": [
+        2014,
+        2016
+      ],
+      "subreddits": {
+        "me_irl": 11
+      },
+      "early": [
+        "me irl (x-post from /r/funny)",
+        "me irl (x post from WTF)",
+        "me_irl (saw on r/funny)"
+      ],
+      "hubs": [
+        {
+          "text": "me irl (x-post from /r/funny)",
+          "children": 5
+        },
+        {
+          "text": "me_irl (x-post from r/funny)",
+          "children": 1
+        },
+        {
+          "text": "me irl (x-post /r/meirl)",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "size": 10,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "surrealmemes": 1,
+        "wholesomememes": 2,
+        "bonehurtingjuice": 1,
+        "me_irl": 2,
+        "comedyheaven": 1,
+        "dankmemes": 3
+      },
+      "early": [
+        "Thank you for your service",
+        "Thank you for sharing",
+        "Thank you for your service officer 😎"
+      ],
+      "hubs": [
+        {
+          "text": "Thank you for explanation",
+          "children": 2
+        },
+        {
+          "text": "Thank you for sharing",
+          "children": 2
+        },
+        {
+          "text": "Thank you for your service",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "size": 10,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "dankmemes": 1,
+        "memes": 1,
+        "wholesomememes": 2,
+        "comedyheaven": 2,
+        "adviceanimals": 2,
+        "bonehurtingjuice": 1,
+        "surrealmemes": 1
+      },
+      "early": [
+        "It’s a fricken donkey",
+        "It’s an emotional time.",
+        "It’s an iceberg what can I say."
+      ],
+      "hubs": [
+        {
+          "text": "It’s an important day",
+          "children": 2
+        },
+        {
+          "text": "It’s that time again",
+          "children": 2
+        },
+        {
+          "text": "It’s an emotional time.",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "size": 9,
+      "years": [
+        2016,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 1,
+        "surrealmemes": 6,
+        "dankmemes": 1,
+        "shitposting": 1
+      },
+      "early": [
+        "D o y o u r e m e m b e r",
+        "f o l d t h e d i s h e s p l e a s e",
+        "n O c o n s i s t e n c Y p l e a s E"
+      ],
+      "hubs": [
+        {
+          "text": "f o l d t h e d i s h e s p l e a s e",
+          "children": 3
+        },
+        {
+          "text": "D o y o u r e m e m b e r",
+          "children": 1
+        },
+        {
+          "text": "c o n s u m e t h e b i r b",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "size": 9,
+      "years": [
+        2016,
+        2020
+      ],
+      "subreddits": {
+        "memeeconomy": 9
+      },
+      "early": [
+        "PENCE MEMES SKYROCKETING! BUY BUY BUY!",
+        "Mountain climber memes on the rise! BUY BUY BUY!!!",
+        "Biggie Cheese memes are soon going to explode. BUY BUY BUY!!!"
+      ],
+      "hubs": [
+        {
+          "text": "Mountain climber memes on the rise! BUY BUY BUY!!!",
+          "children": 3
+        },
+        {
+          "text": "PENCE MEMES SKYROCKETING! BUY BUY BUY!",
+          "children": 3
+        },
+        {
+          "text": "New, innovative format! BUY BUY BUY!",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "size": 9,
+      "years": [
+        2017,
+        2018
+      ],
+      "subreddits": {
+        "adviceanimals": 9
+      },
+      "early": [
+        "Przyjazna Kancelaria Klienci Indywidualni Dobry Prawnik",
+        "Rozgraniczenia Ciosane Adrian Puchała, Źródlana 1, Wilkowiecko 42",
+        "Poręczy Kwasoodporne Poręcze Odkuwane Świeże Rozgraniczenia Metaliczne Kraków"
+      ],
+      "hubs": [
+        {
+          "text": "Rozgraniczenia Ciosane Adrian Puchała, Źródlana 1, Wilkowiecko 42",
+          "children": 4
+        },
+        {
+          "text": "Poręczy Kwasoodporne Poręcze Odkuwane Świeże Rozgraniczenia Metaliczne Kraków",
+          "children": 2
+        },
+        {
+          "text": "Sieć Ogrodzeniowa, Obramowania Panelowe",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "size": 9,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "okbuddyretard": 3,
+        "shitposting": 1,
+        "wholesomememes": 1,
+        "adviceanimals": 3,
+        "2meirl4meirl": 1
+      },
+      "early": [
+        "شركة البسمة كلين من اكبرشركات تنظيف البخاربجدة albsmaclean.com",
+        "قيامة ارطغرل 135 عودة جوندجدو تنقذ ارطغرل كشف دراجوس مصير وبيبولات",
+        "الجنس الأسود مثلي الجنس نيغا🤲🤲🕋🙀😳😳"
+      ],
+      "hubs": [
+        {
+          "text": "تحميل برنامج سوبر هايد اي بي لفتح المواقع المحجوبة للكمبيوتر واخفاء الاي بي مجانا 2020 Super Hide IP",
+          "children": 2
+        },
+        {
+          "text": "قيامة ارطغرل 135 عودة جوندجدو تنقذ ارطغرل كشف دراجوس مصير وبيبولات",
+          "children": 2
+        },
+        {
+          "text": "جبال الأطلس بالمغرب... مناظر طبيعية وحياة مختلفة !",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "size": 9,
+      "years": [
+        2019,
+        2021
+      ],
+      "subreddits": {
+        "memes": 4,
+        "shitposting": 1,
+        "dankmemes": 2,
+        "adviceanimals": 1,
+        "comedyheaven": 1
+      },
+      "early": [
+        "MiNiOn StOp BuRnInG tHe ChIldReN",
+        "bUt tHe gAmE iS tOo hArD",
+        "ThErE’s A sNaKe In My BoOt"
+      ],
+      "hubs": [
+        {
+          "text": "MiNiOn StOp BuRnInG tHe ChIldReN",
+          "children": 3
+        },
+        {
+          "text": "bUt tHe gAmE iS tOo hArD",
+          "children": 3
+        },
+        {
+          "text": "hErE cOmeS tHe aIrplAne",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "size": 9,
+      "years": [
+        2020,
+        2022
+      ],
+      "subreddits": {
+        "copypasta": 5,
+        "dogelore": 3,
+        "okbuddyretard": 1
+      },
+      "early": [
+        "THE LEGO CITY MEME IS DEAD\nA MEME HAS FALLEN INTO IRRELEVANCE IN LEGO CITY!\nSTART THE NEW FORMATS!\nFUCK! WE RAN OUT OF FORMATS, JIM!\nSHIT. WE GOTTA REUSE BIG CH",
+        "HEY\nA MAN HAS SUICIDE VEST IN LEGO CITY\nHEY!\nBUILD THE NEW BOMB SQUAD AND OF TO THE RESCUE\nPREPARE THE NEGOTIATIONS SEND THE BOMB SQUAD\nAND ARREST THE TERRORIST",
+        "r/fitfagcringe: War has changed\n<1337H4CK54W> WAR... HAS CHANGED. IT'S AN ENDLESS SERIES OF PROXY BATTLES, FOUGHT BY BOTS. BARITONE BOTS INSIDE THEIR BODIES ENH"
+      ],
+      "hubs": [
+        {
+          "text": "THE LEGO CITY MEME IS DEAD\nA MEME HAS FALLEN INTO IRRELEVANCE IN LEGO CITY!\nSTART THE NEW FORMATS!\nFUCK! WE RAN OUT OF FORMATS, JIM!\nSHIT. WE GOTTA REUSE BIG CH",
+          "children": 2
+        },
+        {
+          "text": "ZOMG DUDES I JUST GOT MY FIRST FOLLOWER AND ITS A GIRLLL!!!!!1111!! SHE HASNT POSTED ANYTHING YET (PROBABPLY SHY)) BUT I AM SURE THIS IS THE START OF INTERNET F",
+          "children": 2
+        },
+        {
+          "text": "A PROTESTOR STOOD UP AGAINST POLICE BRUTALITY IN LEGO CITY\nA PROTESTOR STOOD UP AGAINST POLICE BRUTALITY IN LEGO CITY START THE UNMARKED POLICE VAN\nHEY!\nBUILD T",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "size": 9,
+      "years": [
+        2020,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 9
+      },
+      "early": [
+        "Le Monster Collision has arrived !",
+        "Le Shibe Jam has arrived",
+        "Le Greedy Nintendo has arrived."
+      ],
+      "hubs": [
+        {
+          "text": "Le Shibe Jam has arrived",
+          "children": 2
+        },
+        {
+          "text": "Le Tie Doge has arrived",
+          "children": 2
+        },
+        {
+          "text": "Le Monster Collision has arrived !",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "size": 9,
+      "years": [
+        2022,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 1,
+        "shitposting": 2,
+        "adviceanimals": 1,
+        "wholesomememes": 1,
+        "dogelore": 2,
+        "comedyheaven": 1,
+        "okbuddyretard": 1
+      },
+      "early": [
+        "THE GROOVING GORILLA FROM TIK TOK GETS PACKED UP‼️😂",
+        "CALLING RONADL MACDONAL AT 3AM? GONE WRONG?????!!!!!!",
+        "THE FED JUST SCREWED US!! WHAT NEXT FOR DOGECOIN & CRYPTOCURRENCY!"
+      ],
+      "hubs": [
+        {
+          "text": "THE GROOVING GORILLA FROM TIK TOK GETS PACKED UP‼️😂",
+          "children": 4
+        },
+        {
+          "text": "THE SECRETS OF FORMAL LETTER WRITING IN WASSCE ENGLISH",
+          "children": 3
+        },
+        {
+          "text": "THE FED JUST SCREWED US!! WHAT NEXT FOR DOGECOIN & CRYPTOCURRENCY!",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "size": 8,
+      "years": [
+        2011,
+        2014
+      ],
+      "subreddits": {
+        "adviceanimals": 5,
+        "memes": 3
+      },
+      "early": [
+        "The Most Interesting Gamer in the World",
+        "The Most Interesting Man In The World\nWalks into mordor",
+        "The Most Interesting Man In The World"
+      ],
+      "hubs": [
+        {
+          "text": "The Most Interesting Man In The World",
+          "children": 4
+        },
+        {
+          "text": "The Most Interesting Gamer in the World",
+          "children": 3
+        },
+        {
+          "text": "Most Interesting Man In The World: The Real Story",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "size": 8,
+      "years": [
+        2014,
+        2019
+      ],
+      "subreddits": {
+        "surrealmemes": 6,
+        "copypasta": 2
+      },
+      "early": [
+        "When a woman gets a vibrator...\nＷｈｅｎ ａ ｗｏｍａｎ ｇｅｔｓ ａ ｖｉｂｒａｔｏｒ ｉｔ＇ｓ ｓｅｅｎ ａｓ ａ ｂｉｔ ｏｆ ｎａｕｇｈｔｙ ｆｕｎ． Ｂｕｔ ｗｈｅｎ ａ ｇｕｙ ｏｒｄｅｒｓ ａ ４２０ｖ Ｆｕｃｋｍａｓｔｅｒ Ｐｒｏ ５０００ ｂｌｏｗ ｕｐ ｌａｔｅｘ ｄ",
+        "ｈｏ ｍｙﾀｿ doogness it. S gūd",
+        "ｓｔｅｐ１．ｐｎｇ ｂｕｔ ｆｏｒ ｅｖｅｒｙ ｔｉｍｅ ｔｈｅｒｅ ｉｓ ａ ｐｉｃｔｕｒｅ， ｔｈｅｒｅ ａｒｅ ａｃｔｕａｌｌｙ ｔｗｏ ｐｉｃｔｕｒｅｓ ａｎｄ ａ ｍｕｓｉｃ ｖｉｄｅｏ"
+      ],
+      "hubs": [
+        {
+          "text": "When a woman gets a vibrator...\nＷｈｅｎ ａ ｗｏｍａｎ ｇｅｔｓ ａ ｖｉｂｒａｔｏｒ ｉｔ＇ｓ ｓｅｅｎ ａｓ ａ ｂｉｔ ｏｆ ｎａｕｇｈｔｙ ｆｕｎ． Ｂｕｔ ｗｈｅｎ ａ ｇｕｙ ｏｒｄｅｒｓ ａ ４２０ｖ Ｆｕｃｋｍａｓｔｅｒ Ｐｒｏ ５０００ ｂｌｏｗ ｕｐ ｌａｔｅｘ ｄ",
+          "children": 2
+        },
+        {
+          "text": "a e s t h e t i c\nｗｅｌｌ ｓｉｍｐｌｅｔｏｎ. ｉｆ ｙｏｕ ｗｉｌｌ ｎｏｔ ｕｐｖｏｔｅ ｍｙ 审美 ｒｉｇｈｔ ｔｈｅ 他妈的 ｎｏｗ, ｙｏｕ ｗｉｌｌ ｓｕｆｆｅｒ ｍｙｅｔｅｒｎａｌ ａｎｇｅｒ.\nｙｏｕ ｄｏ ｎｏｔ ｄｅｓｅｒｖｅ ｍｙ ｏｒ ａｎｙｏｎｅ'ｓ 尊重.\nｇｏ ｅａｔ ",
+          "children": 2
+        },
+        {
+          "text": "ｈｏ ｍｙﾀｿ doogness it. S gūd",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "size": 8,
+      "years": [
+        2015,
+        2020
+      ],
+      "subreddits": {
+        "copypasta": 6,
+        "2meirl4meirl": 1,
+        "okbuddyretard": 1
+      },
+      "early": [
+        "WEE WOO WEE WOO\n🚨🚨🚨 WEE WOO WEE WOO WEE WOO 🚨🚨🚨 YOU ARE BEING DETAINED 👮🏻👮🏻👮🏻 FOR BEING AWAKE DURING REAL NIGGA HOURS 🕐👌🏻😏 PLEASE SHOW ME YOUR REAL NIGGA REGIST",
+        "DOOT DOOT💀💀 HALLOWEEN IS NOW!!!! 📢📢👻 TIME TO GET SPOOKY👻🎃👻 FOR HALLOWEEN 👻👻🎃🎃 HALLOWEEN 🎃🙌🏼🙌🏼👻 GET YOUR TRUMPETS AND PRAY TO MR SKELETAL 💀💀💀🎺🎺🎺 BECAUSE🎃HALLOWEE",
+        "Prankd\n😈FUCK😰YOU😲😲😲WHOA BRO🙈🙀its JUST A PRANK!!!👉👊😂YOUVE JUST BEEN 💢💢💢PRANK'D💢💢💢SEND THIS TO 10 🔗🔗OTHER JOKESTERS⚠⚠to PRANK THEM TOO🏃 HURRY UP OR ELSE🏃YOULL NEV"
+      ],
+      "hubs": [
+        {
+          "text": "WEE WOO WEE WOO\n🚨🚨🚨 WEE WOO WEE WOO WEE WOO 🚨🚨🚨 YOU ARE BEING DETAINED 👮🏻👮🏻👮🏻 FOR BEING AWAKE DURING REAL NIGGA HOURS 🕐👌🏻😏 PLEASE SHOW ME YOUR REAL NIGGA REGIST",
+          "children": 2
+        },
+        {
+          "text": "It is almost christmas.\n⚠️ HURRY! ⚠️ ITS 🎄 ALMOST 🎅 CHRISTMAS!! HAVE U ☝️ BEEN 🍆 ON SANTA'S 🎅 KNOTTY 💄🍆 LIST?? 👁️👅👁️ DADDY 🍑 SANTA IS CUMMING 💦 ⏰ TO TOWN ✈️ TO ",
+          "children": 2
+        },
+        {
+          "text": "YEA 💯 MY DICK 😎🍆 SMALL 🙀😼💁🏻BUT 😛🍑 YOU KNOW 🤔👀 WHATS EVEN 😩😏🙈 SMALLER??? 😈😱😰 MY WILL TO LIVE 🗣👦🏻😎👌😜",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "size": 8,
+      "years": [
+        2016,
+        2021
+      ],
+      "subreddits": {
+        "2meirl4meirl": 8
+      },
+      "early": [
+        "2meirl4meirl (X-post from /r/youdontsurf)",
+        "2meirl4meirl (x-post from r/KenM)",
+        "2meirl4meirl (x-post from r/introvert)"
+      ],
+      "hubs": [
+        {
+          "text": "2meirl4meirl (x-post from r/comics)",
+          "children": 2
+        },
+        {
+          "text": "2meirl4meirl (x-post from r/KenM)",
+          "children": 2
+        },
+        {
+          "text": "2meirl4meirl (X-post from /r/youdontsurf)",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "size": 8,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "wholesomememes": 3,
+        "bonehurtingjuice": 1,
+        "memeeconomy": 1,
+        "dankmemes": 2,
+        "okbuddyretard": 1
+      },
+      "early": [
+        "What a loving father",
+        "What a beautiful day.",
+        "What a historic speech!"
+      ],
+      "hubs": [
+        {
+          "text": "What a beautiful day.",
+          "children": 3
+        },
+        {
+          "text": "What a great turnout tonight",
+          "children": 2
+        },
+        {
+          "text": "What a loving father",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "size": 8,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "comedyheaven": 2,
+        "bonehurtingjuice": 3,
+        "adviceanimals": 1,
+        "memeeconomy": 1,
+        "memes": 1
+      },
+      "early": [
+        "I don't know if this is Old or if this could be something because i didn't see this meme anywhere",
+        "i don't know if this was awesome or sad...",
+        "Not sure if this is wholesome or depressing"
+      ],
+      "hubs": [
+        {
+          "text": "Not sure if this fits",
+          "children": 2
+        },
+        {
+          "text": "Not sure if this fits here",
+          "children": 1
+        },
+        {
+          "text": "i don't know if this was awesome or sad...",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "size": 8,
+      "years": [
+        2017,
+        2021
+      ],
+      "subreddits": {
+        "memeeconomy": 8
+      },
+      "early": [
+        "Very versatile format, would you buy?",
+        "Very versatile format, a smart investment indeed.",
+        "Pretty versatile template, wouldn't you agree?"
+      ],
+      "hubs": [
+        {
+          "text": "Very good and flexible format. Invest!",
+          "children": 2
+        },
+        {
+          "text": "Very versatile format, would you buy?",
+          "children": 2
+        },
+        {
+          "text": "Very versatile format, a smart investment indeed.",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "size": 8,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "starterpacks": 8
+      },
+      "early": [
+        "r/starterpacks starter pack (lately)",
+        "r/starterpacks nostalgia starter pack",
+        "r/teenagers starter pack (NSFW)"
+      ],
+      "hubs": [
+        {
+          "text": "r/starterpacks starter pack (lately)",
+          "children": 2
+        },
+        {
+          "text": "r/starterpacks nostalgia starter pack",
+          "children": 2
+        },
+        {
+          "text": "r/starterpacks mods starter pack",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "size": 8,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 1,
+        "shitposting": 1,
+        "memes": 3,
+        "comedyheaven": 1,
+        "surrealmemes": 1,
+        "wholesomememes": 1
+      },
+      "early": [
+        "Ah yes, the essentials",
+        "Ah yes, finally it works.",
+        "Ah yes, a fellow mortal being! 🙂"
+      ],
+      "hubs": [
+        {
+          "text": "Ah yes, the essentials",
+          "children": 4
+        },
+        {
+          "text": "Ah yes the legendary baguette",
+          "children": 1
+        },
+        {
+          "text": "Ah yes, that feeling.",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "size": 7,
+      "years": [
+        2015,
+        2016
+      ],
+      "subreddits": {
+        "starterpacks": 7
+      },
+      "early": [
+        "The /r/audiophile starter pack",
+        "The real /r/streetwear starter pack",
+        "The /r/foreveralone Starter Pack"
+      ],
+      "hubs": [
+        {
+          "text": "The /r/audiophile starter pack",
+          "children": 2
+        },
+        {
+          "text": "The /r/foreveralone Starter Pack",
+          "children": 1
+        },
+        {
+          "text": "The /r/movies Starter Pack",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "size": 7,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "surrealmemes": 7
+      },
+      "early": [
+        "the untold lore of 𝕥𝕙𝕖𝕞",
+        "I have been 𝕨𝕠𝕠𝕠𝕠𝕤𝕙𝕖𝕕 into an alternate plane of existence.",
+        "𝕋𝕙𝕖 𝔾𝕣𝕖𝕖𝕟 𝔹𝕒𝕟 𝕒𝕟𝕕 𝕐𝕠𝕦"
+      ],
+      "hubs": [
+        {
+          "text": "𝕋𝕙𝕖 𝔾𝕣𝕖𝕖𝕟 𝔹𝕒𝕟 𝕒𝕟𝕕 𝕐𝕠𝕦",
+          "children": 2
+        },
+        {
+          "text": "Which ℙ𝕒𝕣𝕤𝕠𝕟𝕖𝕥𝕚𝕝𝕖𝕚𝕤 Type is you?",
+          "children": 1
+        },
+        {
+          "text": "𝚖𝚊𝚗 𝚜𝚊𝚙𝚒𝚎𝚗𝚜 𝚜𝚊𝚙𝚒𝚎𝚗𝚜 𝚜𝚊𝚙𝚒𝚎𝚗𝚜",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "size": 7,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 7
+      },
+      "early": [
+        "Le dogechomp has arrived",
+        "Le pyro doge has arrived",
+        "Le mario maker has arrived"
+      ],
+      "hubs": [
+        {
+          "text": "Le pyro doge has arrived",
+          "children": 3
+        },
+        {
+          "text": "Le dogechomp has arrived",
+          "children": 2
+        },
+        {
+          "text": "Le mario maker has arrived",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "size": 7,
+      "years": [
+        2018,
+        2021
+      ],
+      "subreddits": {
+        "me_irl": 1,
+        "comedyheaven": 1,
+        "memes": 1,
+        "wholesomememes": 2,
+        "dogelore": 1,
+        "dankmemes": 1
+      },
+      "early": [
+        "It’s still repost, fellas",
+        "It’s not funny anymore",
+        "It’s the thought that counts"
+      ],
+      "hubs": [
+        {
+          "text": "It’s not funny anymore",
+          "children": 4
+        },
+        {
+          "text": "It’s still repost, fellas",
+          "children": 1
+        },
+        {
+          "text": "It’s the thought that counts",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "size": 6,
+      "years": [
+        2012,
+        2021
+      ],
+      "subreddits": {
+        "adviceanimals": 3,
+        "me_irl": 1,
+        "memes": 1,
+        "starterpacks": 1
+      },
+      "early": [
+        "I can't be the only one that has said this....",
+        "I can't be the only one who thinks this..",
+        "Can't be the only one who feels like this"
+      ],
+      "hubs": [
+        {
+          "text": "I can't be the only one who thinks this..",
+          "children": 2
+        },
+        {
+          "text": "I can't be the only one feeling this way...",
+          "children": 1
+        },
+        {
+          "text": "I can't be the only one that has said this....",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "size": 6,
+      "years": [
+        2012,
+        2019
+      ],
+      "subreddits": {
+        "me_irl": 1,
+        "okbuddyretard": 1,
+        "bonehurtingjuice": 3,
+        "memes": 1
+      },
+      "early": [
+        "How do I like my eggs?",
+        "How do i choose the meme font?",
+        "How do i make this face?"
+      ],
+      "hubs": [
+        {
+          "text": "How do i choose the meme font?",
+          "children": 2
+        },
+        {
+          "text": "How do i get rid of the speech bubbles?",
+          "children": 2
+        },
+        {
+          "text": "How do I like my eggs?",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "size": 6,
+      "years": [
+        2013,
+        2022
+      ],
+      "subreddits": {
+        "adviceanimals": 2,
+        "memes": 2,
+        "2meirl4meirl": 1,
+        "dogelore": 1
+      },
+      "early": [
+        "What is this dogs breed?",
+        "What is the name of this meme",
+        "What is this strange device"
+      ],
+      "hubs": [
+        {
+          "text": "What is this blasphemy.",
+          "children": 2
+        },
+        {
+          "text": "What is the name of this meme",
+          "children": 1
+        },
+        {
+          "text": "What is this strange device",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "size": 6,
+      "years": [
+        2013,
+        2022
+      ],
+      "subreddits": {
+        "memes": 2,
+        "bonehurtingjuice": 3,
+        "2meirl4meirl": 1
+      },
+      "early": [
+        "It's a fair trade...",
+        "It's a lovely morning.",
+        "It's a delicate balance."
+      ],
+      "hubs": [
+        {
+          "text": "It's a delicate balance.",
+          "children": 2
+        },
+        {
+          "text": "It's a tragic decline...",
+          "children": 1
+        },
+        {
+          "text": "It's a fair trade...",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "size": 6,
+      "years": [
+        2014,
+        2019
+      ],
+      "subreddits": {
+        "surrealmemes": 3,
+        "copypasta": 3
+      },
+      "early": [
+        "Dᴇᴀʀ ɴᴀᴢɪ ᴍᴏᴅs:\nDᴇᴀʀ ɴᴀᴢɪ ᴍᴏᴅs: Yᴏᴜ ᴍᴀʏ ʜᴀᴠᴇ ʙᴀɴɴᴇᴅ ᴍᴇ ғᴏʀ 10 ᴍɪɴᴜᴛᴇs, ʙᴜᴛ sʜɪᴛᴘᴏsᴛɪɴɢ ᴡɪʟʟ ᴀʟᴡᴀʏs ғɪɴᴅ ᴀ ᴡᴀʏ. I ᴡɪʟʟ ʀᴀɪsᴇ ᴍʏ ᴅᴏɴɢᴇʀs. I ᴡɪʟʟ ʟɪᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ",
+        "ʙᴜᴛ ᴜ ʜᴀᴠᴇ ᴛᴏ... ʙᴇ ᴍy ɢɪʀʟꜰʀɪᴇɴᴅ!!!\nʙᴜᴛ ᴜ ʜᴀᴠᴇ ᴛᴏ... ʙᴇ ᴍy ɢɪʀʟꜰʀɪᴇɴᴅ!!! \\*ꜱɴɪᴄᴋᴇʀꜱ ɴᴇꜰᴀʀɪᴏᴜꜱʟy\\* /ᴛʜɪɴᴋꜱ ᴛᴏ ꜱᴇʟꜰ/ \"ᴍᴀɴ, ɪꜰ ᴛʜɪꜱ ᴡᴏʀᴋꜱ, ɪ'ʟʟ ɢᴇᴛ ᴛʜɪꜱ ᴄᴜᴛᴇ ɢɪʀʟ",
+        "卐 卐 卐 Hᴇʟʟᴏ , ᴛʜɪs ɪs Hɪᴛʟᴇʀ ᴡʀɪᴛɪɴɢ ᴛᴏ ʏᴏᴜ ғʀᴏᴍ ʙᴇʏᴏɴᴅ ᴛʜᴇ ɢʀᴀᴠᴇ. I ᴊᴜsᴛ ᴡᴀɴᴛᴇᴅ ᴛᴏ ʟᴇᴛ ʏᴏᴜ ᴋɴᴏᴡ ᴛʜᴀᴛ ʏᴏᴜʀ ᴍᴏᴅs ᴅᴏ ᴀ ɢᴏᴏᴅ ᴊᴏʙ ᴏғ ᴄᴀʀʀʏɪɴɢ ᴏɴ ᴍʏ ʙᴇʟɪᴇғs. 卐 卐 卐\n卐"
+      ],
+      "hubs": [
+        {
+          "text": "卐 卐 卐 Hᴇʟʟᴏ , ᴛʜɪs ɪs Hɪᴛʟᴇʀ ᴡʀɪᴛɪɴɢ ᴛᴏ ʏᴏᴜ ғʀᴏᴍ ʙᴇʏᴏɴᴅ ᴛʜᴇ ɢʀᴀᴠᴇ. I ᴊᴜsᴛ ᴡᴀɴᴛᴇᴅ ᴛᴏ ʟᴇᴛ ʏᴏᴜ ᴋɴᴏᴡ ᴛʜᴀᴛ ʏᴏᴜʀ ᴍᴏᴅs ᴅᴏ ᴀ ɢᴏᴏᴅ ᴊᴏʙ ᴏғ ᴄᴀʀʀʏɪɴɢ ᴏɴ ᴍʏ ʙᴇʟɪᴇғs. 卐 卐 卐\n卐",
+          "children": 2
+        },
+        {
+          "text": "Dᴇᴀʀ ɴᴀᴢɪ ᴍᴏᴅs:\nDᴇᴀʀ ɴᴀᴢɪ ᴍᴏᴅs: Yᴏᴜ ᴍᴀʏ ʜᴀᴠᴇ ʙᴀɴɴᴇᴅ ᴍᴇ ғᴏʀ 10 ᴍɪɴᴜᴛᴇs, ʙᴜᴛ sʜɪᴛᴘᴏsᴛɪɴɢ ᴡɪʟʟ ᴀʟᴡᴀʏs ғɪɴᴅ ᴀ ᴡᴀʏ. I ᴡɪʟʟ ʀᴀɪsᴇ ᴍʏ ᴅᴏɴɢᴇʀs. I ᴡɪʟʟ ʟɪᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ",
+          "children": 1
+        },
+        {
+          "text": "ᴡʜʏ ᴡᴏᴜʟᴅ ʏᴏᴜ ᴛʀᴜꜱᴛ ʜɪᴍ? ʜᴇ ᴅɪᴅɴᴛ ᴇᴠᴇɴ ɢɪᴠᴇ ʏᴏᴜ ʀᴇᴀꜱᴏɴ",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "size": 6,
+      "years": [
+        2015,
+        2019
+      ],
+      "subreddits": {
+        "surrealmemes": 4,
+        "copypasta": 1,
+        "me_irl": 1
+      },
+      "early": [
+        "Ｉ Ｋ Ｎ Ｏ Ｗ Ｗ Ｈ Ｅ Ｎ Ｔ Ｈ Ａ Ｔ Ｈ Ｏ Ｔ Ｌ Ｉ Ｎ Ｅ Ｂ Ｌ Ｉ Ｎ Ｇ\nＩ Ｋ Ｎ Ｏ Ｗ Ｗ Ｈ Ｅ Ｎ Ｔ Ｈ Ａ Ｔ Ｈ Ｏ Ｔ Ｌ Ｉ Ｎ Ｅ Ｂ Ｌ Ｉ Ｎ Ｇ\nＴ Ｈ Ａ Ｔ Ｃ Ａ Ｎ Ｏ Ｎ Ｌ Ｙ Ｍ Ｅ Ｍ Ｅ Ｏ Ｎ Ｅ Ｔ Ｈ Ｉ Ｎ Ｇ",
+        "me irl\nＷＨＡＴ ＩＳ ＬＩＦＥ ＬＯＬ ＫＡＰＰＡ ＩＭ ＤＥＤ ＩＮＳＩＤＥ",
+        "an ＴＲＥＮＧＬＥ is up to no good!"
+      ],
+      "hubs": [
+        {
+          "text": "Ｉ Ｋ Ｎ Ｏ Ｗ Ｗ Ｈ Ｅ Ｎ Ｔ Ｈ Ａ Ｔ Ｈ Ｏ Ｔ Ｌ Ｉ Ｎ Ｅ Ｂ Ｌ Ｉ Ｎ Ｇ\nＩ Ｋ Ｎ Ｏ Ｗ Ｗ Ｈ Ｅ Ｎ Ｔ Ｈ Ａ Ｔ Ｈ Ｏ Ｔ Ｌ Ｉ Ｎ Ｅ Ｂ Ｌ Ｉ Ｎ Ｇ\nＴ Ｈ Ａ Ｔ Ｃ Ａ Ｎ Ｏ Ｎ Ｌ Ｙ Ｍ Ｅ Ｍ Ｅ Ｏ Ｎ Ｅ Ｔ Ｈ Ｉ Ｎ Ｇ",
+          "children": 2
+        },
+        {
+          "text": "an ＴＲＥＮＧＬＥ is up to no good!",
+          "children": 2
+        },
+        {
+          "text": "me irl\nＷＨＡＴ ＩＳ ＬＩＦＥ ＬＯＬ ＫＡＰＰＡ ＩＭ ＤＥＤ ＩＮＳＩＤＥ",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "size": 6,
+      "years": [
+        2016,
+        2019
+      ],
+      "subreddits": {
+        "2meirl4meirl": 6
+      },
+      "early": [
+        "2meirl4Meirl\nwhen you no longer open /r/me_irl and /r/toomeirlformeirl because the memes aren't depressing enough",
+        "2meirl4meirl When you want sweet release but still worry about food poisoning.",
+        "2meirl4meirl - When you accidentally pushed everyone in your life away"
+      ],
+      "hubs": [
+        {
+          "text": "2meirl4meirl When you want sweet release but still worry about food poisoning.",
+          "children": 3
+        },
+        {
+          "text": "2meirl4Meirl\nwhen you no longer open /r/me_irl and /r/toomeirlformeirl because the memes aren't depressing enough",
+          "children": 1
+        },
+        {
+          "text": "2meirl4meirl when you can't relate to your positive psychology textbook",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "size": 6,
+      "years": [
+        2016,
+        2019
+      ],
+      "subreddits": {
+        "2meirl4meirl": 6
+      },
+      "early": [
+        "2meirl4meirl\nI am hung over from going out last night to celebrate my birthday. I just woke up hearing my sister tell my parents how I ruined the night but they",
+        "2meirl4meirl\nSlept for sixteen hours today and woke up feeling worse than usual to my family getting pissed because I slept through most of the day. Basically e",
+        "2meirl4meirl\ni sometimes just lay in bed, thinking how sad i am even if it was a great day. then i go see the profile pic of the girl i like but never dated, wi"
+      ],
+      "hubs": [
+        {
+          "text": "2meirl4meirl\nSlept for sixteen hours today and woke up feeling worse than usual to my family getting pissed because I slept through most of the day. Basically e",
+          "children": 3
+        },
+        {
+          "text": "2meirl4meirl\nI am hung over from going out last night to celebrate my birthday. I just woke up hearing my sister tell my parents how I ruined the night but they",
+          "children": 1
+        },
+        {
+          "text": "2meirl4meirl\ni sometimes just lay in bed, thinking how sad i am even if it was a great day. then i go see the profile pic of the girl i like but never dated, wi",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "size": 6,
+      "years": [
+        2017,
+        2019
+      ],
+      "subreddits": {
+        "memeeconomy": 6
+      },
+      "early": [
+        "New format! Invest ASAP!",
+        "New format. Invest now!",
+        "Hot new template! Invest now for great returns!!!"
+      ],
+      "hubs": [
+        {
+          "text": "New format! Invest ASAP!",
+          "children": 2
+        },
+        {
+          "text": "New format. Invest now!",
+          "children": 1
+        },
+        {
+          "text": "Hot new template! Invest now for great returns!!!",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "size": 6,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "shitposting": 1,
+        "bonehurtingjuice": 2,
+        "memeeconomy": 1,
+        "dankmemes": 1,
+        "memes": 1
+      },
+      "early": [
+        "oof I hate when this happens",
+        "I hate when this happens",
+        "I hate it when that happens..."
+      ],
+      "hubs": [
+        {
+          "text": "I hate when this happens",
+          "children": 2
+        },
+        {
+          "text": "I hate it when that happens...",
+          "children": 1
+        },
+        {
+          "text": "oof I hate when this happens",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "size": 6,
+      "years": [
+        2018,
+        2021
+      ],
+      "subreddits": {
+        "wholesomememes": 1,
+        "me_irl": 2,
+        "dankmemes": 2,
+        "comedyheaven": 1
+      },
+      "early": [
+        "This is what enlightenment feels like",
+        "This is how headache looks like",
+        "this is what hangry looks like"
+      ],
+      "hubs": [
+        {
+          "text": "This is what enlightenment feels like",
+          "children": 4
+        },
+        {
+          "text": "This is how headache looks like",
+          "children": 1
+        },
+        {
+          "text": "This is what a family needs :)",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "size": 6,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dankmemes": 2,
+        "memes": 1,
+        "bonehurtingjuice": 1,
+        "shitposting": 1,
+        "comedyheaven": 1
+      },
+      "early": [
+        "Thankyou Kanye, very cool!",
+        "Thank you, America, very cool!",
+        "Thank you kanye, very cool"
+      ],
+      "hubs": [
+        {
+          "text": "Thank you kanye, very cool",
+          "children": 3
+        },
+        {
+          "text": "Thankyou Kanye, very cool!",
+          "children": 2
+        },
+        {
+          "text": "Thank you Donald, very cool",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "size": 6,
+      "years": [
+        2018,
+        2021
+      ],
+      "subreddits": {
+        "bonehurtingjuice": 5,
+        "memes": 1
+      },
+      "early": [
+        "My ears are bleeding",
+        "My bones are hurting",
+        "My dog bones are hot"
+      ],
+      "hubs": [
+        {
+          "text": "My bones are hurting",
+          "children": 2
+        },
+        {
+          "text": "My bones hurt now...",
+          "children": 1
+        },
+        {
+          "text": "My dog bones are hot",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "size": 6,
+      "years": [
+        2018,
+        2021
+      ],
+      "subreddits": {
+        "dogelore": 6
+      },
+      "early": [
+        "le life threatening situation has arrived",
+        "le time paradox has arrived",
+        "le deteriorating mental state has arrived"
+      ],
+      "hubs": [
+        {
+          "text": "le life threatening situation has arrived",
+          "children": 2
+        },
+        {
+          "text": "le alternative timeline has arrived",
+          "children": 2
+        },
+        {
+          "text": "le time paradox has arrived",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "size": 5,
+      "years": [
+        2011,
+        2014
+      ],
+      "subreddits": {
+        "adviceanimals": 5
+      },
+      "early": [
+        "Every time I go to work in the afternoon!",
+        "Every time I need to go to the bathroom",
+        "Every time I check Reddit in the morning."
+      ],
+      "hubs": [
+        {
+          "text": "Every time I go to work in the afternoon!",
+          "children": 2
+        },
+        {
+          "text": "Every time I go into the school bathrooms",
+          "children": 1
+        },
+        {
+          "text": "Every time I need to go to the bathroom",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "size": 5,
+      "years": [
+        2011,
+        2013
+      ],
+      "subreddits": {
+        "memes": 3,
+        "adviceanimals": 2
+      },
+      "early": [
+        "How I feel about dubstep",
+        "How I feel about mainstream hip hop",
+        "How I feel when testing my code"
+      ],
+      "hubs": [
+        {
+          "text": "How I feel about dubstep",
+          "children": 2
+        },
+        {
+          "text": "How I feel when testing my code",
+          "children": 1
+        },
+        {
+          "text": "How I feel browsing adviceanimals lately",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "size": 5,
+      "years": [
+        2014,
+        2022
+      ],
+      "subreddits": {
+        "me_irl": 2,
+        "memes": 2,
+        "shitposting": 1
+      },
+      "early": [
+        "How did I even get subscribed here",
+        "How did I not think of this in college?",
+        "How did i miss that?"
+      ],
+      "hubs": [
+        {
+          "text": "How did I even get subscribed here",
+          "children": 2
+        },
+        {
+          "text": "How did i miss that?",
+          "children": 1
+        },
+        {
+          "text": "how did I get here again??",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "size": 5,
+      "years": [
+        2014,
+        2015
+      ],
+      "subreddits": {
+        "starterpacks": 5
+      },
+      "early": [
+        "The Ron Swanson starter pack.",
+        "The official IT worker Starter Pack.",
+        "The gold digger starter pack."
+      ],
+      "hubs": [
+        {
+          "text": "The Ron Swanson starter pack.",
+          "children": 2
+        },
+        {
+          "text": "The gold digger starter pack.",
+          "children": 1
+        },
+        {
+          "text": "The official IT worker Starter Pack.",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "size": 5,
+      "years": [
+        2015,
+        2019
+      ],
+      "subreddits": {
+        "adviceanimals": 2,
+        "me_irl": 2,
+        "2meirl4meirl": 1
+      },
+      "early": [
+        "Diệt mối Bình Thuận | Công ty diệt mối tốt nhất",
+        "Lưng Chừng Hạnh Phúc - Bảo Thy [Official]",
+        "CÁCH TIẾT KIỆM ĐIỆN KHI SỬ DỤNG TỦ ĐÔNG TẠI NHÀ."
+      ],
+      "hubs": [
+        {
+          "text": "Diệt mối Bình Thuận | Công ty diệt mối tốt nhất",
+          "children": 3
+        },
+        {
+          "text": "Thợ lăn sơn nhà chuyên nghiệp giá rẻ số 1 uy tín nhất",
+          "children": 1
+        },
+        {
+          "text": "CÁCH TIẾT KIỆM ĐIỆN KHI SỬ DỤNG TỦ ĐÔNG TẠI NHÀ.",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "size": 5,
+      "years": [
+        2016,
+        2017
+      ],
+      "subreddits": {
+        "2meirl4meirl": 5
+      },
+      "early": [
+        "2meirl4meirl\nWhen you try to be honest with someone about your crippling depression, but you see that it is making them feel bad, so you pretend it was a joke, ",
+        "2meirl4meirl\nthat moment when you only have virtual friendships, and everyone on your friendlist on steam or Skype whatever is offline and you suddenly realise ",
+        "2meirl4meirl\nwhen your mental illnesses get so bad to the point where you can't relate with anyone else. You're in your own personal bubble of hell. i want to d"
+      ],
+      "hubs": [
+        {
+          "text": "2meirl4meirl\nWhen you try to be honest with someone about your crippling depression, but you see that it is making them feel bad, so you pretend it was a joke, ",
+          "children": 3
+        },
+        {
+          "text": "2meirl4meirl\nWhen you do/say something that's slightly different from the social norm to someone who's not a close friend and then are overwhelmed by horrible a",
+          "children": 1
+        },
+        {
+          "text": "2meirl4meirl\nWhen you try to listen to someone about their depression but you can't hear them over your own",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "size": 5,
+      "years": [
+        2017,
+        2020
+      ],
+      "subreddits": {
+        "shitposting": 2,
+        "2meirl4meirl": 1,
+        "bonehurtingjuice": 2
+      },
+      "early": [
+        "What's your worst fear ?",
+        "What's your favorite thing about fall?",
+        "What’s your favorite pizza dipping sauce?"
+      ],
+      "hubs": [
+        {
+          "text": "What's your favorite thing about fall?",
+          "children": 2
+        },
+        {
+          "text": "What’s your favorite pizza dipping sauce?",
+          "children": 1
+        },
+        {
+          "text": "What's your worst fear ?",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "size": 5,
+      "years": [
+        2017,
+        2020
+      ],
+      "subreddits": {
+        "shitposting": 2,
+        "surrealmemes": 3
+      },
+      "early": [
+        "𝓘'𝓂 𝒽𝑒𝓇𝑒 𝓉𝑜 𝓈𝒽𝑜𝓌 𝑜𝒻𝒻 𝓂𝓎 𝒻𝒶𝓃𝒸𝓎 𝓃𝑒𝓌 𝒻𝑜𝓃𝓉.",
+        "𝒫𝑅𝒜𝐼𝒮𝐸𝒟 𝐵𝐸 𝒯𝐻𝐸 L҉O҉R҉D҉",
+        "Please inspect your вιкє at this 𝟎.𝟎𝟎𝟎𝟏𝟏𝟒𝟏𝟓𝟓𝐭𝐡 of a year"
+      ],
+      "hubs": [
+        {
+          "text": "𝓘'𝓂 𝒽𝑒𝓇𝑒 𝓉𝑜 𝓈𝒽𝑜𝓌 𝑜𝒻𝒻 𝓂𝓎 𝒻𝒶𝓃𝒸𝓎 𝓃𝑒𝓌 𝒻𝑜𝓃𝓉.",
+          "children": 2
+        },
+        {
+          "text": "𝐘𝐎𝐔 𝐇𝐀𝐕𝐄 𝐁𝐄𝐄𝐍 𝐂𝐔𝐑𝐒𝐄𝐃 𝐁𝐘 𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑 𝐎𝐅 𝐋𝐎𝐑𝐃 𝐀𝐑𝐍𝐎𝐒, 𝐓𝐎 𝐋𝐈𝐅𝐓 𝐓𝐇𝐈𝐒 𝐂𝐔𝐑𝐒𝐄, 𝐂𝐎𝐌𝐌𝐄𝐍𝐓 \"𝐎𝐇 𝐓𝐇𝐄𝐄 𝐀𝐋𝐌𝐈𝐆𝐇𝐓𝐘, 𝐀𝐑𝐍𝐎𝐒, 𝐏𝐋𝐄𝐀𝐒𝐄 𝐆𝐑𝐀𝐍𝐓 𝐌𝐄 𝐄𝐕𝐄𝐑𝐋𝐀𝐒𝐓𝐈𝐍𝐆 𝐋𝐈𝐅𝐄,\" 𝐖𝐈𝐓𝐇𝐈𝐍𝐆 𝟏𝟓 𝐒𝐄𝐂𝐒 𝐎𝐅 𝐒𝐄𝐄",
+          "children": 1
+        },
+        {
+          "text": "𝒫𝑅𝒜𝐼𝒮𝐸𝒟 𝐵𝐸 𝒯𝐻𝐸 L҉O҉R҉D҉",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "size": 5,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "starterpacks": 1,
+        "memeeconomy": 1,
+        "comedyheaven": 2,
+        "shitposting": 1
+      },
+      "early": [
+        "How do you do, fellow kids?",
+        "How do you guys feel about this",
+        "how do you explain that, liberals?"
+      ],
+      "hubs": [
+        {
+          "text": "How do you guys feel about this",
+          "children": 2
+        },
+        {
+          "text": "How do I stop this :(",
+          "children": 1
+        },
+        {
+          "text": "How do you do, fellow kids?",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "size": 5,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "bonehurtingjuice": 1,
+        "2meirl4meirl": 2,
+        "copypasta": 1,
+        "comedyheaven": 1
+      },
+      "early": [
+        "Can’t seem to find it",
+        "Can’t learn from these mistakes",
+        "Can’t do this anymore"
+      ],
+      "hubs": [
+        {
+          "text": "Can’t seem to find it",
+          "children": 1
+        },
+        {
+          "text": "Can’t learn from these mistakes",
+          "children": 1
+        },
+        {
+          "text": "Can’t do this anymore",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "size": 5,
+      "years": [
+        2018,
+        2020
+      ],
+      "subreddits": {
+        "shitposting": 1,
+        "memeeconomy": 2,
+        "me_irl": 1,
+        "memes": 1
+      },
+      "early": [
+        "is this a good edit?",
+        "Is this buff cat a good investment?",
+        "Is this a good investment?"
+      ],
+      "hubs": [
+        {
+          "text": "is this a good edit?",
+          "children": 2
+        },
+        {
+          "text": "Is this a good investment?",
+          "children": 1
+        },
+        {
+          "text": "Is this a personal attack or something?",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "size": 5,
+      "years": [
+        2018,
+        2021
+      ],
+      "subreddits": {
+        "memes": 1,
+        "wholesomememes": 1,
+        "me_irl": 1,
+        "dankmemes": 1,
+        "adviceanimals": 1
+      },
+      "early": [
+        "Happy corn day everyone",
+        "Happy birthday me boy",
+        "Happy cat day everyone"
+      ],
+      "hubs": [
+        {
+          "text": "Happy corn day everyone",
+          "children": 2
+        },
+        {
+          "text": "Happy cat day everyone",
+          "children": 1
+        },
+        {
+          "text": "Happy birthday me boy",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "size": 5,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "starterpacks": 5
+      },
+      "early": [
+        "The Dark Age of kid culture starter pack",
+        "The Gen Z Indian Kid starterpack",
+        "The Golden Age of Minecraft Youtube StarterPack"
+      ],
+      "hubs": [
+        {
+          "text": "The Dark Age of kid culture starter pack",
+          "children": 2
+        },
+        {
+          "text": "The Golden Age of Minecraft Youtube StarterPack",
+          "children": 1
+        },
+        {
+          "text": "The Ultimate Apocalypse Crew Starterpack",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "size": 5,
+      "years": [
+        2018,
+        2021
+      ],
+      "subreddits": {
+        "comedyheaven": 2,
+        "dankmemes": 2,
+        "shitposting": 1
+      },
+      "early": [
+        "they did surgery on a grape",
+        "They did surgery on a whopper",
+        "They did a surgery on a grape."
+      ],
+      "hubs": [
+        {
+          "text": "they did surgery on a grape",
+          "children": 3
+        },
+        {
+          "text": "They did a surgery on a grape.",
+          "children": 1
+        },
+        {
+          "text": "They did surgery on a whopper",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "size": 5,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "memes": 1,
+        "copypasta": 1,
+        "bonehurtingjuice": 1,
+        "shitposting": 1,
+        "memeeconomy": 1
+      },
+      "early": [
+        "This is a God tier shitpost",
+        "This is a shitpost\nLiterally",
+        "This is a very good format"
+      ],
+      "hubs": [
+        {
+          "text": "This is a very good format",
+          "children": 2
+        },
+        {
+          "text": "This is a God tier shitpost",
+          "children": 2
+        },
+        {
+          "text": "this is a whiteboard",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "size": 5,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "2meirl4meirl": 1,
+        "memes": 2,
+        "adviceanimals": 1,
+        "me_irl": 1
+      },
+      "early": [
+        "Why is this life shit so hard :(",
+        "Why is this relatable",
+        "Why is this jet on raod !!"
+      ],
+      "hubs": [
+        {
+          "text": "Why is this relatable",
+          "children": 2
+        },
+        {
+          "text": "Why is this life shit so hard :(",
+          "children": 1
+        },
+        {
+          "text": "Why is this still haapening to me?",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "size": 5,
+      "years": [
+        2019,
+        2021
+      ],
+      "subreddits": {
+        "okbuddyretard": 3,
+        "comedyheaven": 2
+      },
+      "early": [
+        "He really do be looking kinda fresh doe 😳",
+        "He do be looking kinda fresh doe 🥶🥶",
+        "He be looking good doe 😳"
+      ],
+      "hubs": [
+        {
+          "text": "He really do be looking kinda fresh doe 😳",
+          "children": 2
+        },
+        {
+          "text": "He do be looking kinda fresh doe 🥶🥶",
+          "children": 2
+        },
+        {
+          "text": "He be looking good doe 😳",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "size": 5,
+      "years": [
+        2021,
+        2022
+      ],
+      "subreddits": {
+        "starterpacks": 1,
+        "surrealmemes": 1,
+        "bonehurtingjuice": 1,
+        "wholesomememes": 1,
+        "memeeconomy": 1
+      },
+      "early": [
+        "What do you think of this?",
+        "What do you think about my Youtube videos",
+        "What do you think the joke will be?"
+      ],
+      "hubs": [
+        {
+          "text": "What do you think of this?",
+          "children": 4
+        },
+        {
+          "text": "What do you think about my Youtube videos",
+          "children": 0
+        },
+        {
+          "text": "What do you fear, Susan?",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "size": 5,
+      "years": [
+        2021,
+        2022
+      ],
+      "subreddits": {
+        "wholesomememes": 1,
+        "starterpacks": 2,
+        "2meirl4meirl": 1,
+        "dogelore": 1
+      },
+      "early": [
+        "Content of Advanced economy",
+        "Content of Data Entry Clerk",
+        "Content of Item the executives"
+      ],
+      "hubs": [
+        {
+          "text": "Content of Data Entry Clerk",
+          "children": 2
+        },
+        {
+          "text": "Content of Advanced economy",
+          "children": 2
+        },
+        {
+          "text": "Content of Item the executives",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "size": 4,
+      "years": [
+        2011,
+        2011
+      ],
+      "subreddits": {
+        "adviceanimals": 3,
+        "memes": 1
+      },
+      "early": [
+        "Socially Awkward Penguin gets thirsty.",
+        "Socially Awkward Penguin is Forever Alone",
+        "Socially Awkward No More"
+      ],
+      "hubs": [
+        {
+          "text": "Socially Awkward Penguin is Forever Alone",
+          "children": 2
+        },
+        {
+          "text": "Socially Awkward Penguin gets thirsty.",
+          "children": 1
+        },
+        {
+          "text": "Socially Awkward Penguin has a great joke",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "size": 4,
+      "years": [
+        2015,
+        2018
+      ],
+      "subreddits": {
+        "dankmemes": 3,
+        "memes": 1
+      },
+      "early": [
+        "Jet fuel can't melt dank memes, wake up",
+        "Jet fuel can't melt steel beams...until now.",
+        "dank fuel cant melt jet memes"
+      ],
+      "hubs": [
+        {
+          "text": "Jet fuel can't melt dank memes, wake up",
+          "children": 2
+        },
+        {
+          "text": "Jet fuel can't melt steel beams...until now.",
+          "children": 1
+        },
+        {
+          "text": "dank fuel cant melt jet memes",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "size": 4,
+      "years": [
+        2015,
+        2019
+      ],
+      "subreddits": {
+        "memes": 1,
+        "adviceanimals": 1,
+        "bonehurtingjuice": 1,
+        "wholesomememes": 1
+      },
+      "early": [
+        "Am i the only one around here...",
+        "Am I the only one that sees this?",
+        "Am I the only one who's bones don't hurt"
+      ],
+      "hubs": [
+        {
+          "text": "Am I the only one that sees this?",
+          "children": 2
+        },
+        {
+          "text": "Am i the only one around here...",
+          "children": 1
+        },
+        {
+          "text": "Am I the only one who's bones don't hurt",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "size": 4,
+      "years": [
+        2016,
+        2022
+      ],
+      "subreddits": {
+        "me_irl": 1,
+        "copypasta": 1,
+        "bonehurtingjuice": 1,
+        "dogelore": 1
+      },
+      "early": [
+        "I hate this subreddit",
+        "I hate myself for this",
+        "I hate but love this sub"
+      ],
+      "hubs": [
+        {
+          "text": "I hate this subreddit",
+          "children": 2
+        },
+        {
+          "text": "I hate myself for this",
+          "children": 1
+        },
+        {
+          "text": "I hate myself because of a fetish",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "size": 4,
+      "years": [
+        2016,
+        2017
+      ],
+      "subreddits": {
+        "2meirl4meirl": 4
+      },
+      "early": [
+        "2meirl4meirl\nI go about my day hoping to die in a freak accident.",
+        "2meirl4meirl\nAll I really want is to not wake up in the morning wishing I had died in my sleep. Whatever it takes.",
+        "2meirl4meirl\nSometimes my phone dies and I envy it."
+      ],
+      "hubs": [
+        {
+          "text": "2meirl4meirl\nI go about my day hoping to die in a freak accident.",
+          "children": 2
+        },
+        {
+          "text": "2meirl4meirl\nAll I really want is to not wake up in the morning wishing I had died in my sleep. Whatever it takes.",
+          "children": 1
+        },
+        {
+          "text": "2meirl4meirl\nSometimes my phone dies and I envy it.",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "size": 4,
+      "years": [
+        2016,
+        2017
+      ],
+      "subreddits": {
+        "2meirl4meirl": 4
+      },
+      "early": [
+        "2meirl4meirl\nI just realised I only like video games so much because they force me to focus on something other than hating myself lmao",
+        "2meirl4meirl\nAm I the only one that doesn't really enjoy masturbating but does it excessively? I'm averaging ~4 sessions a day, but I only do it because for a f",
+        "2meirl4meirl\nI like to pretend that my character in steep is actually me doing crazy stunts while pretending that KOs are just me dying"
+      ],
+      "hubs": [
+        {
+          "text": "2meirl4meirl\nI just realised I only like video games so much because they force me to focus on something other than hating myself lmao",
+          "children": 2
+        },
+        {
+          "text": "2meirl4meirl\nAm I the only one that doesn't really enjoy masturbating but does it excessively? I'm averaging ~4 sessions a day, but I only do it because for a f",
+          "children": 1
+        },
+        {
+          "text": "2meirl4meirl\nI like to pretend that my character in steep is actually me doing crazy stunts while pretending that KOs are just me dying",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "size": 4,
+      "years": [
+        2016,
+        2020
+      ],
+      "subreddits": {
+        "starterpacks": 4
+      },
+      "early": [
+        "New Zealand Starter Pack",
+        "Updated South Florida Starterpack",
+        "New York subway starter pack"
+      ],
+      "hubs": [
+        {
+          "text": "New Zealand Starter Pack",
+          "children": 2
+        },
+        {
+          "text": "New York subway starter pack",
+          "children": 1
+        },
+        {
+          "text": "Updated South Florida Starterpack",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "size": 4,
+      "years": [
+        2016,
+        2020
+      ],
+      "subreddits": {
+        "wholesomememes": 3,
+        "me_irl": 1
+      },
+      "early": [
+        "We're all happy for you! :)",
+        "We're all good boys!",
+        "We are all breathtaking"
+      ],
+      "hubs": [
+        {
+          "text": "We're all good boys!",
+          "children": 1
+        },
+        {
+          "text": "We're all happy for you! :)",
+          "children": 1
+        },
+        {
+          "text": "We are all breathtaking",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "size": 4,
+      "years": [
+        2016,
+        2022
+      ],
+      "subreddits": {
+        "shitposting": 1,
+        "wholesomememes": 1,
+        "me_irl": 1,
+        "bonehurtingjuice": 1
+      },
+      "early": [
+        "When you're playing with wholesome people.",
+        "When youre a ranger doing stuff",
+        "When you are a clumsy artist"
+      ],
+      "hubs": [
+        {
+          "text": "When you're playing with wholesome people.",
+          "children": 1
+        },
+        {
+          "text": "When you are a clumsy artist",
+          "children": 1
+        },
+        {
+          "text": "When youre a ranger doing stuff",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "size": 4,
+      "years": [
+        2017,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 4
+      },
+      "early": [
+        "Reddit Admins starter pack",
+        "Reddit Troll account starterpack",
+        "Reddit admin starter pack"
+      ],
+      "hubs": [
+        {
+          "text": "Reddit admin starter pack",
+          "children": 1
+        },
+        {
+          "text": "Reddit Admins starter pack",
+          "children": 1
+        },
+        {
+          "text": "Reddit Troll account starterpack",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "size": 4,
+      "years": [
+        2017,
+        2021
+      ],
+      "subreddits": {
+        "wholesomememes": 4
+      },
+      "early": [
+        "Wholesome Redditor loves his girlfriend",
+        "Wholesome Manatee for you wholesome people.",
+        "Wholesome exchange between spouses."
+      ],
+      "hubs": [
+        {
+          "text": "Wholesome Manatee for you wholesome people.",
+          "children": 1
+        },
+        {
+          "text": "Wholesome Redditor loves his girlfriend",
+          "children": 1
+        },
+        {
+          "text": "Wholesome exchange between spouses.",
+          "children": 1
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "size": 4,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "dankmemes": 1,
+        "shitposting": 1,
+        "comedyheaven": 1,
+        "memes": 1
+      },
+      "early": [
+        "Top 10 anime plot twists",
+        "Top 10 Anime betrayals",
+        "Top 5 Epic Biden Moments"
+      ],
+      "hubs": [
+        {
+          "text": "Top 10 anime plot twists",
+          "children": 2
+        },
+        {
+          "text": "Top 10 Anime betrayals",
+          "children": 1
+        },
+        {
+          "text": "Top 5 Epic Biden Moments",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "size": 4,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "wholesomememes": 2,
+        "memes": 1,
+        "2meirl4meirl": 1
+      },
+      "early": [
+        "I wish I had a time machine",
+        "I wish I was kidding",
+        "I wish I was this lucky"
+      ],
+      "hubs": [
+        {
+          "text": "I wish I was kidding",
+          "children": 2
+        },
+        {
+          "text": "I wish I had a time machine",
+          "children": 1
+        },
+        {
+          "text": "I wish I was this lucky",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "size": 4,
+      "years": [
+        2017,
+        2021
+      ],
+      "subreddits": {
+        "bonehurtingjuice": 2,
+        "memes": 1,
+        "2meirl4meirl": 1
+      },
+      "early": [
+        "Hope this is original",
+        "Hope this isn't a repost",
+        "Hope its not a repost"
+      ],
+      "hubs": [
+        {
+          "text": "Hope this isn't a repost",
+          "children": 2
+        },
+        {
+          "text": "Hope this is original",
+          "children": 1
+        },
+        {
+          "text": "Hope this isn’t a repost",
+          "children": 0
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "size": 4,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "bonehurtingjuice": 1,
+        "shitposting": 1,
+        "memeeconomy": 1,
+        "surrealmemes": 1
+      },
+      "early": [
+        "Mods are asleep post bone healing juice",
+        "Mods are asleep, upvote economy memes",
+        "Mods are asleep, post real shit."
+      ],
+      "hubs": [
+        {
+          "text": "Mods are asleep post bone healing juice",
+          "children": 1
+        },
+        {
+          "text": "Mods are asleep, post real shit.",
+          "children": 1
+        },
+        {
+          "text": "Mods are asleep, upvote economy memes",
+          "children": 1
+        }
+      ]
+    }
+  ]
+}

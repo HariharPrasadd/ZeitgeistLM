@@ -13,7 +13,8 @@ from zeitgeist_inference import load_model, normalized_time, parse_date
 
 def generate(model, prompt_tokens: list[int], tau: float, new_tokens: int,
              top_k: int, temperature: float, seed: int, device: str,
-             vocab_limit: int) -> list[int]:
+             vocab_limit: int, min_document_tokens: int = 0,
+             eot_token: int | None = None) -> list[int]:
     """Use the same sampling seed for a fair comparison between dates."""
     if not prompt_tokens or temperature <= 0 or top_k <= 0:
         raise ValueError("Prompt, temperature, and top-k must be positive")
@@ -22,11 +23,14 @@ def generate(model, prompt_tokens: list[int], tau: float, new_tokens: int,
     rng = torch.Generator(device=device)
     rng.manual_seed(seed)
     with torch.inference_mode():
-        for _ in range(new_tokens):
+        for position in range(new_tokens):
             context = tokens[:, -model.config.block_size:]
             logits, _ = model(context, time_value=time_value)
             # The training matrix is padded to 50,304; only GPT-2 IDs decode.
             scores = logits[:, -1, :vocab_limit] / temperature
+            # Optional demo constraint prevents a short prompt ending immediately.
+            if position < min_document_tokens and eot_token is not None:
+                scores[:, eot_token] = -float("inf")
             values, indices = torch.topk(scores, min(top_k, scores.size(-1)))
             probs = F.softmax(values, dim=-1)
             choice = torch.multinomial(probs, 1, generator=rng)

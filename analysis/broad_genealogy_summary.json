@@ -1,0 +1,2412 @@
+{
+  "nodes": 17014,
+  "edges": 1938,
+  "edge_rate": 0.11391289014283196,
+  "components_size_at_least_3": 221,
+  "largest_component_sizes": [
+    156,
+    110,
+    63,
+    50,
+    46,
+    30,
+    28,
+    28,
+    26,
+    24,
+    24,
+    21,
+    21,
+    20,
+    20,
+    19,
+    16,
+    16,
+    16,
+    16
+  ],
+  "cross_subreddit_edge_rate": 0.34210526315789475,
+  "top_groups": [
+    {
+      "size": 156,
+      "years": [
+        2014,
+        2022
+      ],
+      "subreddits": {
+        "shitposting": 2,
+        "surrealmemes": 153,
+        "me_irl": 1
+      },
+      "earliest": [
+        {
+          "id": "2q28ou",
+          "text": "EKAT TI KCAB\nT\u033a\u0316\u034e\u035a\u0356\u0331\u032d\u032f\u0355\u0316\u0320\u0324\u0326\u0311\u036a\u0365\u0363\u0369\u0305\u0304\u0308\u0301\u035b\u0358\u0362\u035f\u0345A\u0335\u0336\u0329\u0325\u0349\u0333\u0318\u0318\u0331\u0316\u036c\u036f\u0342\u0310\u036a\u0308\u0301\u034a\u0313\u0364\u0352\u031a\u035c\u035e\u0345\u0345K\u0337\u031b\u0348\u0348\u0319\u032c\u0325\u034d\u032b\u0355\u0359\u0319\u033a\u035a\u0355\u0359\u0318\u0355\u0333\u032d\u0366\u034b\u0303\u0313\u034a\u0350\u0314\u033d\u0312\u0313\u033f\u0308\u0367\u0369\u0350\u0342\u0306\u0300E\u036e\u0313\u0309\u0364\u0342\u0310\u0311\u036b\u0308\u035b\u0357\u034f\u0337\u031b\u0320\u0349\u0317\u0356\u0325\u0353\u0339\u034d\u0348\u0319\u0320\u0316\u0354\u031e \u033a\u0317\u0353\u0353\u0324\u0319\u0325\u0333\u0347\u033a\u0318\u0353\u0331\u031f\u035a\u033e\u0310\u033d\u034b\u0363\u036a\u033e\u0313\u0304\u0366\u0369\u0302\u0306\u0350\u0308\u0301\u030d\u0313\u0301\u0300\u0358\u035f\u0345\u0345\u012e\u0321\u032a\u034e\u0348\u033b\u034d\u0339\u034e\u031e\u032d\u032d\u032a\u0354\u032e\u035a\u0355\u030f\u0309\u034c\u033d\u034b\u033e\u036c\u0366\u030d\u0311\u034c\u0312\u0308\u0308\u0311\u0366\u0351\u0360\u035d\u035e\u0345T\u0352\u0313\u0311\u030c\u0310\u0311\u033d\u0352\u0357\u0362\u034f\u0334\u0320\u0316\u0325\u0323\u0348\u031f\u032d\u0339\u032c\u0356\u0331\u0331\u035c\u0345 \u032c\u0349\u0349\u0323\u0316\u035a\u0316\u0359\u033a\u0333\u032d\u034d\u032a\u0317\u0326\u0301\u0309\u0313\u0308\u0304\u0369\u0350\u0301B\u0326\u032d\u032e\u033c\u0359\u0318\u0326\u036e\u0368\u0308\u030e\u030c\u0311\u0365\u035b\u030b\u0300\u030a\u030c\u0314\u0367\u036d\u0301\u0346\u0300\u0358A\u032a\u031d\u0354\u031c\u0318\u0326\u0353\u0314\u0305\u033e\u036a\u0350\u0369\u0313\u0313\u0309\u036c\u033d\u0304\u0310\u030a\u0315\u0315C\u0322\u031b\u0300\u0314\u0369\u0313\u036a\u0310\u033e\u0342\u036e\u0313\u0366\u0342\u0301\u030b\u036a\u031a\u0489\u034f\u0317\u031d\u0329\u0317\u033b\u031e\u032f\u032a\u0359\u0331\u0339\u032c\u032a\u0348\u0324\u0361\u0345\u0345\u0345K\u0328\u0332\u0359\u033c\u0333\u032c\u0353\u0323\u031d\u032a\u0356\u034e\u035a\u0304\u0307\u0307\u036b\u030f\u0306\u0304\u031a\u031a\u0358\u0358\u035d",
+          "subreddit": "shitposting",
+          "created_utc": 1419248810,
+          "year": 2014
+        },
+        {
+          "id": "4dpcrz",
+          "text": "T\u0328\u033b\u0330\u031d\u030e\u0311\u0313\u0315h\u032a\u032c\u034d\u0323\u036a\u0305\u036f\u0352\u0351\u0308\u0301\u0300\u0361\u0229\u0348\u031e\u0331\u032d\u0354\u0354\u035a\u0308\u0301\u0361\u0360 \u031b\u0318\u0333\u0356\u032b\u0348\u0332\u0349\u0347\u036e\u030d\u0306\u0312\u030d\u034a\u0314\u0350\u036em\u0322\u0329\u033c\u0326\u0349\u0331\u036d\u0365\u030a\u030ce\u0359\u034d\u0349\u033b\u032f\u033f\u0311\u036a\u0350\u0350\u034c\u0345\u1e43\u032b\u033c\u0325\u0317\u0301\u0308\u033f\u0342\u0300\u0315\u00ea\u0337\u0337\u0329\u032e\u0355\u0330\u0349\u0356\u0323\u0319\u031f\u034c\u036e\u0352\u036cs\u0338\u0331\u0354\u034a\u0366\u0306\u0309\u0307\u0309\u0350\u034a \u032d\u031f\u031f\u036b\u030a\u0315\u0345\u01a1\u033b\u0308\u0364\u035b\u0311\u034af\u0354\u0349\u033c\u0324\u0359\u032d\u0320\u0333\u033d\u033f\u0302\u0314\u0346\u030d\u034c \u0321\u0331\u032c\u032a\u0326\u0323\u032d\u0301\u0363\u033e\u0302\u033f\u036c\u0301\u0315\u035es\u0359\u0354\u0325\u0317\u0329\u034e\u031d\u0306\u0365\u0301\u0350\u036f\u035cu\u0363\u0309\u036a\u0351\u0304\u034f\u0335\u0319\u033a\u0339p\u031c\u032e\u0367\u0306\u0310\u034b\u033d\u0369\u0314\u036b\u0300\u035ep\u0346\u0352\u030c\u0489\u0339\u0326\u0316\u033b\u0323\u032b\u0353\u0325l\u033b\u0348\u0319\u0306\u0346\u0300\u0365\u0364\u0310\u0313\u0312\u0361\u0119\u0330\u032e\u0318\u0351\u0308\u030e\u0357 \u0322\u0320\u0348\u0318\u034e\u0326\u033e\u0311\u0303\u0346\u0366\u030d\u0345b\u0347\u0352\u0365\u0303\u036d\u036e\u0342\u030d\u0361e\u0324\u034e\u0347\u035a\u033a\u0317\u036d\u033d\u0310\u0313\u033d\u0301\u036d\u035d\u0345\u0345\u0227\u0349\u0323\u030c\u0305\u0315n\u0329\u032a\u0349\u0366\u030d \u030f\u034a\u0307\u0303",
+          "subreddit": "surrealmemes",
+          "created_utc": 1460000067,
+          "year": 2016
+        },
+        {
+          "id": "4kwbho",
+          "text": "born too late to explore \u04a4\u0325\u0318\u0317\u033b\u033a\u0348\u0352\u0368\u035c\u035d\u04de\u0359\u032e\u0339\u0359\u0354\u0310\u0308\u036a\u036d\u0307\u0362\u035e\u04cf\u0335\u0338\u0316\u0324\u034b\u0364\u0365\u036f\u033d\u0303\u0368\u030f\u0360\u04cf\u0326\u0318\u0339\u034d\u0331\u032f\u0347\u0329\u030c\u036f\u0308\u0314\u0301\u0513\u035a\u0365\u036d\u0363\u0363",
+          "subreddit": "surrealmemes",
+          "created_utc": 1464126928,
+          "year": 2016
+        }
+      ],
+      "hubs": [
+        {
+          "id": "6umlka",
+          "text": "\u012f\u033c\u0339\u0329\u034d\u0356\u0347\u0314\u0303\u0308\u0301t\u0336\u0333\u0359\u031c\u0354\u0350 \u0339\u030c\u0309\u0350\u033f\u0306\u0315\u0345i\u0356\u0317\u034d\u0355s\u0328\u0331\u0317\u0347\u034c\u0308\u0301\u0300\u034b\u0310 \u0338\u034e\u0356\u0332\u0329\u0359\u0369\u0310\u0352\u1e47\u0328\u0324\u0326\u030do\u033b\u0348\u0353\u0316\u0323\u032a\u0363\u0369\u0302\u036a\u036b\u0313\u0345t\u0339\u0320\u0313\u0314\u0308\u0301\u0311\u031a \u0328\u0365m\u0330\u033c\u033cy\u0316\u031e\u0319\u032c\u0348\u0311\u0342\u031a \u033e\u0367\u036a\u0306\u0489\u0325\u0316\u0354\u034e\u0324\u0347T\u031b\u0354\u0364\u0365\u036f\u0308\u0301\u0345I\u0333\u0310\u030a\u034b\u035cM\u0308\u0301\u030e\u0301E\u0352\u0303\u0313\u036f\u0313\u034a",
+          "subreddit": "surrealmemes",
+          "created_utc": 1503110286,
+          "year": 2017,
+          "children": 5
+        },
+        {
+          "id": "6hkzjs",
+          "text": "T\u0332\u032a\u031e\u0316\u0359\u0353\u0330\u036a\u036a\u0303\u0357\u0351\u031ar\u031e\u0339\u0320\u031d\u0353\u0323\u0342\u036f\u0301\u0300\u030c\u031a\u0362U\u033e\u036f\u0314\u034b\u0365\u0312\u034f\u0359\u0320s\u0328\u031c\u0330\u0318\u032f\u030a\u0352\u0304\u030f\u030dt\u0335\u0319\u033a\u031e\u032d\u0331\u0323\u0310\u035b\u0313\u036f\u0310\u0301 \u0330\u0352\u034c\u0308\u0301\u033e\u0310f\u031c\u0330\u0349\u035co\u034e\u034d\u0330\u0317\u033b\u0349\u030a\u0342\u030f\u0357\u030b\u0308\u0300r\u0359\u0324\u0326\u0347\u032f\u0362 \u0334\u0356\u032b\u034e\u031di\u0355\u0324\u032b\u0320\u0316\u0323\u032f\u0350\u031at\u0332\u031e\u034b\u0369\u030f\u0310 \u033b\u0318\u031e\u0318\u036b\u0351\u0365\u0364h\u034e\u0332\u0332\u0323\u0329\u0324a\u033b\u0356\u032e\u032c\u0348\u033d\u036e\u0365s\u0349\u032c\u0355\u032e\u0332\u0359\u0303\u033f\u030f\u0366\u0313\u0303 \u0359\u0303\u035db\u0354\u031e\u0323\u035a\u0363\u0345e\u0321\u0318\u0316\u0367\u0368\u0367\u0314\u0313\u030e\u031aE\u031d\u032dn\u0326\u032b\u0325\u0367\u033d\u0308\u0301\u0304\u030bs\u034f\u033a \u0328\u032a\u0329\u0319\u0325\u031d\u0366\u034c\u0342\u030c\u1e54\u0328\u0318\u032a\u031e\u0320\u0316U\u033b\u0331\u034e\u035a\u0323\u0367\u0307\u0308\u0301\u0346B\u031b\u0349\u0318\u035a\u036a\u034c\u030cL\u0335\u0324\u032f\u031d\u0307\u030d\u036d\u0303\u0342\u0368\u0301E\u0359\u0351\u035cS\u0337\u0325\u0318\u0349\u033dH\u032d\u0346\u0342\u034b\u0342\u0308E\u0347\u0329\u032c\u0324\u032f\u0367D\u0303\u036e",
+          "subreddit": "surrealmemes",
+          "created_utc": 1497596996,
+          "year": 2017,
+          "children": 4
+        },
+        {
+          "id": "jczwn8",
+          "text": "s\u0337\u0333\u0348\u0356\u0333\u0300\u0302\u0301\u0357\u033e\u0357\u0125\u0338\u0318\u032c\u032a\u033a\u0330\u0323\u0300\u0350\u0300u\u0335\u0359\u0339\u0348\u0359\u035b\u0345t\u0336\u031b\u0354\u0319\u0353\u0309 \u0335\u0331\u031f\u0326\u0301\u0313\u033d\u0304\u0314\u0304u\u0335\u034e\u032f\u033b\u0354\u0326\u0307\u0308\u0342\u0342\u0358p\u0336\u0348\u0354\u0312 \u0337\u031d\u032f\u032f\u031c\u030a\u0306\u0301\u0311\u035c\u1e6b\u0336\u0322\u0332\u0318\u033b\u0325\u00ee\u0337\u0356\u033a\u0347r\u0338\u032c\u0333\u0319\u030a\u035c\u0113\u0335\u0355\u032b\u034e\u0333\u0346\u0358\u0315 \u0336\u031d\u0319\u0333\u031e\u031d\u0305\u0346\u0357\u035c\u0360b\u0334\u0321\u031d\u0347\u0326\u0350\u0300\u0301\u035do\u0334\u0326\u0313\u0308\u0301\u0308\u0301\u0301\u0309\u0350y\u0334\u0348\u0316\u0320\u031f\u0331\u0359\u0314!\u0335\u0317\u032e\u034a\u030b\u0302",
+          "subreddit": "surrealmemes",
+          "created_utc": 1602957697,
+          "year": 2020,
+          "children": 4
+        }
+      ]
+    },
+    {
+      "size": 110,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "bonehurtingjuice": 109,
+        "2meirl4meirl": 1
+      },
+      "earliest": [
+        {
+          "id": "6t396n",
+          "text": "ow ouch oofity ow ouchity ow",
+          "subreddit": "bonehurtingjuice",
+          "created_utc": 1502477421,
+          "year": 2017
+        },
+        {
+          "id": "6tmp94",
+          "text": "oof ouch owie my karma",
+          "subreddit": "bonehurtingjuice",
+          "created_utc": 1502720359,
+          "year": 2017
+        },
+        {
+          "id": "6x6el6",
+          "text": "Oof ouch owie my skin.",
+          "subreddit": "bonehurtingjuice",
+          "created_utc": 1504180733,
+          "year": 2017
+        }
+      ],
+      "hubs": [
+        {
+          "id": "6x6el6",
+          "text": "Oof ouch owie my skin.",
+          "subreddit": "bonehurtingjuice",
+          "created_utc": 1504180733,
+          "year": 2017,
+          "children": 8
+        },
+        {
+          "id": "9xm0qf",
+          "text": "Oof ouch my existence",
+          "subreddit": "bonehurtingjuice",
+          "created_utc": 1542373783,
+          "year": 2018,
+          "children": 7
+        },
+        {
+          "id": "6tmp94",
+          "text": "oof ouch owie my karma",
+          "subreddit": "bonehurtingjuice",
+          "created_utc": 1502720359,
+          "year": 2017,
+          "children": 7
+        }
+      ]
+    },
+    {
+      "size": 63,
+      "years": [
+        2016,
+        2022
+      ],
+      "subreddits": {
+        "2meirl4meirl": 63
+      },
+      "earliest": [
+        {
+          "id": "4vemx1",
+          "text": "2meirl4meirl\nI'm not very happy with my life.",
+          "subreddit": "2meirl4meirl",
+          "created_utc": 1469922162,
+          "year": 2016
+        },
+        {
+          "id": "51omvk",
+          "text": "2meirl4meirl\ni dont have any pictures to post sorry for wasting your time",
+          "subreddit": "2meirl4meirl",
+          "created_utc": 1473295662,
+          "year": 2016
+        },
+        {
+          "id": "52c1n9",
+          "text": "2meirl4meirl\nHanging around here isn't good for me but I stay here anyway because misery loves company.",
+          "subreddit": "2meirl4meirl",
+          "created_utc": 1473645808,
+          "year": 2016
+        }
+      ],
+      "hubs": [
+        {
+          "id": "9uypo4",
+          "text": "2meirl4meirl for you guys.",
+          "subreddit": "2meirl4meirl",
+          "created_utc": 1541590993,
+          "year": 2018,
+          "children": 7
+        },
+        {
+          "id": "554pd5",
+          "text": "2meirl4meirl\ni hate myself",
+          "subreddit": "2meirl4meirl",
+          "created_utc": 1475186370,
+          "year": 2016,
+          "children": 6
+        },
+        {
+          "id": "4vemx1",
+          "text": "2meirl4meirl\nI'm not very happy with my life.",
+          "subreddit": "2meirl4meirl",
+          "created_utc": 1469922162,
+          "year": 2016,
+          "children": 6
+        }
+      ]
+    },
+    {
+      "size": 50,
+      "years": [
+        2014,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 50
+      },
+      "earliest": [
+        {
+          "id": "2nx3t1",
+          "text": "The \"black uncle on the grill\" starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1417416027,
+          "year": 2014
+        },
+        {
+          "id": "2nx932",
+          "text": "The \"cool skater\" starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1417420545,
+          "year": 2014
+        },
+        {
+          "id": "2nx9r8",
+          "text": "The \"Bulking Phase\" starter kit",
+          "subreddit": "starterpacks",
+          "created_utc": 1417421194,
+          "year": 2014
+        }
+      ],
+      "hubs": [
+        {
+          "id": "2nx932",
+          "text": "The \"cool skater\" starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1417420545,
+          "year": 2014,
+          "children": 5
+        },
+        {
+          "id": "4pf3p3",
+          "text": "The \"Childhood Summer Camp\" Starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1466658877,
+          "year": 2016,
+          "children": 4
+        },
+        {
+          "id": "3498w7",
+          "text": "The \"Grandma's House\" starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1430297347,
+          "year": 2015,
+          "children": 4
+        }
+      ]
+    },
+    {
+      "size": 46,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 45,
+        "dankmemes": 1
+      },
+      "earliest": [
+        {
+          "id": "a28d4n",
+          "text": "Le nightmare has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1543709164,
+          "year": 2018
+        },
+        {
+          "id": "a5xteq",
+          "text": "Le sculpture has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1544735998,
+          "year": 2018
+        },
+        {
+          "id": "bd7hho",
+          "text": "Le plane has not arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1555275363,
+          "year": 2019
+        }
+      ],
+      "hubs": [
+        {
+          "id": "a5xteq",
+          "text": "Le sculpture has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1544735998,
+          "year": 2018,
+          "children": 5
+        },
+        {
+          "id": "iwdous",
+          "text": "Le scary menu has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1600607884,
+          "year": 2020,
+          "children": 5
+        },
+        {
+          "id": "s9f59f",
+          "text": "Le deathstroke has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1642783886,
+          "year": 2022,
+          "children": 4
+        }
+      ]
+    },
+    {
+      "size": 30,
+      "years": [
+        2015,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 29,
+        "shitposting": 1
+      },
+      "earliest": [
+        {
+          "id": "345i39",
+          "text": "The Baltimore Protester Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1430228607,
+          "year": 2015
+        },
+        {
+          "id": "36rwzr",
+          "text": "The Festie Chick Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1432228284,
+          "year": 2015
+        },
+        {
+          "id": "3hwp6z",
+          "text": "The West Side Vancouver Housewife Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1440198267,
+          "year": 2015
+        }
+      ],
+      "hubs": [
+        {
+          "id": "a1f577",
+          "text": "The Florida Daytona Beach Summer 18 Starterpack",
+          "subreddit": "starterpacks",
+          "created_utc": 1543475481,
+          "year": 2018,
+          "children": 3
+        },
+        {
+          "id": "3nbzdm",
+          "text": "The Star Citizen Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1443870791,
+          "year": 2015,
+          "children": 3
+        },
+        {
+          "id": "5x8xrp",
+          "text": "The Hipster Photographer Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1488523774,
+          "year": 2017,
+          "children": 3
+        }
+      ]
+    },
+    {
+      "size": 28,
+      "years": [
+        2015,
+        2022
+      ],
+      "subreddits": {
+        "dankmemes": 4,
+        "surrealmemes": 16,
+        "memes": 1,
+        "comedyheaven": 2,
+        "bonehurtingjuice": 2,
+        "shitposting": 1,
+        "dogelore": 1,
+        "memeeconomy": 1
+      },
+      "earliest": [
+        {
+          "id": "3vid01",
+          "text": "F U N S E A S O N B O Y S",
+          "subreddit": "dankmemes",
+          "created_utc": 1449292856,
+          "year": 2015
+        },
+        {
+          "id": "69hl9m",
+          "text": "the C O L L E C T I V E",
+          "subreddit": "surrealmemes",
+          "created_utc": 1494020995,
+          "year": 2017
+        },
+        {
+          "id": "6o3di3",
+          "text": "H E L E N K E L L E R",
+          "subreddit": "dankmemes",
+          "created_utc": 1500408542,
+          "year": 2017
+        }
+      ],
+      "hubs": [
+        {
+          "id": "dypym4",
+          "text": "S T R E A M S N I P I N G",
+          "subreddit": "dankmemes",
+          "created_utc": 1574194243,
+          "year": 2019,
+          "children": 6
+        },
+        {
+          "id": "72dm9i",
+          "text": "T H E M A N H E A D D I S W A T C H I N G E V E R Y Y O U",
+          "subreddit": "surrealmemes",
+          "created_utc": 1506357373,
+          "year": 2017,
+          "children": 6
+        },
+        {
+          "id": "6o3di3",
+          "text": "H E L E N K E L L E R",
+          "subreddit": "dankmemes",
+          "created_utc": 1500408542,
+          "year": 2017,
+          "children": 3
+        }
+      ]
+    },
+    {
+      "size": 28,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dankmemes": 5,
+        "memes": 5,
+        "wholesomememes": 2,
+        "comedyheaven": 1,
+        "surrealmemes": 1,
+        "2meirl4meirl": 6,
+        "okbuddyretard": 1,
+        "shitposting": 3,
+        "adviceanimals": 1,
+        "memeeconomy": 1,
+        "me_irl": 2
+      },
+      "earliest": [
+        {
+          "id": "838pu7",
+          "text": "It do be like dat sometimes",
+          "subreddit": "dankmemes",
+          "created_utc": 1520618710,
+          "year": 2018
+        },
+        {
+          "id": "8ktwcq",
+          "text": "It really be like that tho",
+          "subreddit": "memes",
+          "created_utc": 1526835802,
+          "year": 2018
+        },
+        {
+          "id": "8s4rwl",
+          "text": "But it really be like that",
+          "subreddit": "dankmemes",
+          "created_utc": 1529370364,
+          "year": 2018
+        }
+      ],
+      "hubs": [
+        {
+          "id": "b394u8",
+          "text": "It do be like that....",
+          "subreddit": "2meirl4meirl",
+          "created_utc": 1553067704,
+          "year": 2019,
+          "children": 4
+        },
+        {
+          "id": "8ktwcq",
+          "text": "It really be like that tho",
+          "subreddit": "memes",
+          "created_utc": 1526835802,
+          "year": 2018,
+          "children": 4
+        },
+        {
+          "id": "838pu7",
+          "text": "It do be like dat sometimes",
+          "subreddit": "dankmemes",
+          "created_utc": 1520618710,
+          "year": 2018,
+          "children": 3
+        }
+      ]
+    },
+    {
+      "size": 26,
+      "years": [
+        2020,
+        2022
+      ],
+      "subreddits": {
+        "okbuddyretard": 23,
+        "copypasta": 3
+      },
+      "earliest": [
+        {
+          "id": "ft80z9",
+          "text": "when someone says I have to quarantine with my wife \ud83d\ude02\ud83e\udd23\ud83d\ude02\ud83e\udd23\ud83e\udd76\ud83e\udd76\ud83e\udd75\ud83e\udd75\ud83e\uddd0\ud83e\uddd0\ud83e\uddd0",
+          "subreddit": "okbuddyretard",
+          "created_utc": 1585773200,
+          "year": 2020
+        },
+        {
+          "id": "gn5v6b",
+          "text": "LET ME TUCH TEM PLEEZ \ud83d\ude26\ud83d\ude27\ud83d\ude27\ud83d\ude28\ud83d\ude28\ud83e\udd2f\ud83e\udd2f\ud83e\udd75\ud83e\udd75\ud83e\udd75",
+          "subreddit": "okbuddyretard",
+          "created_utc": 1589954675,
+          "year": 2020
+        },
+        {
+          "id": "hskh0p",
+          "text": "MOM TOOK AWAY IPHONE \ud83e\udd2c\ud83e\udd2c\ud83e\udd2c\ud83d\ude21\ud83d\ude21\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude33\ud83d\ude33\ud83d\ude33\ud83d\ude22\ud83d\ude22\ud83d\ude24\ud83d\ude20\ud83d\ude20\ud83d\ude2d",
+          "subreddit": "okbuddyretard",
+          "created_utc": 1594940697,
+          "year": 2020
+        }
+      ],
+      "hubs": [
+        {
+          "id": "gn5v6b",
+          "text": "LET ME TUCH TEM PLEEZ \ud83d\ude26\ud83d\ude27\ud83d\ude27\ud83d\ude28\ud83d\ude28\ud83e\udd2f\ud83e\udd2f\ud83e\udd75\ud83e\udd75\ud83e\udd75",
+          "subreddit": "okbuddyretard",
+          "created_utc": 1589954675,
+          "year": 2020,
+          "children": 3
+        },
+        {
+          "id": "kpm28o",
+          "text": "Bahahsha silly goose \ud83d\ude02\ud83e\udd23\ud83e\udd23\ud83d\ude02\ud83e\udd2a\ud83e\udd73",
+          "subreddit": "okbuddyretard",
+          "created_utc": 1609686407,
+          "year": 2021,
+          "children": 2
+        },
+        {
+          "id": "hskh0p",
+          "text": "MOM TOOK AWAY IPHONE \ud83e\udd2c\ud83e\udd2c\ud83e\udd2c\ud83d\ude21\ud83d\ude21\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude33\ud83d\ude33\ud83d\ude33\ud83d\ude22\ud83d\ude22\ud83d\ude24\ud83d\ude20\ud83d\ude20\ud83d\ude2d",
+          "subreddit": "okbuddyretard",
+          "created_utc": 1594940697,
+          "year": 2020,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 24,
+      "years": [
+        2013,
+        2022
+      ],
+      "subreddits": {
+        "copypasta": 18,
+        "me_irl": 2,
+        "memes": 1,
+        "shitposting": 1,
+        "memeeconomy": 1,
+        "okbuddyretard": 1
+      },
+      "earliest": [
+        {
+          "id": "1kkimc",
+          "text": "You can't just laugh on the Internet\nYOU CAN'T LAUGH OVER THE INTERNET DUMBASS. LOL! YOU SEE I JUST PROVE YOU ARE A REAL DUMB ASS. AND YOU KEEP SPAMMING \"-_-\" LIKE THE LITTLE FAGBOY THAT YOU ARE. LMFAO!!! I BET YOU ARE A AUTISTIC VIRGIN THAT TRYHARDS AT LIFE. YOU KNOW WHAT? YOU SHOULD TRY SHOVING DYNAMITE UP YOUR ASS AND BLOW YOURSELF UP, AND ALSO MAKE SURE THAT ONE OF YOUR TWO DADS RECORDS IT AND POSTS IT ON YOUTUBE.",
+          "subreddit": "copypasta",
+          "created_utc": 1376773980,
+          "year": 2013
+        },
+        {
+          "id": "28ql5o",
+          "text": "\"Stop fetishizing blacks you weak racist white faggots\"\nSTOP SAYING MC RIDE YOU 4CHAN SLAVE FAGGOTS I HAVE READ EVERY INTERVIEW WITH DEATH GRIPS THEY NEVER ACKNOWLEDGE HE'S CALLED \"MC RIDE\" HIS NAME IS STEFAN BURNETT AND THE WHOLE PURPOSE A DEATH GRIPS IS NO EGOS AND NO INDIVIDUALS. DEATH GRIPS IS A RESPONSE TO THIS GAY RAP SHIT. THEY'RE A BAND, IDIOTS. STOP FETISHIZING BLACKS YOU WEAK RACIST WHITE FAGGOTS.",
+          "subreddit": "copypasta",
+          "created_utc": 1403375857,
+          "year": 2014
+        },
+        {
+          "id": "2jb4yy",
+          "text": "me irl\nWARNING: IF YOU HAVE A HEART CONDITION DO NOT READ THIS. YOU WILL DROP THE FLOOR, FLOPPING LIKE A FISH, WHILE CLENCHING YOUR HEART SEEING AS YOU ARE HAVING A HEART ATTACK.\nA FEW YEARS AGO A MAN WAS WALKING DOWN A ROAD BECAUSE HIS CAR BROKE DOWN AND HE SAW A CAR COMING UP BEHIND HIM SO HE STUCK OUT HIS THUMB TO HITCH HIKE AND THE CAR STOPPED AHEAD OF HIM. HE RAN UP TO THE PASSENGER SIDE AND OPENED THE DOOR. WHEN HE OPENED THE DOOR A SKELETON POPPED OUT",
+          "subreddit": "me_irl",
+          "created_utc": 1413373137,
+          "year": 2014
+        }
+      ],
+      "hubs": [
+        {
+          "id": "5gsn71",
+          "text": "Birthday Games on Google+ are maDE BY THE ILLUMINATI TO DISCOVER YOUR BIRTHDAY\nYOU IDIOTS! YOU DARE FALL FOR THE LIE THAT IS BIRTHDAY GAMES!? THEY ARE MADE BY THE ILLUMINATI TO STEAL YOUR BIRTHDAY INFORMATION AND KILL YOU! HAHA, YOU WILL NEVER GET MY INTELLECT, ILLUMINATI SCUM! YOU SHALL NEVER KNOW THAT IF I ACTUALLY DID THIS TEST, I WOULD ACTUALLY BE DOING _________ TO/WITH _________!",
+          "subreddit": "copypasta",
+          "created_utc": 1481028386,
+          "year": 2016,
+          "children": 6
+        },
+        {
+          "id": "diasdp",
+          "text": "ME AND MY GIRLFRIEND WE MADE A DEAL , SINCE WERE GONNA GET MARRY IN 6 MONTHS, I TOLD HER TO NOT LET ME MARRY HER IF I CANT GET TO 100 DAYS NO PORN AND MASTURBATION. \ud83d\ude4f\ud83d\ude4f\ud83d\ude4fSO LETS GO! PLEASE EVERYONE YOUR SUPPORT IS MUCH APPRECIATED!!",
+          "subreddit": "copypasta",
+          "created_utc": 1571158755,
+          "year": 2019,
+          "children": 4
+        },
+        {
+          "id": "28ql5o",
+          "text": "\"Stop fetishizing blacks you weak racist white faggots\"\nSTOP SAYING MC RIDE YOU 4CHAN SLAVE FAGGOTS I HAVE READ EVERY INTERVIEW WITH DEATH GRIPS THEY NEVER ACKNOWLEDGE HE'S CALLED \"MC RIDE\" HIS NAME IS STEFAN BURNETT AND THE WHOLE PURPOSE A DEATH GRIPS IS NO EGOS AND NO INDIVIDUALS. DEATH GRIPS IS A RESPONSE TO THIS GAY RAP SHIT. THEY'RE A BAND, IDIOTS. STOP FETISHIZING BLACKS YOU WEAK RACIST WHITE FAGGOTS.",
+          "subreddit": "copypasta",
+          "created_utc": 1403375857,
+          "year": 2014,
+          "children": 3
+        }
+      ]
+    },
+    {
+      "size": 24,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 24
+      },
+      "earliest": [
+        {
+          "id": "9yb04z",
+          "text": "Le health crisis has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1542583529,
+          "year": 2018
+        },
+        {
+          "id": "ap03bh",
+          "text": "Le progressive disease has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1549768448,
+          "year": 2019
+        },
+        {
+          "id": "c19yv2",
+          "text": "Le black emperor has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1560692242,
+          "year": 2019
+        }
+      ],
+      "hubs": [
+        {
+          "id": "ap03bh",
+          "text": "Le progressive disease has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1549768448,
+          "year": 2019,
+          "children": 5
+        },
+        {
+          "id": "lcei3r",
+          "text": "Le transparency has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1612441370,
+          "year": 2021,
+          "children": 2
+        },
+        {
+          "id": "c19yv2",
+          "text": "Le black emperor has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1560692242,
+          "year": 2019,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 21,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 21
+      },
+      "earliest": [
+        {
+          "id": "ac08ot",
+          "text": "Invest in this surprised baby",
+          "subreddit": "memeeconomy",
+          "created_utc": 1546478518,
+          "year": 2019
+        },
+        {
+          "id": "dtp1yg",
+          "text": "Invest in this hot, disgusting mess!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1573261669,
+          "year": 2019
+        },
+        {
+          "id": "f0o5i8",
+          "text": "Invest in this quickie!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1581145449,
+          "year": 2020
+        }
+      ],
+      "hubs": [
+        {
+          "id": "jvlwkk",
+          "text": "Invest in this Facebook template!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1605584578,
+          "year": 2020,
+          "children": 4
+        },
+        {
+          "id": "ac08ot",
+          "text": "Invest in this surprised baby",
+          "subreddit": "memeeconomy",
+          "created_utc": 1546478518,
+          "year": 2019,
+          "children": 4
+        },
+        {
+          "id": "sjib95",
+          "text": "Invest in the afterlife",
+          "subreddit": "memeeconomy",
+          "created_utc": 1643892419,
+          "year": 2022,
+          "children": 3
+        }
+      ]
+    },
+    {
+      "size": 21,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 21
+      },
+      "earliest": [
+        {
+          "id": "b7o6cs",
+          "text": "Invest in appreciation memes",
+          "subreddit": "memeeconomy",
+          "created_utc": 1554041608,
+          "year": 2019
+        },
+        {
+          "id": "b8ooy2",
+          "text": "Invest in the lego format of memes",
+          "subreddit": "memeeconomy",
+          "created_utc": 1554238029,
+          "year": 2019
+        },
+        {
+          "id": "bu0ccq",
+          "text": "Invest in new format!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1559051877,
+          "year": 2019
+        }
+      ],
+      "hubs": [
+        {
+          "id": "er8m7u",
+          "text": "Invest in this template for smashing returns!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1579497647,
+          "year": 2020,
+          "children": 5
+        },
+        {
+          "id": "bu0ccq",
+          "text": "Invest in new format!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1559051877,
+          "year": 2019,
+          "children": 4
+        },
+        {
+          "id": "ko9nds",
+          "text": "Invest in new template",
+          "subreddit": "memeeconomy",
+          "created_utc": 1609499484,
+          "year": 2021,
+          "children": 3
+        }
+      ]
+    },
+    {
+      "size": 20,
+      "years": [
+        2014,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 20
+      },
+      "earliest": [
+        {
+          "id": "2nz1pf",
+          "text": "The football hooligan starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1417465634,
+          "year": 2014
+        },
+        {
+          "id": "2p5792",
+          "text": "The teenage weed dealer starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1418442813,
+          "year": 2014
+        },
+        {
+          "id": "2ypwlp",
+          "text": "The internet pickup artist starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1426106853,
+          "year": 2015
+        }
+      ],
+      "hubs": [
+        {
+          "id": "3dsm8h",
+          "text": "The Albania starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1437270201,
+          "year": 2015,
+          "children": 5
+        },
+        {
+          "id": "3fbk2z",
+          "text": "The black dad starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1438367583,
+          "year": 2015,
+          "children": 4
+        },
+        {
+          "id": "2p5792",
+          "text": "The teenage weed dealer starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1418442813,
+          "year": 2014,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 20,
+      "years": [
+        2016,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 5,
+        "shitposting": 4,
+        "memes": 1,
+        "dankmemes": 2,
+        "surrealmemes": 3,
+        "dogelore": 1,
+        "wholesomememes": 2,
+        "starterpacks": 1,
+        "2meirl4meirl": 1
+      },
+      "earliest": [
+        {
+          "id": "5hlwvi",
+          "text": "I'M PREDICTING A SEROUS RISE IN CLOSE UP MEMES, BUY BUY BUY!!!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1481399210,
+          "year": 2016
+        },
+        {
+          "id": "5j8cjc",
+          "text": "ASSASSIN MEMES RISING AT CRAZY RATE! BUY NOW BUY FAST",
+          "subreddit": "memeeconomy",
+          "created_utc": 1482175700,
+          "year": 2016
+        },
+        {
+          "id": "5jxuza",
+          "text": "ADVANCED ARTIFICIAL INTELLIGENCE AL GORE RHYTHM PREDICTS SULTAN OF SWAT CARDS ARE ON THE RISE! POST HERE TO RESERVE THOSE TEMPLATES!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1482509856,
+          "year": 2016
+        }
+      ],
+      "hubs": [
+        {
+          "id": "5jxuza",
+          "text": "ADVANCED ARTIFICIAL INTELLIGENCE AL GORE RHYTHM PREDICTS SULTAN OF SWAT CARDS ARE ON THE RISE! POST HERE TO RESERVE THOSE TEMPLATES!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1482509856,
+          "year": 2016,
+          "children": 6
+        },
+        {
+          "id": "keencv",
+          "text": "MR KRABS OVERDOSES ON KETAMINE AND DIES ANY PERCENT 40 SECOND SPEEDRUN",
+          "subreddit": "shitposting",
+          "created_utc": 1608142990,
+          "year": 2020,
+          "children": 3
+        },
+        {
+          "id": "5wnspl",
+          "text": "CUCUMBER FIGHTS A CAT, WHAT HAPPEN NEXT IS UNBELIEVABLE!",
+          "subreddit": "memes",
+          "created_utc": 1488286322,
+          "year": 2017,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 19,
+      "years": [
+        2020,
+        2022
+      ],
+      "subreddits": {
+        "2meirl4meirl": 2,
+        "comedyheaven": 4,
+        "dogelore": 2,
+        "shitposting": 3,
+        "me_irl": 6,
+        "memeeconomy": 1,
+        "bonehurtingjuice": 1
+      },
+      "earliest": [
+        {
+          "id": "gduuzg",
+          "text": "What would be better\n[deleted]\n[View Poll](https://www.reddit.com/poll/gduuzg)",
+          "subreddit": "2meirl4meirl",
+          "created_utc": 1588672252,
+          "year": 2020
+        },
+        {
+          "id": "gh70fv",
+          "text": "Who are you voting for in 2020\n[removed]\n[View Poll](https://www.reddit.com/poll/gh70fv)",
+          "subreddit": "comedyheaven",
+          "created_utc": 1589136428,
+          "year": 2020
+        },
+        {
+          "id": "gzf6dz",
+          "text": "Cheemsburger or cheeseburger\n[deleted]\n[View Poll](https://www.reddit.com/poll/gzf6dz)",
+          "subreddit": "dogelore",
+          "created_utc": 1591674015,
+          "year": 2020
+        }
+      ],
+      "hubs": [
+        {
+          "id": "i55n5i",
+          "text": "Me_irl\n[removed]\n[View Poll](https://www.reddit.com/poll/i55n5i)",
+          "subreddit": "me_irl",
+          "created_utc": 1596767581,
+          "year": 2020,
+          "children": 4
+        },
+        {
+          "id": "klstq3",
+          "text": "funny\n[removed]\n[View Poll](https://www.reddit.com/poll/klstq3)",
+          "subreddit": "comedyheaven",
+          "created_utc": 1609170462,
+          "year": 2020,
+          "children": 4
+        },
+        {
+          "id": "gduuzg",
+          "text": "What would be better\n[deleted]\n[View Poll](https://www.reddit.com/poll/gduuzg)",
+          "subreddit": "2meirl4meirl",
+          "created_utc": 1588672252,
+          "year": 2020,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 16,
+      "years": [
+        2015,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 16
+      },
+      "earliest": [
+        {
+          "id": "2ym3sg",
+          "text": "The \"I'm not like other guys\" starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1426027891,
+          "year": 2015
+        },
+        {
+          "id": "35wta8",
+          "text": "The \"I'm a girl and totally into sports\" starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1431576510,
+          "year": 2015
+        },
+        {
+          "id": "374isz",
+          "text": "The \"I text while driving\" starter pack.",
+          "subreddit": "starterpacks",
+          "created_utc": 1432499012,
+          "year": 2015
+        }
+      ],
+      "hubs": [
+        {
+          "id": "2ym3sg",
+          "text": "The \"I'm not like other guys\" starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1426027891,
+          "year": 2015,
+          "children": 4
+        },
+        {
+          "id": "3adcsk",
+          "text": "The \"I play hockey\" starter pack.",
+          "subreddit": "starterpacks",
+          "created_utc": 1434689784,
+          "year": 2015,
+          "children": 4
+        },
+        {
+          "id": "374isz",
+          "text": "The \"I text while driving\" starter pack.",
+          "subreddit": "starterpacks",
+          "created_utc": 1432499012,
+          "year": 2015,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 16,
+      "years": [
+        2015,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 16
+      },
+      "earliest": [
+        {
+          "id": "38qkcn",
+          "text": "\"Teenage weed dealer\" Starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1433548177,
+          "year": 2015
+        },
+        {
+          "id": "3qr4ff",
+          "text": "\"Black Father\" Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1446151532,
+          "year": 2015
+        },
+        {
+          "id": "4nexnn",
+          "text": "\"Comic Book Nerd\" starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1465537306,
+          "year": 2016
+        }
+      ],
+      "hubs": [
+        {
+          "id": "7i0aas",
+          "text": "\"Facebook Meteorologist\" starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1512586843,
+          "year": 2017,
+          "children": 5
+        },
+        {
+          "id": "38qkcn",
+          "text": "\"Teenage weed dealer\" Starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1433548177,
+          "year": 2015,
+          "children": 3
+        },
+        {
+          "id": "lt3ion",
+          "text": "\"Random Phone call\" starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1614362115,
+          "year": 2021,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 16,
+      "years": [
+        2015,
+        2019
+      ],
+      "subreddits": {
+        "starterpacks": 16
+      },
+      "earliest": [
+        {
+          "id": "3f2204",
+          "text": "Assistant High School Football Coach Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1438193021,
+          "year": 2015
+        },
+        {
+          "id": "3gkrco",
+          "text": "British Supermarket Security Guard Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1439287898,
+          "year": 2015
+        },
+        {
+          "id": "48j12n",
+          "text": "Preachy Travel Blogger Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1456871728,
+          "year": 2016
+        }
+      ],
+      "hubs": [
+        {
+          "id": "48j12n",
+          "text": "Preachy Travel Blogger Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1456871728,
+          "year": 2016,
+          "children": 3
+        },
+        {
+          "id": "72gzv8",
+          "text": "Basic Black Girl Starterpack",
+          "subreddit": "starterpacks",
+          "created_utc": 1506388380,
+          "year": 2017,
+          "children": 2
+        },
+        {
+          "id": "3f2204",
+          "text": "Assistant High School Football Coach Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1438193021,
+          "year": 2015,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 16,
+      "years": [
+        2015,
+        2022
+      ],
+      "subreddits": {
+        "memes": 2,
+        "bonehurtingjuice": 3,
+        "shitposting": 2,
+        "adviceanimals": 1,
+        "me_irl": 2,
+        "2meirl4meirl": 2,
+        "surrealmemes": 1,
+        "dankmemes": 1,
+        "comedyheaven": 1,
+        "copypasta": 1
+      },
+      "earliest": [
+        {
+          "id": "3r14ct",
+          "text": "I don't know what kind of paradox my mom lives in...",
+          "subreddit": "memes",
+          "created_utc": 1446338540,
+          "year": 2015
+        },
+        {
+          "id": "5x2f4d",
+          "text": "I don't know what to say its ridiculous",
+          "subreddit": "memes",
+          "created_utc": 1488449054,
+          "year": 2017
+        },
+        {
+          "id": "cjg25k",
+          "text": "I don't know how this is even possible",
+          "subreddit": "bonehurtingjuice",
+          "created_utc": 1564428399,
+          "year": 2019
+        }
+      ],
+      "hubs": [
+        {
+          "id": "e1f8a3",
+          "text": "I don\u2019t know where this belongs",
+          "subreddit": "shitposting",
+          "created_utc": 1574683996,
+          "year": 2019,
+          "children": 2
+        },
+        {
+          "id": "jmh3o5",
+          "text": "I don\u2019t really know at this point",
+          "subreddit": "me_irl",
+          "created_utc": 1604291593,
+          "year": 2020,
+          "children": 2
+        },
+        {
+          "id": "mncp6l",
+          "text": "I don't know how to do anything.",
+          "subreddit": "2meirl4meirl",
+          "created_utc": 1617956606,
+          "year": 2021,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 16,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 16
+      },
+      "earliest": [
+        {
+          "id": "9nhj4j",
+          "text": "le dark matter has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1539321656,
+          "year": 2018
+        },
+        {
+          "id": "9nlf6g",
+          "text": "le black hole has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1539359427,
+          "year": 2018
+        },
+        {
+          "id": "b3bsc1",
+          "text": "le old man has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1553087204,
+          "year": 2019
+        }
+      ],
+      "hubs": [
+        {
+          "id": "jcj0lq",
+          "text": "le scandal has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1602885052,
+          "year": 2020,
+          "children": 3
+        },
+        {
+          "id": "mkucjq",
+          "text": "le spontaneous vacation has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1617655251,
+          "year": 2021,
+          "children": 2
+        },
+        {
+          "id": "b3bsc1",
+          "text": "le old man has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1553087204,
+          "year": 2019,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 16,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 16
+      },
+      "earliest": [
+        {
+          "id": "9rwskj",
+          "text": "le anime has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1540666927,
+          "year": 2018
+        },
+        {
+          "id": "bfiazm",
+          "text": "le creepy pasta has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1555801719,
+          "year": 2019
+        },
+        {
+          "id": "bgnur0",
+          "text": "le ghost has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1556065274,
+          "year": 2019
+        }
+      ],
+      "hubs": [
+        {
+          "id": "bfiazm",
+          "text": "le creepy pasta has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1555801719,
+          "year": 2019,
+          "children": 3
+        },
+        {
+          "id": "bpj49c",
+          "text": "le gamer has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1558045803,
+          "year": 2019,
+          "children": 3
+        },
+        {
+          "id": "bgnur0",
+          "text": "le ghost has arrived",
+          "subreddit": "dogelore",
+          "created_utc": 1556065274,
+          "year": 2019,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 16,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 16
+      },
+      "earliest": [
+        {
+          "id": "bb3e31",
+          "text": "Invest in dog love for unconditional profit!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1554782451,
+          "year": 2019
+        },
+        {
+          "id": "et0yc2",
+          "text": "Invest in charisma cat!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1579819833,
+          "year": 2020
+        },
+        {
+          "id": "jewmyb",
+          "text": "Invest in Botox cowboy",
+          "subreddit": "memeeconomy",
+          "created_utc": 1603221835,
+          "year": 2020
+        }
+      ],
+      "hubs": [
+        {
+          "id": "klgby9",
+          "text": "Invest in steampunk cat template ;)",
+          "subreddit": "memeeconomy",
+          "created_utc": 1609119290,
+          "year": 2020,
+          "children": 5
+        },
+        {
+          "id": "l16lfc",
+          "text": "Invest in Elon Musk template",
+          "subreddit": "memeeconomy",
+          "created_utc": 1611138483,
+          "year": 2021,
+          "children": 3
+        },
+        {
+          "id": "et0yc2",
+          "text": "Invest in charisma cat!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1579819833,
+          "year": 2020,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 15,
+      "years": [
+        2015,
+        2019
+      ],
+      "subreddits": {
+        "copypasta": 15
+      },
+      "earliest": [
+        {
+          "id": "3nyz33",
+          "text": "It is COCKtober\ud83c\udf46\nIt's COCKtober\ud83c\udf46\ud83c\udf83 u know what that means \ud83d\udc40\ud83d\udc45 Dick sucking awareness month\ud83d\ude2e\ud83d\ude46\ud83c\udffb\ud83d\udc45 send this to 12 of ur closest hoes \ud83d\udc6d\ud83d\ude08 that love that dick \ud83c\udf46\ud83c\udf46\ud83c\udf46\ud83d\udca6\ud83d\udca6\ud83d\udca6",
+          "subreddit": "copypasta",
+          "created_utc": 1444311792,
+          "year": 2015
+        },
+        {
+          "id": "3p16ec",
+          "text": "\ud83d\udcafNicE\ud83d\udd25 fUckin\ud83d\udd25 \u2714\ud83d\udc4c\u2714meme \ud83d\udcaf\ud83d\udc40m8y t0o bad \ud83d\udcafthe\ud83d\udc7b\ud83c\udf83 sp0opky\ud83c\udf83\ud83d\udc7b pirate\ud83d\udca6\ud83d\udca6 is 0n his \ud83d\udc40way tO steal\ud83d\udc40\ud83d\udc40 ur mEmeS repOst \ud83d\udc4cthis \ud83d\udcaf\ud83d\udc4cto keep\ud83d\udcaf\ud83d\udcaf ur b00ty\ud83d\udc4c\ud83d\udd25\ud83d\udc40\n\ud83d\udcafNicE\ud83d\udd25 fUckin\ud83d\udd25 \u2714\ud83d\udc4c\u2714meme \ud83d\udcaf\ud83d\udc40m8y t0o bad \ud83d\udcafthe\ud83d\udc7b\ud83c\udf83 sp0opky\ud83c\udf83\ud83d\udc7b pirate\ud83d\udca6\ud83d\udca6 is 0n his \ud83d\udc40way tO steal\ud83d\udc40\ud83d\udc40 ur mEmeS repOst \ud83d\udc4cthis \ud83d\udcaf\ud83d\udc4cto keep\ud83d\udcaf\ud83d\udcaf ur b00ty\ud83d\udc4c\ud83d\udd25\ud83d\udc40",
+          "subreddit": "copypasta",
+          "created_utc": 1445026110,
+          "year": 2015
+        },
+        {
+          "id": "3p7mph",
+          "text": "\ud83d\udd2b\ud83d\udd2b\u2623\u2622daNGerous shit\ud83d\udd2b \u2622dangerous \ud83d\udeacshit \ud83d\udc89 tHats some\ud83d\udd2b \u2623 d angerous sHit \ud83d\udd2b\ud83d\udd2b right \ud83d\udc89thEre",
+          "subreddit": "copypasta",
+          "created_utc": 1445161491,
+          "year": 2015
+        }
+      ],
+      "hubs": [
+        {
+          "id": "3nyz33",
+          "text": "It is COCKtober\ud83c\udf46\nIt's COCKtober\ud83c\udf46\ud83c\udf83 u know what that means \ud83d\udc40\ud83d\udc45 Dick sucking awareness month\ud83d\ude2e\ud83d\ude46\ud83c\udffb\ud83d\udc45 send this to 12 of ur closest hoes \ud83d\udc6d\ud83d\ude08 that love that dick \ud83c\udf46\ud83c\udf46\ud83c\udf46\ud83d\udca6\ud83d\udca6\ud83d\udca6",
+          "subreddit": "copypasta",
+          "created_utc": 1444311792,
+          "year": 2015,
+          "children": 4
+        },
+        {
+          "id": "3p16ec",
+          "text": "\ud83d\udcafNicE\ud83d\udd25 fUckin\ud83d\udd25 \u2714\ud83d\udc4c\u2714meme \ud83d\udcaf\ud83d\udc40m8y t0o bad \ud83d\udcafthe\ud83d\udc7b\ud83c\udf83 sp0opky\ud83c\udf83\ud83d\udc7b pirate\ud83d\udca6\ud83d\udca6 is 0n his \ud83d\udc40way tO steal\ud83d\udc40\ud83d\udc40 ur mEmeS repOst \ud83d\udc4cthis \ud83d\udcaf\ud83d\udc4cto keep\ud83d\udcaf\ud83d\udcaf ur b00ty\ud83d\udc4c\ud83d\udd25\ud83d\udc40\n\ud83d\udcafNicE\ud83d\udd25 fUckin\ud83d\udd25 \u2714\ud83d\udc4c\u2714meme \ud83d\udcaf\ud83d\udc40m8y t0o bad \ud83d\udcafthe\ud83d\udc7b\ud83c\udf83 sp0opky\ud83c\udf83\ud83d\udc7b pirate\ud83d\udca6\ud83d\udca6 is 0n his \ud83d\udc40way tO steal\ud83d\udc40\ud83d\udc40 ur mEmeS repOst \ud83d\udc4cthis \ud83d\udcaf\ud83d\udc4cto keep\ud83d\udcaf\ud83d\udcaf ur b00ty\ud83d\udc4c\ud83d\udd25\ud83d\udc40",
+          "subreddit": "copypasta",
+          "created_utc": 1445026110,
+          "year": 2015,
+          "children": 2
+        },
+        {
+          "id": "5f645s",
+          "text": "\ud83d\udc46While\ud83d\udc46 \ud83d\uddffyou\ud83d\uddff\ud83d\udc94\ud83d\ude2c were \ud83d\ude2einhaling\ud83d\ude2e \ud83d\udca6water\ud83d\udca6 \ud83c\udf2bvapor\ud83c\udf2b \ud83d\udc68\u200d I \ud83d\udc68\u200d \ud83d\udc43\ud83d\udc43inhaled\ud83d\udc43\ud83d\udc43\ud83d\udc40 \ud83d\udc71stacy's\ud83d\udc71 vaginal\ud83d\udc47\ud83c\udf51 farts\ud83c\udf51\ud83d\udca8\ud83d\udca8\u2714\ufe0f\u2620\n\ud83d\udc46While\ud83d\udc46 \ud83d\uddffyou\ud83d\uddff\ud83d\udc94\ud83d\ude2c were \ud83d\ude2einhaling\ud83d\ude2e \ud83d\udca6water\ud83d\udca6 \ud83c\udf2bvapor\ud83c\udf2b \ud83d\udc68\u200d I \ud83d\udc68\u200d \ud83d\udc43\ud83d\udc43inhaled\ud83d\udc43\ud83d\udc43\ud83d\udc40 \ud83d\udc71stacy's\ud83d\udc71 vaginal\ud83d\udc47\ud83c\udf51 farts\ud83c\udf51\ud83d\udca8\ud83d\udca8\u2714\ufe0f\u2620",
+          "subreddit": "copypasta",
+          "created_utc": 1480264787,
+          "year": 2016,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 15,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 15
+      },
+      "earliest": [
+        {
+          "id": "bnksjn",
+          "text": "Invest in James Charles now",
+          "subreddit": "memeeconomy",
+          "created_utc": 1557632271,
+          "year": 2019
+        },
+        {
+          "id": "e330yq",
+          "text": "Invest in Tom Hanks in Cast Away!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1574969840,
+          "year": 2019
+        },
+        {
+          "id": "hn5h63",
+          "text": "Invest in Terry Tate tackling Trump",
+          "subreddit": "memeeconomy",
+          "created_utc": 1594163723,
+          "year": 2020
+        }
+      ],
+      "hubs": [
+        {
+          "id": "hn5h63",
+          "text": "Invest in Terry Tate tackling Trump",
+          "subreddit": "memeeconomy",
+          "created_utc": 1594163723,
+          "year": 2020,
+          "children": 4
+        },
+        {
+          "id": "iae2g7",
+          "text": "Invest in Leo eating!",
+          "subreddit": "memeeconomy",
+          "created_utc": 1597520819,
+          "year": 2020,
+          "children": 2
+        },
+        {
+          "id": "ioc0r8",
+          "text": "Invest in Gumball and Darwin",
+          "subreddit": "memeeconomy",
+          "created_utc": 1599500257,
+          "year": 2020,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 13,
+      "years": [
+        2020,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 13
+      },
+      "earliest": [
+        {
+          "id": "jye89t",
+          "text": "Invest in legendary battle",
+          "subreddit": "memeeconomy",
+          "created_utc": 1605978255,
+          "year": 2020
+        },
+        {
+          "id": "kzu6yr",
+          "text": "Invest in heavy weapons",
+          "subreddit": "memeeconomy",
+          "created_utc": 1610974762,
+          "year": 2021
+        },
+        {
+          "id": "m3rqw8",
+          "text": "Invest in laser walrus",
+          "subreddit": "memeeconomy",
+          "created_utc": 1615584848,
+          "year": 2021
+        }
+      ],
+      "hubs": [
+        {
+          "id": "kzu6yr",
+          "text": "Invest in heavy weapons",
+          "subreddit": "memeeconomy",
+          "created_utc": 1610974762,
+          "year": 2021,
+          "children": 4
+        },
+        {
+          "id": "rjwwoj",
+          "text": "Invest in cave paintings",
+          "subreddit": "memeeconomy",
+          "created_utc": 1639921007,
+          "year": 2021,
+          "children": 2
+        },
+        {
+          "id": "t68clk",
+          "text": "Invest in random construction guy",
+          "subreddit": "memeeconomy",
+          "created_utc": 1646361019,
+          "year": 2022,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 12,
+      "years": [
+        2016,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 12
+      },
+      "earliest": [
+        {
+          "id": "52na9v",
+          "text": "CIA agent starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1473805076,
+          "year": 2016
+        },
+        {
+          "id": "7n45i7",
+          "text": "Cell phone salesman starterpack",
+          "subreddit": "starterpacks",
+          "created_utc": 1514668784,
+          "year": 2017
+        },
+        {
+          "id": "7zht8k",
+          "text": "Chain restaurant commercial starterpack",
+          "subreddit": "starterpacks",
+          "created_utc": 1519329434,
+          "year": 2018
+        }
+      ],
+      "hubs": [
+        {
+          "id": "7zht8k",
+          "text": "Chain restaurant commercial starterpack",
+          "subreddit": "starterpacks",
+          "created_utc": 1519329434,
+          "year": 2018,
+          "children": 4
+        },
+        {
+          "id": "j3mtm7",
+          "text": "Indian Youtube trending section starter pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1601607320,
+          "year": 2020,
+          "children": 2
+        },
+        {
+          "id": "b726ap",
+          "text": "Steam summary page Starter Pack",
+          "subreddit": "starterpacks",
+          "created_utc": 1553890810,
+          "year": 2019,
+          "children": 1
+        }
+      ]
+    },
+    {
+      "size": 12,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "copypasta": 2,
+        "wholesomememes": 2,
+        "me_irl": 2,
+        "comedyheaven": 1,
+        "okbuddyretard": 1,
+        "2meirl4meirl": 2,
+        "shitposting": 1,
+        "memeeconomy": 1
+      },
+      "earliest": [
+        {
+          "id": "6sypws",
+          "text": "Found this on r/tinder",
+          "subreddit": "copypasta",
+          "created_utc": 1502423934,
+          "year": 2017
+        },
+        {
+          "id": "8yqn0c",
+          "text": "Found this on r/wholesomebtq",
+          "subreddit": "wholesomememes",
+          "created_utc": 1531541791,
+          "year": 2018
+        },
+        {
+          "id": "aq38qk",
+          "text": "Found this on instagram",
+          "subreddit": "me_irl",
+          "created_utc": 1550036402,
+          "year": 2019
+        }
+      ],
+      "hubs": [
+        {
+          "id": "aq38qk",
+          "text": "Found this on instagram",
+          "subreddit": "me_irl",
+          "created_utc": 1550036402,
+          "year": 2019,
+          "children": 2
+        },
+        {
+          "id": "6sypws",
+          "text": "Found this on r/tinder",
+          "subreddit": "copypasta",
+          "created_utc": 1502423934,
+          "year": 2017,
+          "children": 2
+        },
+        {
+          "id": "ephthl",
+          "text": "Found this on r/funny",
+          "subreddit": "wholesomememes",
+          "created_utc": 1579172136,
+          "year": 2020,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 12,
+      "years": [
+        2021,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 10,
+        "copypasta": 1,
+        "okbuddyretard": 1
+      },
+      "earliest": [
+        {
+          "id": "n23vm2",
+          "text": "1:1 AIRDROP FOR TOKEN HOLDERS MAY 18 2021! EXCHANGE COMING SOON! HUSKY AKITAS BROTHER",
+          "subreddit": "dogelore",
+          "created_utc": 1619818081,
+          "year": 2021
+        },
+        {
+          "id": "nrb4m8",
+          "text": "HOW TO BECOME A SIGMA MALE WITHIN A MONTH\n#5SIMPLESTEPS\n1-SUCK 10 DICKS A DAY AND SWALLOW THE CUM(testesterone boost)\n2-IGNORE ALL WOMAN AS THEY ARE JUST DISTRACTION\n3-HARRASS RANDOM PEOPLE ON EVERY OCCASION IRL OR ON INTERNET (for developing a sense in hierarchy)\n4-PUT FOOD IN YOUR ASS INSTEAD OF USING YOUR MOUTH TO EAT(digestion will be faster and more efficient)\n5-BUY THE BIGGEST BUTT PLUG YOU CAN AND PUT IT UP YOUR ASS(this will strengthen you anal walls)",
+          "subreddit": "copypasta",
+          "created_utc": 1622719718,
+          "year": 2021
+        },
+        {
+          "id": "tlxjm3",
+          "text": "BREAKING NEWS: DOGECOIN WILL HIT $15 CENTS TODAY! INSANE!!! HERE IS WHY!! BREAKOUT HAPPENING ..",
+          "subreddit": "dogelore",
+          "created_utc": 1648095770,
+          "year": 2022
+        }
+      ],
+      "hubs": [
+        {
+          "id": "tugum3",
+          "text": "DOGECOIN BREAKING NEWS & PRICE PREDICTIONS! DOGE TO $1!!! ELON MUSK LATEST TWEET!!",
+          "subreddit": "dogelore",
+          "created_utc": 1648899313,
+          "year": 2022,
+          "children": 4
+        },
+        {
+          "id": "wkni1k",
+          "text": "DOGECOIN & SHIBA INU LATEST NEWS & UPDATES!! MARK CUBAN DOGECOIN PATH TO $1",
+          "subreddit": "dogelore",
+          "created_utc": 1660103882,
+          "year": 2022,
+          "children": 2
+        },
+        {
+          "id": "n23vm2",
+          "text": "1:1 AIRDROP FOR TOKEN HOLDERS MAY 18 2021! EXCHANGE COMING SOON! HUSKY AKITAS BROTHER",
+          "subreddit": "dogelore",
+          "created_utc": 1619818081,
+          "year": 2021,
+          "children": 2
+        }
+      ]
+    },
+    {
+      "size": 11,
+      "years": [
+        2011,
+        2012
+      ],
+      "subreddits": {
+        "memes": 8,
+        "adviceanimals": 3
+      },
+      "earliest": [
+        {
+          "id": "ioq3b",
+          "text": "I don't always mistype my password...",
+          "subreddit": "memes",
+          "created_utc": 1310586056,
+          "year": 2011
+        },
+        {
+          "id": "iyu72",
+          "text": "I don't always shower at the gym...",
+          "subreddit": "memes",
+          "created_utc": 1311563551,
+          "year": 2011
+        },
+        {
+          "id": "kjuae",
+          "text": "I don't always clean...",
+          "subreddit": "memes",
+          "created_utc": 1316382672,
+          "year": 2011
+        }
+      ],
+      "hubs": [
+        {
+          "id": "lsdxn",
+          "text": "I don't always touch penis...",
+          "subreddit": "memes",
+          "created_utc": 1319822653,
+          "year": 2011,
+          "children": 4
+        },
+        {
+          "id": "kjuae",
+          "text": "I don't always clean...",
+          "subreddit": "memes",
+          "created_utc": 1316382672,
+          "year": 2011,
+          "children": 3
+        },
+        {
+          "id": "iyu72",
+          "text": "I don't always shower at the gym...",
+          "subreddit": "memes",
+          "created_utc": 1311563551,
+          "year": 2011,
+          "children": 1
+        }
+      ]
+    }
+  ],
+  "selection": {
+    "random_pair_q999_cosine": 0.7556942701339722,
+    "time_penalty_per_year": 0.02,
+    "null_pairs": 100000,
+    "absolute_cosine_floor": 0.85,
+    "effective_cosine_threshold": 0.85
+  },
+  "sample_edges": [
+    {
+      "child": {
+        "id": "2n6fg8",
+        "text": "me irl /r/me_irl hits 20K subscribers",
+        "subreddit": "me_irl",
+        "created_utc": 1416762824,
+        "year": 2014
+      },
+      "parent": {
+        "id": "2hj8yu",
+        "text": "me irl /r/me_irl hits 10K subscribers",
+        "subreddit": "me_irl",
+        "created_utc": 1411744971,
+        "year": 2014
+      },
+      "cosine": 0.9979337453842163,
+      "gap_years": 0.15900616347789764
+    },
+    {
+      "child": {
+        "id": "5jmdcn",
+        "text": "Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat.",
+        "subreddit": "shitposting",
+        "created_utc": 1482353942,
+        "year": 2016
+      },
+      "parent": {
+        "id": "5h4krv",
+        "text": "Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat. Cat.",
+        "subreddit": "shitposting",
+        "created_utc": 1481166876,
+        "year": 2016
+      },
+      "cosine": 0.9978739619255066,
+      "gap_years": 0.037615854293107986
+    },
+    {
+      "child": {
+        "id": "lj56qb",
+        "text": "Invest in this template",
+        "subreddit": "memeeconomy",
+        "created_utc": 1613238273,
+        "year": 2021
+      },
+      "parent": {
+        "id": "jb03sm",
+        "text": "Invest in this format",
+        "subreddit": "memeeconomy",
+        "created_utc": 1602680053,
+        "year": 2020
+      },
+      "cosine": 0.9977825880050659,
+      "gap_years": 0.3345698118209839
+    },
+    {
+      "child": {
+        "id": "5hk4ia",
+        "text": "You vs the guy she tells you not to worry about.",
+        "subreddit": "me_irl",
+        "created_utc": 1481376675,
+        "year": 2016
+      },
+      "parent": {
+        "id": "56ekbx",
+        "text": "You vs the guy she tells you not to worry about",
+        "subreddit": "me_irl",
+        "created_utc": 1475886516,
+        "year": 2016
+      },
+      "cosine": 0.9933996796607971,
+      "gap_years": 0.17397265136241913
+    },
+    {
+      "child": {
+        "id": "vxqir5",
+        "text": "It be like that sometimes!",
+        "subreddit": "me_irl",
+        "created_utc": 1657673941,
+        "year": 2022
+      },
+      "parent": {
+        "id": "pwbf1t",
+        "text": "It be like that sometimes.",
+        "subreddit": "adviceanimals",
+        "created_utc": 1632724279,
+        "year": 2021
+      },
+      "cosine": 0.9932160973548889,
+      "gap_years": 0.7906070947647095
+    },
+    {
+      "child": {
+        "id": "8ao5s1",
+        "text": "oof ouch owie my insecurity",
+        "subreddit": "bonehurtingjuice",
+        "created_utc": 1523166983,
+        "year": 2018
+      },
+      "parent": {
+        "id": "7vs3a9",
+        "text": "oof ouch owie my sexuality",
+        "subreddit": "bonehurtingjuice",
+        "created_utc": 1517963419,
+        "year": 2018
+      },
+      "cosine": 0.992904543876648,
+      "gap_years": 0.16489098966121674
+    },
+    {
+      "child": {
+        "id": "6hkzjs",
+        "text": "T\u0332\u032a\u031e\u0316\u0359\u0353\u0330\u036a\u036a\u0303\u0357\u0351\u031ar\u031e\u0339\u0320\u031d\u0353\u0323\u0342\u036f\u0301\u0300\u030c\u031a\u0362U\u033e\u036f\u0314\u034b\u0365\u0312\u034f\u0359\u0320s\u0328\u031c\u0330\u0318\u032f\u030a\u0352\u0304\u030f\u030dt\u0335\u0319\u033a\u031e\u032d\u0331\u0323\u0310\u035b\u0313\u036f\u0310\u0301 \u0330\u0352\u034c\u0308\u0301\u033e\u0310f\u031c\u0330\u0349\u035co\u034e\u034d\u0330\u0317\u033b\u0349\u030a\u0342\u030f\u0357\u030b\u0308\u0300r\u0359\u0324\u0326\u0347\u032f\u0362 \u0334\u0356\u032b\u034e\u031di\u0355\u0324\u032b\u0320\u0316\u0323\u032f\u0350\u031at\u0332\u031e\u034b\u0369\u030f\u0310 \u033b\u0318\u031e\u0318\u036b\u0351\u0365\u0364h\u034e\u0332\u0332\u0323\u0329\u0324a\u033b\u0356\u032e\u032c\u0348\u033d\u036e\u0365s\u0349\u032c\u0355\u032e\u0332\u0359\u0303\u033f\u030f\u0366\u0313\u0303 \u0359\u0303\u035db\u0354\u031e\u0323\u035a\u0363\u0345e\u0321\u0318\u0316\u0367\u0368\u0367\u0314\u0313\u030e\u031aE\u031d\u032dn\u0326\u032b\u0325\u0367\u033d\u0308\u0301\u0304\u030bs\u034f\u033a \u0328\u032a\u0329\u0319\u0325\u031d\u0366\u034c\u0342\u030c\u1e54\u0328\u0318\u032a\u031e\u0320\u0316U\u033b\u0331\u034e\u035a\u0323\u0367\u0307\u0308\u0301\u0346B\u031b\u0349\u0318\u035a\u036a\u034c\u030cL\u0335\u0324\u032f\u031d\u0307\u030d\u036d\u0303\u0342\u0368\u0301E\u0359\u0351\u035cS\u0337\u0325\u0318\u0349\u033dH\u032d\u0346\u0342\u034b\u0342\u0308E\u0347\u0329\u032c\u0324\u032f\u0367D\u0303\u036e",
+        "subreddit": "surrealmemes",
+        "created_utc": 1497596996,
+        "year": 2017
+      },
+      "parent": {
+        "id": "5v8wwo",
+        "text": "\u0321\u0348\u0319\u032b\u032f\u032a\u032a\u0300\u0307\u031at\u033f\u0365\u0310\u0352\u0301\u0364\u0314\u030f\u034f\u0332\u031c\u031d\u0353\u032c\u0318\u0320\u0356\u0362h\u0336\u031d\u0339\u034e\u0329\u032d\u0324\u032c\u030d\u0309\u0307\u0303\u0304\u0310\u0300\u0345e\u0348\u0318\u034a\u0301\u036e\u034a\u036d\u035f \u0321\u0318\u0317\u0320\u0320\u0348\u032b\u032c\u0312\u034b\u0312\u0363\u0303\u0301w\u0335\u032f\u031e\u0319\u0317\u0325\u0355\u033c\u032c\u036e\u036c\u0307\u035c\u1ecd\u0359\u0349\u0355\u0349\u034d\u033c\u0369\u0310\u030a\u0351\u0300r\u0334\u035a\u031c\u032f\u0308\u0311\u030e\u0311\u0302\u0309\u035c\u1e3d\u0321\u0321\u0332\u0329\u0320\u0332\u0353\u0355\u0356\u0313\u033e\u0307\u0306\u035b\u033e\u0313\u031a\u035ed\u031b\u0316\u032c\u0318\u0330\u031e\u032f\u0339\u034d\u030a \u0334\u0335\u032e\u0330\u0301\u036aw\u0334\u032f\u0317\u032e\u0309\u033e\u0313i\u0348\u0330\u0325\u032e\u0326\u033a\u035a\u0332\u0351\u030e\u0306\u0300\u0362l\u0334\u0338\u032b\u032a\u0300\u0369\u033e\u0306\u036f\u1e37\u0335\u030a\u0342\u0346\u036a\u0304\u0350\u034b\u0304\u0360 \u0335\u032f\u0332\u031e\u032d\u0351\u036be\u0335\u0336\u0338\u0326\u0330\u0356\u033e\u0308\u035b\u0313n\u036d\u030b\u0311\u0365\u0363\u0302\u0312\u036d\u0489\u0325\u0359\u033c\u0360d\u0318\u0329\u0330\u0330\u0359\u036a\u030b\u030e\u0363\u035b\u034b\u0315\u035c \u0300\u0308\u0301\u0314\u0350\u035b\u0302\u035b\u034f\u0336\u0324\u0326\u033c\u035es\u0348\u034e\u0355\u0323\u0308\u030b\u0313\u020d\u0330\u0308\u0301\u0351\u030e\u036c\u035eo\u0350\u036b\u034a\u0308\u0301\u0367\u0306\u0308\u0301\u030e\u0314\u0489\u031e\u0317\u0325\u033b\u032c\u032e\u0333\u0318\u0362n\u0338\u032c\u0326\u0313\u0310\u030a\u030c\u0312\u0301\u0361",
+        "subreddit": "surrealmemes",
+        "created_utc": 1487643091,
+        "year": 2017
+      },
+      "cosine": 0.9918014407157898,
+      "gap_years": 0.3154202103614807
+    },
+    {
+      "child": {
+        "id": "rtkhi6",
+        "text": "Totally me, except for later i watched 2 comdies and laughed like an idiot ;",
+        "subreddit": "2meirl4meirl",
+        "created_utc": 1641047427,
+        "year": 2022
+      },
+      "parent": {
+        "id": "koc9y6",
+        "text": "Totally me, except for later i watched 2 comdies and laughed like an idiot.",
+        "subreddit": "2meirl4meirl",
+        "created_utc": 1609511977,
+        "year": 2021
+      },
+      "cosine": 0.9915028214454651,
+      "gap_years": 0.9992981553077698
+    },
+    {
+      "child": {
+        "id": "lrbu9v",
+        "text": "Live in the p\u0322\u0339\u034d\u0319a\u031c\u0349\u0324\u0355s\u0333\u0323\u021b\u0332\u0339\u0326 \u0330\u032d\u0356\u0318\u032a\u032b\u0339t\u033a\u0333\u0325\u032d\u034ee\u0335\u032b\u0326\u0333n\u0316\u0316\u032b\u0355\u031e\u0315s\u0338\u032f\u0356\u032b\u031c\u0330\u0119",
+        "subreddit": "surrealmemes",
+        "created_utc": 1614170158,
+        "year": 2021
+      },
+      "parent": {
+        "id": "dhu2dr",
+        "text": "C\u0325\u0359\u031d\u0329\u0319o\u0333\u031f\u032fr\u0155\u031e\u0355\u031d\u0356\u0324o\u031d\u0320\u0323\u031c\u0317\u032ds\u1e2d\u0338\u0355o\u031f\u035a\u032b\u0324\u0332\u0323\u0319n\u0334\u0347\u0331\u0329\u032b\u033c \u0332\u0317\u032a\u031f\u0331\u031f\u0332i\u0316s\u0348\u034d\u032a\u0354\u035a\u0331\u0345 \u032b\u0349a\u034e\u0339\u032d\u0320\u0361 \u0339\u0326\u0316\u0317\u033cm\u0317\u0339\u035de\u0322\u0348\u0320\u0329\u0331\u0146\u032d\u0329\u0323\u034e\u032d\u0317t\u031f\u0319\u034e\u033c\u0323\u0353\u0332a\u0332\u031d\u033a\u0345l\u033c\u0353\u032b\u0320\u0359\u0348\u034d\u0360 \u031d\u031f\u0320\u0356\u032c\u0345d\u0319\u0316\u0323\u035a\u0323\u012f\u0324s\u0334\u0348\u032c\u0331o\u0355\u034d\u0354r\u0321\u0355\u034d\u031e\u0354\u0359\u033ad\u0321\u033c\u0320\u0323e\u0348\u0325\u0326\u0348\u0359r\u0354\u0349\u033a\u0355\u0326\u0347\u0325!\u031e\u0330\u0324\u0320\u035a\u0329\u0345",
+        "subreddit": "surrealmemes",
+        "created_utc": 1571074815,
+        "year": 2019
+      },
+      "cosine": 0.991378664970398,
+      "gap_years": 1.365609049797058
+    },
+    {
+      "child": {
+        "id": "7vnavm",
+        "text": "t\u0317\u0316\u0360h\u00e9\u031f\u0320\u032b\u0316\u031d\u0329\u0320 \u0338\u0318\u0347\u032e\u0319\u0347\u035ap\u0338\u0316\u0320\u0317\u0317\u0318\u0345r\u0326\u0331\u035di\u0319\u033c\u0347\u035cc\u034d\u031f\u0339\u035a\u031f\u0318\u0345e\u0321\u0317\u032e\u0354\u0348\u0329\u0355\u032a \u0317\u0317o\u034df\u0325\u0333\u0361 \u0328\u0319\u031c\u0317\u0324a\u0359\u032d\u0325\u0329\u035cb\u0301s\u031bc\u035a\u032c\u0356t\u0348\u035d\u0155\u0359\u0353\u0333\u0324\u033ca\u0337\u0339\u0354\u0347\u031cc\u0355\u0319\u0345t\u0336\u033c\u032e\u0359\u0347\u0345",
+        "subreddit": "surrealmemes",
+        "created_utc": 1517923693,
+        "year": 2018
+      },
+      "parent": {
+        "id": "7cwgqf",
+        "text": "\u01f4\u033b\u0318\u032b\u032f\u0324\u032ai\u033c\u031c\u0332\u0345v\u035a\u0324\u0354\u0324\u0316e\u0318\u0349\u0356\u0317\u032b\u0331\u035d \u0356\u0339\u032b\u0353\u0332\u031d\u032dh\u034f\u0356\u031f\u0347i\u0347\u0331\u031e\u0320\u0339\u0353\u0355m\u0319\u0317\u032d\u0317 \u0330\u0317\u032a\u032ea\u031b\u0320\u031f\u0356\u0348\u0356\u032d\u032b \u031eg\u0332\u032b\u0326\u0330\u035ao\u032e\u033a\u034d\u035a\u0317\u033co\u033a\u0329\u031d\u031d\u0316\u033c\u0345\u1e13\u0332\u0353\u0349\u0317\u0320\u035c \u033c\u0320\u0316\u0355f\u0316\u031da\u0338\u0353\u033a\u0339\u033c\u033b\u032f\u0339\u1e5f\u033b\u0353\u035fe\u0319\u0316w\u033c\u032a\u0359e\u0316\u0329\u0348\u0323\u031c\u0320l\u0348\u034e\u032b\u0356\u032fl",
+        "subreddit": "surrealmemes",
+        "created_utc": 1510674624,
+        "year": 2017
+      },
+      "cosine": 0.9907885193824768,
+      "gap_years": 0.22970913350582123
+    },
+    {
+      "child": {
+        "id": "u2ii3o",
+        "text": "Have a gander at the \u0104\u0338\u0322\u0328\u0324\u0355\u032d\u0319\u032a\u034e\u032a\u034e\u032f\u0339\u0347\u0354\u0318\u031c\u032f\u0332\u035a\u0339\u0324\u0330\u0347\u0330\u0320\u0333\u0355\u0347\u0353\u0354\u032e\u0330\u0318\u0329\u0348\u031f\u0348\u0326\u031d\u031c\u0317\u0329\u0348\u0311\u0350\u0313\u0300\u0345B\u0334\u0321\u031b\u032a\u033b\u032f\u0331\u0348\u031c\u0330\u0324\u032c\u0339\u0317\u0349\u035a\u033b\u0329\u0333\u034d\u032e\u0330\u0331\u0349\u0354\u0339\u034d\u032a\u0349\u030f\u030f\u0305\u034b\u0352\u0311\u0300\u034c\u0300\u0308\u0301\u030e\u030f\u0303\u0303\u0310\u0308\u0301\u033f\u0308\u0301\u034b\u0307\u0312\u0307\u0300\u0342\u0301\u0350\u030d\u030e\u0346\u0314\u0350\u0313\u0300\u0358\u0358\u0358\u031a\u0315\u031a\u0360\u0360Y\u0336\u0321\u0322\u031b\u031b\u0317\u033a\u032a\u0353\u034e\u031d\u0326\u0319\u032f\u0330\u032e\u0324\u0323\u032b\u032e\u0325\u0323\u030f\u0308\u030f\u0301\u0308\u0308\u034b\u0300\u0351\u0310\u033e\u0305\u0308\u0301\u0301\u033d\u0301\u034b\u0308\u0301\u0302\u0309\u034c\u0313\u0307\u033d\u0314\u0304\u033e\u0308\u0301\u0308\u0301\u0306\u033e\u034b\u030e\u030f\u0346\u0300\u0308\u0301\u0315\u0358\u035d\u035d\u035d\u0360\u035dS\u0334\u0321\u0328\u031f\u032c\u032c\u0317\u0349\u032f\u0354\u031e\u034d\u032b\u0300\u0301\u0308\u0301\u0308\u0304\u0307\u030b\u030c\u035b\u034c\u030d\u0310\u0350\u0300\u034b\u0313\u030b\u030d\u0309\u034c\u0308\u0301\u0357\u0309\u0358\u0358\u031a\u031a\u0360\u035dS\u0338\u0328\u031b\u031b\u032c\u031e\u033a\u031d\u0318\u031d\u0339\u0353\u0314\u0303\u0302\u035b\u034b\u030b\u034a\u0308\u0301\u030a\u0311\u0310\u0301\u034b\u0350\u033e\u034b\u0300\u0304\u0302\u0309\u030d\u0352\u0303\u034b\u0307\u0351\u0307\u030d\u0342\u0315\u031a\u035d ?",
+        "subreddit": "surrealmemes",
+        "created_utc": 1649825642,
+        "year": 2022
+      },
+      "parent": {
+        "id": "rlv31o",
+        "text": "Lunch is I\u0335\u0321\u0321\u0347\u031d\u0326\u0317\u0354\u032b\u0324\u0355\u0320\u034e\u0318\u0356\u0325\u033c\u0329\u0326\u034e\u0324\u032e\u0320\u0330\u0325\u034e\u0355\u035a\u0356\u035a\u0359\u0313t\u0338\u0321\u031b\u033c\u0320\u032d\u0330\u0325\u035a\u0348\u034d\u032c\u0329\u0349\u0333\u031e\u0349\u035a\u032b\u0318\u034d\u0316\u0323\u0325\u032c\u0302\u0305\u030a\u0342\u034a\u0310\u0300\u0342\u0346\u0305\u0312\u0302\u0342\u0309\u034b\u0300\u030a\u0350\u0346\u0308\u0301\u0305\u030f\u0305\u0342\u0315\u0315'\u0335\u0359\u0347\u033c\u0324\u0359\u031e\u0353\u035b\u0346\u0302\u0357\u0357\u0300\u0300\u0301\u0300\u0313\u0358\u035d\u035d\u0360\u015d\u0336\u0322\u0322\u031b\u0319\u0353\u0332\u034e\u0333\u0354\u033b\u0331\u0326\u032b\u0356\u033c\u031e\u0329\u0359\u034e\u0323\u033a\u031e\u0318\u0326\u0330\u0323\u0303\u0311\u0305\u0308\u0301\u0307\u0301\u034a\u030b\u0313\u0350\u035b\u0300\u0350\u0309\u0351\u0313\u0342\u0351\u034c\u0311\u0313\u034b\u031a\u0358\u0358\u031a\u0315\u035d \u0337\u033a\u032b\u031d\u0356\u0323\u031e\u0347\u031d\u0355\u0326\u031c\u0349\u032a\u033d\u0311\u0308\u0301\u0300\u030a\u0312\u030e\u030c\u0357\u030c\u0352\u0308\u0301\u034a\u0306\u0301\u0305\u0301\u0314\u0305\u0314\u034b\u0303\u0315\u0315\u0315\u031a\u0360h\u0335\u0321\u0328\u0318\u0355\u0319\u0359\u0320\u0353\u032e\u0324\u033b\u035a\u0359\u034e\u0318\u0320\u0339\u0326\u0356\u033a\u0317\u030d\u0305\u0346\u033d\u0309\u0342\u034b\u030f\u033f\u0308\u0301\u034c\u0311\u0301\u0303\u0301\u0313\u0313\u033d\u0351\u0313\u030c\u035c\u0360\u0360\u0360\u035do\u0338\u0322\u033b\u0324\u033c\u0333\u0316\u032c\u033e\u0357\u0300\u030f\u0301\u030a\u0306\u0346\u0307\u0301\u030b\u033f\u0304\u035b\u0302\u0301\u030c\u030f\u030e\u0308\u0308\u0301\u033d\u031a\u031a\u0360",
+        "subreddit": "surrealmemes",
+        "created_utc": 1640141330,
+        "year": 2021
+      },
+      "cosine": 0.9901589155197144,
+      "gap_years": 0.30687734484672546
+    },
+    {
+      "child": {
+        "id": "7cwgqf",
+        "text": "\u01f4\u033b\u0318\u032b\u032f\u0324\u032ai\u033c\u031c\u0332\u0345v\u035a\u0324\u0354\u0324\u0316e\u0318\u0349\u0356\u0317\u032b\u0331\u035d \u0356\u0339\u032b\u0353\u0332\u031d\u032dh\u034f\u0356\u031f\u0347i\u0347\u0331\u031e\u0320\u0339\u0353\u0355m\u0319\u0317\u032d\u0317 \u0330\u0317\u032a\u032ea\u031b\u0320\u031f\u0356\u0348\u0356\u032d\u032b \u031eg\u0332\u032b\u0326\u0330\u035ao\u032e\u033a\u034d\u035a\u0317\u033co\u033a\u0329\u031d\u031d\u0316\u033c\u0345\u1e13\u0332\u0353\u0349\u0317\u0320\u035c \u033c\u0320\u0316\u0355f\u0316\u031da\u0338\u0353\u033a\u0339\u033c\u033b\u032f\u0339\u1e5f\u033b\u0353\u035fe\u0319\u0316w\u033c\u032a\u0359e\u0316\u0329\u0348\u0323\u031c\u0320l\u0348\u034e\u032b\u0356\u032fl",
+        "subreddit": "surrealmemes",
+        "created_utc": 1510674624,
+        "year": 2017
+      },
+      "parent": {
+        "id": "72tgl6",
+        "text": "S\u0329\u0300u\u0316\u032a\u033c\u032f\u034e\u0315r\u0356\u031er\u034f\u0317\u034d\u032e\u031f\u0349\u032e\u034ee\u031f\u0348a\u0322\u0329\u032d\u032f\u032e\u0353l\u0334\u0329\u0347\u0325 \u031bm\u0333\u0348\u033b\u032b\u0354\u031ee\u0353\u031d\u0323\u0319\u1e43\u032e\u0332\u0354\u0329\u034ds\u0324\u033c \u0329\u0356\u034d\u0317\u034d\u0319\u0315\u1e25\u0338\u032a\u0353\u0353\u0320\u0331a\u0355\u0320\u0333\u0353\u031f\u0323v\u0356e\u0320\u033a\u0331\u0329\u0323\u032f \u0333\u032f\u0347\u0354l\u034f\u032be\u031f\u0324\u0330\u0319a\u031e\u0348\u033c\u032d\u031e\u0355\u035dk\u0348\u0354\u035a \u0349\u035a\u0317\u031d\u0317\u0320t\u035do\u0333\u032f\u0354\u0355\u035f \u032ei\u0326\u0348\u0356\u035eF\u0355\u0325\u0326\u032f\u033bu\u0332\u0324\u031d\u0348\u0330\u0358n\u0336n\u032c\u0354\u0326\u0349\u033b\u0349\u033bny\u0353\u032d\u0339\u0354\u0354\u0345\u0345!\u0335\u0323!\u0319\u032f\u032f\u032c\u0348\u032d\u031d\u0315!\u0327\u0317\u0348\u0320\u031d\u032d\u0317",
+        "subreddit": "surrealmemes",
+        "created_utc": 1506530038,
+        "year": 2017
+      },
+      "cosine": 0.9897564649581909,
+      "gap_years": 0.13133400678634644
+    },
+    {
+      "child": {
+        "id": "aasypf",
+        "text": "are your e\u031f\u031f\u0349 \u031d\u0359\u032a\u031d\u0324\u032d\u0323\u035d \u0319\u0362g\u031c\u033a\u033a\u035a\u031f\u0359\u0349\u0315 \u034d\u0331g\u031f\u0320\u032e\u0319\u031e\u034e\u0325 \u0353\u0329\u0326\u0325\u032d\u0318 \u032fs\u033c\u0318\u032c\u0353\u032a \u0322\u0331\u0355\u0325\u033b \u0332\u0331\u0348\u032d\u032f insured?",
+        "subreddit": "surrealmemes",
+        "created_utc": 1546146163,
+        "year": 2018
+      },
+      "parent": {
+        "id": "a64mo5",
+        "text": "C\u0337\u0333\u035a\u033b\u0356\u0356\u033ch\u0355\u033b\u0326\u032d\u032c\u032c\u031d\u035fe\u032b\u032c\u0317\u032f\u0319a\u031f\u034d\u0316\u032d\u031ct\u0324\u033b\u0362e\u031b\u0331\u032d\u032d\u0317\u0356\u0325d\u0316\u034d\u0316\u033a\u0361 \u0325\u033b\u0329\u032d\u0359 \u032b\u0339\u031e\u0318\u032a\u0325\u035d \u0322\u0330\u034dde\u0359\u033b\u0317\u0318\u0348\u033a\u0361a\u0331\u0330\u0318\u032bt\u0354\u032f\u0323h\u0356\u0319\u032c\u031d\u0353\u035e",
+        "subreddit": "surrealmemes",
+        "created_utc": 1544792592,
+        "year": 2018
+      },
+      "cosine": 0.9895964860916138,
+      "gap_years": 0.04289207607507706
+    },
+    {
+      "child": {
+        "id": "dwkhq7",
+        "text": "It really do be like that...",
+        "subreddit": "2meirl4meirl",
+        "created_utc": 1573786683,
+        "year": 2019
+      },
+      "parent": {
+        "id": "c1xc82",
+        "text": "It really do be like that.",
+        "subreddit": "2meirl4meirl",
+        "created_utc": 1560829436,
+        "year": 2019
+      },
+      "cosine": 0.9893059134483337,
+      "gap_years": 0.41059038043022156
+    },
+    {
+      "child": {
+        "id": "qovlwp",
+        "text": "any advice on s\u0338\u0328\u0321\u0325\u0331\u031d\u0316\u032c\u0331\u0354\u0329\u0316\u0319\u0308\u0301\u0301t\u0336\u0325\u0333\u030f\u034b\u033d\u034b\u0312\u035de\u0338\u032f\u0313\u0310\u0350\u030e\u0342\u0314\u0357\u0308\u0301\u0301\u0315\u035dp\u0338\u033c\u033a\u0356\u0326\u031f\u0316\u032a\u0324\u0354\u0354\u0346\u0352\u0352\u030e\u031a \u0334\u031b\u0354\u0347\u032a\u0359\u0318\u032f\u0350\u030d\u030b\u0300\u0304\u0308\u0301\u030b\u0313\u0357\u0357\u0308\u0301\u031a3\u0334\u0322\u0348\u0307\u0351\u034c\u030c\u0300\u0350\u0308\u0301\u034c\u0357\u030c\u0313\u034c\u035c\u0360? (in hyperuranion atm)",
+        "subreddit": "surrealmemes",
+        "created_utc": 1636312664,
+        "year": 2021
+      },
+      "parent": {
+        "id": "pq2vvq",
+        "text": "\u1e6b\u0338\u0322\u0321\u034d\u0331\u0333\u034d\u032c\u0353\u0349\u0316\u031f\u030e\u0314\u0308\u0301\u034a\u0358\u0315\u035di\u0335\u0322\u034e\u0316\u0317\u033f\u033e\u0350\u0300\u035b\u0350\u0313\u0301\u0352\u0342\u0358\u0315\u035dm\u0337\u031b\u031c\u0320\u034d\u0320\u0354\u034d\u0355\u0326\u0331\u0349\u031f\u0313\u0311\u0342\u0308\u0313\u0352\u0314\u035c\u035de\u0338\u0324\u034d\u0323\u0332\u0356\u0347\u0350\u0304\u0306\u030b\u0313\u0308\u0301\u0311\u034b\u0301\u0312\u0313\u0315\u0315\u0315\u035c\u0345 is running out",
+        "subreddit": "surrealmemes",
+        "created_utc": 1631894267,
+        "year": 2021
+      },
+      "cosine": 0.9889910221099854,
+      "gap_years": 0.1400105506181717
+    },
+    {
+      "child": {
+        "id": "72tgl6",
+        "text": "S\u0329\u0300u\u0316\u032a\u033c\u032f\u034e\u0315r\u0356\u031er\u034f\u0317\u034d\u032e\u031f\u0349\u032e\u034ee\u031f\u0348a\u0322\u0329\u032d\u032f\u032e\u0353l\u0334\u0329\u0347\u0325 \u031bm\u0333\u0348\u033b\u032b\u0354\u031ee\u0353\u031d\u0323\u0319\u1e43\u032e\u0332\u0354\u0329\u034ds\u0324\u033c \u0329\u0356\u034d\u0317\u034d\u0319\u0315\u1e25\u0338\u032a\u0353\u0353\u0320\u0331a\u0355\u0320\u0333\u0353\u031f\u0323v\u0356e\u0320\u033a\u0331\u0329\u0323\u032f \u0333\u032f\u0347\u0354l\u034f\u032be\u031f\u0324\u0330\u0319a\u031e\u0348\u033c\u032d\u031e\u0355\u035dk\u0348\u0354\u035a \u0349\u035a\u0317\u031d\u0317\u0320t\u035do\u0333\u032f\u0354\u0355\u035f \u032ei\u0326\u0348\u0356\u035eF\u0355\u0325\u0326\u032f\u033bu\u0332\u0324\u031d\u0348\u0330\u0358n\u0336n\u032c\u0354\u0326\u0349\u033b\u0349\u033bny\u0353\u032d\u0339\u0354\u0354\u0345\u0345!\u0335\u0323!\u0319\u032f\u032f\u032c\u0348\u032d\u031d\u0315!\u0327\u0317\u0348\u0320\u031d\u032d\u0317",
+        "subreddit": "surrealmemes",
+        "created_utc": 1506530038,
+        "year": 2017
+      },
+      "parent": {
+        "id": "6den1j",
+        "text": "\u1eb8d\u0318\u034e\u0316\u0355\u0315g\u0318\u034d\u0329\u0318e \u0355\u035a\u035a\u0330\u0349\u0358o\u032c\u031e\u0326\u0354\u033b\u0320\u0331f\u0316\u0319\u0317\u035a\u035f \u0321\u0353\u0316t\u032a\u0348\u032e\u031e\u0316h\u031c\u031ei\u031e\u0325\u035cs e\u033b\u0323\u032aa\u033b\u0319\u032e\u0330\u035f\u0155\u0333\u0339\u034e\u035a\u032e\u0354\u0163\u0317\u031f\u0319\u0339\u0355h\u031d\u032a\u0317\u031e\u0354",
+        "subreddit": "surrealmemes",
+        "created_utc": 1495770994,
+        "year": 2017
+      },
+      "cosine": 0.988690197467804,
+      "gap_years": 0.34093353152275085
+    },
+    {
+      "child": {
+        "id": "clemsl",
+        "text": "I\u034f\u0331\u0107\u0356\u035a\u0347\u032a\u0323\u031c\u00f2s\u032b\u033c\u035ea\u032c\u0354\u0319\u0332h\u031c\u033a\u0323\u031d\u0347\u0349\u0354e\u0339\u0349\u0325\u032f\u034e\u032bd\u031e\u034d\u0332\u031c\u0339\u0345r\u0329\u0354\u0349\u033a\u0359\u0320\u0360o\u0319\u034d\u0354\u034d\u033a\u0360n\u033c\u033c\u031c\u032b\u033a\u0333, every side is a reality, now with corruption.",
+        "subreddit": "surrealmemes",
+        "created_utc": 1564806443,
+        "year": 2019
+      },
+      "parent": {
+        "id": "bfcl2r",
+        "text": "A s\u0317\u033b\u0330\u0317\u0330\u032b\u0317i\u0329\u032c\u0333\u0356\u033b\u034e\u0361\u1e4b\u033b\u0356\u0317\u0347\u0356\u032e\u0360\u0360g\u0355\u0354\u031f\u0326\u0318\u034e\u035du\u0327\u0321\u0319\u031e\u0348\u032e\u032a\u0331\u0333\u0324\u0359\u035dl\u0353\u0339\u0361\u0345a\u033b\u035a\u0332\u0353\u032f\u0345r\u035a\u031d\u0359\u0356\u034d\u032b\u0320\u032a\u0362 \u0489\u0359\u0332\u0329\u032b\u034ee\u032a\u0330\u0339\u0362m\u0321\u0328\u0333\u0354\u032b\u0348\u031c\u0333\u0318\u0332b\u0336\u0318\u034d\u0331\u0331\u031e\u0301\u035er\u0321\u0355\u0359\u032c\u0339\u034e\u0318\u034e\u0324a\u0326\u0349\u0320\u033c\u0316\u031c\u035e\u035d\u0345c\u0356\u035d\u0361e\u0321\u0328\u0324 is all I require",
+        "subreddit": "surrealmemes",
+        "created_utc": 1555769501,
+        "year": 2019
+      },
+      "cosine": 0.9886801838874817,
+      "gap_years": 0.286363422870636
+    },
+    {
+      "child": {
+        "id": "88bdmr",
+        "text": "The T\u031e\u0332\u0324\u031e\u035b\u0302\u0311\u033e\u0368 \u0335\u033c\u032b\u0354\u032f\u030a\u034b\u033f\u0369R\u031e\u0353\u0317\u0319\u0305\u0309\u033e \u0337\u0329\u0318\u033a\u0316\u0347\u030c\u0313\u031a\u012e\u0336\u032c\u031f\u0324\u0326\u0329\u0331\u0359\u030b\u0311\u036e\u0306\u0303\u0345 \u034b\u0369\u0307\u033f\u0303\u0308\u0301\u0313\u030d\u0489\u0317\u031d\u034d\u0355\u0324\u0331\u00c3\u0337\u0356\u0352\u0310\u0307\u036b\u0305\u0358 \u031b\u0325\u032a\u032e\u033b\u0349\u0308\u0311\u0302\u0315N\u0335\u033a\u032f\u0356\u033c\u0320\u032c\u0326\u0319\u0304\u0368\u0367 \u0338\u0300\u034f\u033a\u034e\u033c\u032d\u031f\u0333\u033b\u0361G\u0335\u032c\u0348\u0348\u031c\u032f\u032f\u0319\u0354\u036b\u0309\u030a\u013d\u0320\u0331\u0339\u0331\u0319\u0353\u0354\u031d\u0303\u0301\u0350 \u0324\u032a\u0356\u0368\u030d\u0300\u034b\u0366\u0342\u0311\u00c9\u0338\u0347\u0318\u031d\u035b\u036b\u0350\u030a\u036f\u0313\u035d \u0337\u033b\u0324\u031e\u0316\u036a\u036f\u030b\u0312\u0309\u0314\u0360\u0361S\u031b\u0316\u0324\u0323\u032c\u0324\u0339\u0317\u032c\u0352\u030f\u0308\u0301\u0313\u0305\u0360 shall protect us",
+        "subreddit": "surrealmemes",
+        "created_utc": 1522425367,
+        "year": 2018
+      },
+      "parent": {
+        "id": "6xcigm",
+        "text": "\u1e24\u0325 \u0324\u0323\u0325\u0332\u036e\u035b\u0311\u034a\u0301\u0351A\u0355\u0316\u0317\u0325\u0318\u033d\u0313\u0313\u030f\u033e \u0324\u034d\u034d\u032a\u032f\u0331\u034e\u0306\u034b\u0352\u036f\u0313\u0346\u031a\u1e7e\u0330\u0346\u034a\u036d \u0332\u0330\u0309\u0307\u0314\u030aE\u0336\u031f\u032d\u032b\u033a\u0354\u0320\u032e\u034b\u0308\u0301\u0303 \u033c\u0318\u030d\u00c5\u032b\u0332\u0354\u032b \u0325\u0317\u034d\u0354\u0348\u036c\u030d\u0305\u036e\u033f\u0307\u0312\u1e20\u0348\u036e\u0350\u0306\u036f\u0352\u030d \u0334\u031e\u0313\u0301\u034c\u0363\u0369A\u0337\u0332\u032d\u032c\u0320\u0369 \u030dS\u036f\u0314\u036d\u0301\u0308",
+        "subreddit": "surrealmemes",
+        "created_utc": 1504243084,
+        "year": 2017
+      },
+      "cosine": 0.9884399175643921,
+      "gap_years": 0.576161801815033
+    },
+    {
+      "child": {
+        "id": "8blfpz",
+        "text": "And your brain stops t\u0316\u032e\u0360i\u0326\u031e\u034d\u0324\u0319\u031c\u035dc\u0339\u0331\u033a\u0359k\u033c\u0324\u0362\u1ecb\u032a\u032c\u0332\u032f\u0356\u035fn\u0355\u0329\u0332'\u034d\u031d\u0319\u0326\u0356",
+        "subreddit": "surrealmemes",
+        "created_utc": 1523487481,
+        "year": 2018
+      },
+      "parent": {
+        "id": "7vnavm",
+        "text": "t\u0317\u0316\u0360h\u00e9\u031f\u0320\u032b\u0316\u031d\u0329\u0320 \u0338\u0318\u0347\u032e\u0319\u0347\u035ap\u0338\u0316\u0320\u0317\u0317\u0318\u0345r\u0326\u0331\u035di\u0319\u033c\u0347\u035cc\u034d\u031f\u0339\u035a\u031f\u0318\u0345e\u0321\u0317\u032e\u0354\u0348\u0329\u0355\u032a \u0317\u0317o\u034df\u0325\u0333\u0361 \u0328\u0319\u031c\u0317\u0324a\u0359\u032d\u0325\u0329\u035cb\u0301s\u031bc\u035a\u032c\u0356t\u0348\u035d\u0155\u0359\u0353\u0333\u0324\u033ca\u0337\u0339\u0354\u0347\u031cc\u0355\u0319\u0345t\u0336\u033c\u032e\u0359\u0347\u0345",
+        "subreddit": "surrealmemes",
+        "created_utc": 1517923693,
+        "year": 2018
+      },
+      "cosine": 0.9880857467651367,
+      "gap_years": 0.17630580067634583
+    },
+    {
+      "child": {
+        "id": "pq2vvq",
+        "text": "\u1e6b\u0338\u0322\u0321\u034d\u0331\u0333\u034d\u032c\u0353\u0349\u0316\u031f\u030e\u0314\u0308\u0301\u034a\u0358\u0315\u035di\u0335\u0322\u034e\u0316\u0317\u033f\u033e\u0350\u0300\u035b\u0350\u0313\u0301\u0352\u0342\u0358\u0315\u035dm\u0337\u031b\u031c\u0320\u034d\u0320\u0354\u034d\u0355\u0326\u0331\u0349\u031f\u0313\u0311\u0342\u0308\u0313\u0352\u0314\u035c\u035de\u0338\u0324\u034d\u0323\u0332\u0356\u0347\u0350\u0304\u0306\u030b\u0313\u0308\u0301\u0311\u034b\u0301\u0312\u0313\u0315\u0315\u0315\u035c\u0345 is running out",
+        "subreddit": "surrealmemes",
+        "created_utc": 1631894267,
+        "year": 2021
+      },
+      "parent": {
+        "id": "jczwn8",
+        "text": "s\u0337\u0333\u0348\u0356\u0333\u0300\u0302\u0301\u0357\u033e\u0357\u0125\u0338\u0318\u032c\u032a\u033a\u0330\u0323\u0300\u0350\u0300u\u0335\u0359\u0339\u0348\u0359\u035b\u0345t\u0336\u031b\u0354\u0319\u0353\u0309 \u0335\u0331\u031f\u0326\u0301\u0313\u033d\u0304\u0314\u0304u\u0335\u034e\u032f\u033b\u0354\u0326\u0307\u0308\u0342\u0342\u0358p\u0336\u0348\u0354\u0312 \u0337\u031d\u032f\u032f\u031c\u030a\u0306\u0301\u0311\u035c\u1e6b\u0336\u0322\u0332\u0318\u033b\u0325\u00ee\u0337\u0356\u033a\u0347r\u0338\u032c\u0333\u0319\u030a\u035c\u0113\u0335\u0355\u032b\u034e\u0333\u0346\u0358\u0315 \u0336\u031d\u0319\u0333\u031e\u031d\u0305\u0346\u0357\u035c\u0360b\u0334\u0321\u031d\u0347\u0326\u0350\u0300\u0301\u035do\u0334\u0326\u0313\u0308\u0301\u0308\u0301\u0301\u0309\u0350y\u0334\u0348\u0316\u0320\u031f\u0331\u0359\u0314!\u0335\u0317\u032e\u034a\u030b\u0302",
+        "subreddit": "surrealmemes",
+        "created_utc": 1602957697,
+        "year": 2020
+      },
+      "cosine": 0.9879244565963745,
+      "gap_years": 0.9169446229934692
+    },
+    {
+      "child": {
+        "id": "6zak2r",
+        "text": "A\u035en\u031c\u0318\u0323 \u0321\u0319\u032ae\u032b\u033c\u0331a\u033b\u031e\u0359\u0320\u0354\u0316r\u0489\u0356\u0333\u031d\u0317\u031d\u0359l\u031d\u0347y\u0331 \u032b\u032cm\u0324\u0353\u0355\u032d\u032a\u035eo\u0327\u0349\u034d\u0347\u033b\u031d\u032b\u0332r\u0489\u0355\u0345\u1e4b\u034d\u032di\u032a\u0329\u0347\u032a\u031en\u0330\u033a\u032c\u035fg\u032c\u0359\u0324 \u0320\u0301j\u033c\u0359\u0324o\u034d\u0358g\u0325\u0319\u0316\u0361g\u032a\u0325\u032b\u0325",
+        "subreddit": "surrealmemes",
+        "created_utc": 1505074293,
+        "year": 2017
+      },
+      "parent": {
+        "id": "6den1j",
+        "text": "\u1eb8d\u0318\u034e\u0316\u0355\u0315g\u0318\u034d\u0329\u0318e \u0355\u035a\u035a\u0330\u0349\u0358o\u032c\u031e\u0326\u0354\u033b\u0320\u0331f\u0316\u0319\u0317\u035a\u035f \u0321\u0353\u0316t\u032a\u0348\u032e\u031e\u0316h\u031c\u031ei\u031e\u0325\u035cs e\u033b\u0323\u032aa\u033b\u0319\u032e\u0330\u035f\u0155\u0333\u0339\u034e\u035a\u032e\u0354\u0163\u0317\u031f\u0319\u0339\u0355h\u031d\u032a\u0317\u031e\u0354",
+        "subreddit": "surrealmemes",
+        "created_utc": 1495770994,
+        "year": 2017
+      },
+      "cosine": 0.9875431656837463,
+      "gap_years": 0.29480376839637756
+    },
+    {
+      "child": {
+        "id": "w3wljs",
+        "text": "A\u0338\u0354\u0360 \u0337\u0331\u032b\u035b\u033e\u030b\u030bn\u0334\u0347\u0359\u0312\u030a\u0300\u01eb\u0337\u032f\u0359\u0348\u0301\u033e\u035dr\u0338\u0325\u0323\u0357m\u0334\u031d\u0308\u0301\u030e\u0308\u0301a\u0337\u0354\u0319\u0359\u033b\u0316\u0352\u030f\u035dl\u0335\u032c\u0356\u0319\u031e\u031d\u0307\u0350\u0308\u0301\u030f \u0337\u0359\u0302\u0303d\u0338\u032f\u0333\u0331\u0349\u032c\u0312\u0357\u0307\u034a\u030e\u0105\u0337\u0324\u032b\u0317\u033d\u00fd\u0335\u031c\u0354\u0300\u0306 \u0336\u031d\u032c\u031d\u0314\u033f\u00e1\u0334\u033a\u0356\u032b\u0351t\u0336\u0328\u0354\u032e\u0324\u032b\u0312\u030a\u030d\u0308\u0301\u031a \u0336\u0328\u0339\u032d\u0333\u0308\u0301\u0303\u0165\u0334\u032c\u0330\u0329\u0310h\u0336\u032b\u034d\u0346\u0358\u00e8\u0335\u033c\u0304\u033e\u0315 \u0335\u032a\u0356\u0308\u0301\u034b\u0308\u0350\u0315p\u0338\u0331\u0357\u0301\u0311o\u0336\u031d\u0323\u033d\u01eb\u0335\u0327\u034d\u031e\u0356\u033e\u0308\u0307\u031a\u013c\u0335\u0327\u032e\u030a\u033f\u0342\u0301\u035d",
+        "subreddit": "surrealmemes",
+        "created_utc": 1658348913,
+        "year": 2022
+      },
+      "parent": {
+        "id": "ux7pi7",
+        "text": "Beware the \u015d\u0335\u0333\u033c\u0323\u0345\u0205\u0338\u035a\u032f\u0309\u0300\u033d\u035cn\u0336\u0333\u0330\u0326\u0356\u0352t\u0336\u0321\u0327\u032c\u035bi\u0335\u032a\u035b\u0304\u030b\u0306\u00e8\u0338\u034e\u0348\u0301\u0311\u031an\u0334\u0356\u032b\u032b\u030e\u0303\u033e\u031at\u0337\u031b\u033a\u0351\u030e\u035d\u0345 \u0335\u0349\u032a\u030d\u0312\u0311m\u0336\u032e\u032c\u035a\u0356\u0346\u00f2\u0336\u031d\u035a\u031f\u0308\u0301\u035cs\u0338\u035a\u0349\u0320\u030b\u034a\u0350\u035dq\u0338\u033c\u0347\u031c\u0311\u0308\u0301\u035d\u01b0\u0337\u031e\u0352\u0300\u00ed\u0334\u0321\u0359\u0305\u030b\u0313t\u0336\u0324\u031f\u033e\u1ecd\u0338\u031c\u0333\u035d\u0345\u00ea\u0335\u0321s\u0337\u0332\u0324\u030f\u0301\u0313\u0300",
+        "subreddit": "surrealmemes",
+        "created_utc": 1653447060,
+        "year": 2022
+      },
+      "cosine": 0.9870796799659729,
+      "gap_years": 0.1553303450345993
+    },
+    {
+      "child": {
+        "id": "7amfnc",
+        "text": "D\u0334\u0355\u0353\u032d\u0324\u0331\u0324\u031c\u0332\u1edc\u0332\u031e\u0317\u0347\u0354\u034d \u0335\u0322\u0328\u031e\u0331\u0333\u0317\u0317\u0332\u031e\u0317N\u0328\u032bO\u032f\u0317\u0331\u0354\u0330T\u0489\u0316\u0331\u0316 \u035a\u032a\u0353\u0331\u0329\u0332\u0330\u035c\u035e\u0345D\u0316\u0356\u032a\u0300\u0156\u0335\u0327\u0349\u033c\u033c\u035a\u0329\u0317\u0354\u0348O\u0359\u0353\u035fP\u0337\u0489\u0329\u0359\u0353\u0317\u0362 \u031d\u0359\u032f\u0355\u0326\u0332\u033a\u0358\u0361T\u031f\u032d\u0319\u0317H\u0334\u0321\u032f\u035a\u0347\u031f\u0317\u0316\u034d\u0300\u0345E\u0321\u0325\u0345 \u0334\u0355\u0356\u0353\u0345\u015e\u0347\u033a\u031d\u0301\u0362\u0345A\u0322\u031f\u031c\u031d\u0349\u0331\u0323\u0361L\u0337\u0322\u033c\u033a\u0356\u0333\u0354\u031d\u0348\u0345S\u0329\u033b\u0348\u0355\u035a\u0326\u035fA\u032e\u0349\u0325\u0318\u0320\u0329\u0362A\u034e\u032b\u0317\u0348\u0332\u035f\u00c0\u031b\u0354\u031d\u034d\u0339A\u032d\u034e\u0356\u0320\u0348\u0325\u0315\u035fA\u0324\u032a\u0332\u035a\u0355\u033c\u0315",
+        "subreddit": "surrealmemes",
+        "created_utc": 1509744045,
+        "year": 2017
+      },
+      "parent": {
+        "id": "6xmwq9",
+        "text": "T\u032c\u0348\u0320\u032c\u031e\u0360\u0345\u0345 \u034f\u031d\u032a\u00cd\u031d\u0331\u032e\u032d\u032b\u032f\u0329 \u031e\u0318\u033b\u0301M\u032e\u0323\u032b\u0354\u0362 \u0336\u0320\u0319\u0356\u0349\u0355\u032dE\u0332 \u0331i\u0317\u0316\u0323\u0359\u0358s\u0336\u032f\u0359\u032e\u0318\u033c\u0339\u031c \u0339\u0318\u0331\u031c\u0324\u0361l\u0320\u0349\u031c\u0317os\u0330\u032c\u0360t\u0322\u032b\u0323\u031e\u0347\u0330\u0320\u031e!\u0325\u0347\u032e\u0354\u0326\u0349\u0355!\u0355\u0361!\u0328!\u0321\u032f\u033c\u031d\u0325\u0324\u031d",
+        "subreddit": "surrealmemes",
+        "created_utc": 1504368549,
+        "year": 2017
+      },
+      "cosine": 0.9870641231536865,
+      "gap_years": 0.1703391969203949
+    },
+    {
+      "child": {
+        "id": "8cx7ot",
+        "text": "I see a h\u035a\u0316\u031c\u030d\u0303\u0350e\u032e\u031f\u0348\u0323\u0316\u0330\u0329\u0339\u0348\u033e\u0368\u0311\u0351l\u0355\u0356\u0349\u032d\u0330\u036c\u030d\u0364\u0346\u030a\u0368p\u0331\u0331\u032c\u033b\u031e\u0329\u034e\u030c\u0366\u030fi\u031e\u031f\u032b\u033a\u036d\u0312\u036d\u0363m\u0318\u0348\u033a\u032a\u0353\u0369\u0342\u033e\u036a\u0300\u030bt\u0318\u031f\u033c\u0309\u0308\u0301\u0350\u034b\u034c\u030ar\u033c\u032f\u0324\u0308\u036d\u0303\u0368\u0306a\u0318\u032b\u0348\u032d\u034c\u035b\u034c\u0307\u0307\u030dp\u0331\u0331\u032c\u033b\u031e\u0329\u034e\u030c\u0366\u030fp\u0331\u0331\u032c\u033b\u031e\u0329\u034e\u030c\u0366\u030fe\u032e\u031f\u0348\u0323\u0316\u0330\u0329\u0339\u0348\u033e\u0368\u0311\u0351d\u0325\u031d\u032e\u0359\u0348\u0342\u0310\u0307\u036e\u030f\u0314\u0300\u031a\u0345",
+        "subreddit": "surrealmemes",
+        "created_utc": 1523977533,
+        "year": 2018
+      },
+      "parent": {
+        "id": "7594jp",
+        "text": "B\u032d\u032e\u032b\u0354\u0333\u0324\u0356\u0316\u0320\u0311\u0352\u036d\u00ea\u0347\u0316\u031c\u031f\u035a\u0353\u0331\u0349\u032b\u0312d\u0325\u0354\u0349\u0320\u0317\u031d\u0324\u033c\u036f\u035b\u0346\u0351r\u0339\u032b\u0359\u0352\u0302\u030f\u0301\u0364\u030bo\u0348\u0354\u0355\u032b\u0359\u0319\u033e\u0357\u0346\u0312o\u031d\u033a\u0363\u0303\u030d\u0308\u030em\u0349\u033a\u0353\u032a\u030e\u0301\u0303\u036c\u0357\u0363\u0312\u0308\u0301.\u031f\u0353\u0324\u032f\u032a\u0324\u030f\u0305\u036d\u036c\u0367\u0368\u0364\u0303\u0350 \u0332\u0333\u0318\u0320\u0339\u033e\u0346\u0367\u0345 \u0302\u0369\u033f\u030f\u0345K\u033a\u0348\u0317\u0320\u031d\u0356\u031e\u0357\u0304\u0301\u034c\u030c\u0350\u036fi\u035a\u032a\u034c\u035b\u030dt\u0316\u0329\u032f\u0324\u0306\u0364c\u0316\u0354\u0319\u032d\u034a\u0309\u0345\u0125\u032f\u0346\u030b\u036f\u0309\u0364\u0367e\u0359\u0364\u033f\u0304\u034a\u030d\u0313n\u033a\u0323\u0319\u0323\u032d\u0326\u032f\u031e\u0369\u0350\u036e\u030c\u0313\u0301\u0352\u034a.\u035a\u0347\u033a\u035a\u031d\u0350\u0368\u036d \u0331\u0325\u0333\u034d\u0332\u030e\u030a\u0300\u034b\u036b\u030a\u031a \u0317\u032a\u032b\u032b\u031e\u032d\u031e\u030fB\u032d\u0317\u0329\u031d\u0330\u0332\u0355\u0319\u0304\u030e\u0364\u030a\u033e\u0312\u0363\u030d\u031aa\u0356\u031c\u0354\u0326\u032f\u0329\u0355\u0339\u0350\u036f\u0307\u1e71\u032f\u0317\u0320\u0326\u031d\u0312\u036e\u030e\u030d\u0367\u036a\u0368\u031ah\u031d\u0347\u0329\u034d\u0332\u035a\u031f\u0346\u030f\u0368\u036e\u036d\u033e\u0302\u0306\u0352.\u0329\u032f\u032d\u032c\u032a\u031c\u0318\u0356\u0368\u036d\u036a\u030b\u0350\u0304\u0367\u036b\u034b",
+        "subreddit": "surrealmemes",
+        "created_utc": 1507556625,
+        "year": 2017
+      },
+      "cosine": 0.9870628118515015,
+      "gap_years": 0.5203471779823303
+    },
+    {
+      "child": {
+        "id": "6den1j",
+        "text": "\u1eb8d\u0318\u034e\u0316\u0355\u0315g\u0318\u034d\u0329\u0318e \u0355\u035a\u035a\u0330\u0349\u0358o\u032c\u031e\u0326\u0354\u033b\u0320\u0331f\u0316\u0319\u0317\u035a\u035f \u0321\u0353\u0316t\u032a\u0348\u032e\u031e\u0316h\u031c\u031ei\u031e\u0325\u035cs e\u033b\u0323\u032aa\u033b\u0319\u032e\u0330\u035f\u0155\u0333\u0339\u034e\u035a\u032e\u0354\u0163\u0317\u031f\u0319\u0339\u0355h\u031d\u032a\u0317\u031e\u0354",
+        "subreddit": "surrealmemes",
+        "created_utc": 1495770994,
+        "year": 2017
+      },
+      "parent": {
+        "id": "5xfx6t",
+        "text": "d\u0320\u0348\u0317\u031e \u0332o\u033a\u031e\u0326\u0318\u0316 n\u0353\u0348\u0323 \u0326\u0354\u032d\u0339t\u032c\u0324 \u033a\u0347\u0317\u0325\u0323\u0320\u0219\u0316\u035a \u0347h\u033b\u0349\u0347 a\u0354\u034e\u032a\u031c\u0345 \u0316\u032a\u034e\u0331\u032d\u0324t\u033b\u032a\u0320\u0331 \u0329t\u031f\u0330\u034d\u032d \u0355e\u0316\u0349\u0316\u0325\u0325 \u0320r\u0317\u0359 t\u034d \u0326\u032d\u0354\u034dh\u033c\u0318\u0356\u0319\u032f \u031e\u031f\u034d\u0329e\u031c\u035a\u031d\u0359\u031d\u0317 \u034e\u032a\u0326\u031d\u0325\u032c\u0345\u1e73\u031e\u0349 \u0317\u0333\u0349\u033a\u0329n\u031e\u034e\u0316\u0355\u033c \u0320\u0348\u0348\u0359\u032ei \u031ev \u0329\u0359e\u0325\u0333\u0333\u0324\u0356\u0331 \u0324\u0332\u0329\u0354\u032c\u032d\u0355r\u033a\u0316 \u031f\u0332\u0329\u0318\u0319\u032e\u0339s\u032e \u031d\u031c\u0330\u0348e\u0355\u0354\u0359\u032b\u032d\u0349\u0345",
+        "subreddit": "surrealmemes",
+        "created_utc": 1488614159,
+        "year": 2017
+      },
+      "cosine": 0.9869788289070129,
+      "gap_years": 0.22678641974925995
+    },
+    {
+      "child": {
+        "id": "umn9zf",
+        "text": "Ah shit, here we go again.",
+        "subreddit": "memes",
+        "created_utc": 1652201743,
+        "year": 2022
+      },
+      "parent": {
+        "id": "guq89t",
+        "text": "Ah shit, here we go again",
+        "subreddit": "dankmemes",
+        "created_utc": 1591036904,
+        "year": 2020
+      },
+      "cosine": 0.986890435218811,
+      "gap_years": 1.9381968975067139
+    },
+    {
+      "child": {
+        "id": "cxg56f",
+        "text": "\u01cf\u0337\u031f\u032f\u031c\u030d \u0335\u0356\u0319\u032e\u030b\u0300\u0313\u030d\u0307\u034a\u030d\u0315N\u0338\u0322\u0355\u031f\u0349\u0339\u0330\u0326\u030a\u0301\u0315\u031a \u0336\u033b\u0316\u034e\u0332\u0348\u0311\u0311\u0310\u030b\u0303\u0352\u035dF\u0336\u032c\u033b\u0302\u0301\u0308\u0345 \u0338\u0359\u035a\u035a\u0325\u0333\u0308\u0301\u0346U\u0334\u0318\u032e\u033a\u031d\u0350\u033d\u0307\u033d\u0313\u034c \u0334\u0318\u034b\u0302S\u0337\u0354\u0318\u033c\u0319\u035a\u032c\u032b\u0316\u0346\u0303\u0305\u0306\u0308\u0301\u0315\u0345 \u0337\u031b\u032c\u033a\u0316\u0333\u032d\u033c\u032d\u0325\u031c\u0311\u0350I\u0334\u0321\u0356\u0347\u0332\u032c\u0324\u034e\u033c\u033e\u0310\u030c\u0315\u035d \u0338\u0339\u0319\u0346\u0301\u034a\u033f\u0314\u1ecc\u0337\u0350\u033e\u0310\u0307 \u0336\u0355\u0318\u035b\u0313\u0358\u01f8\u0335\u032c\u0326\u0315",
+        "subreddit": "surrealmemes",
+        "created_utc": 1567167607,
+        "year": 2019
+      },
+      "parent": {
+        "id": "ar3x55",
+        "text": "J\u0336\u031b\u035a\u0324\u0333\u0320\u0317\u0312\u0346\u0304\u0346 \u0334\u031b\u0320\u0356\u0342U\u0335\u0332\u0349\u0359\u0350\u0308\u0301\u0311\u0300\u030c \u0336\u0355\u032f\u034d\u033a\u0310\u030e\u0307\u0308\u0301\u031aG\u0336\u0320\u0349\u0353\u0355\u0359\u030e\u033d\u0312\u0300 \u0338\u0339\u033f\u030c\u0352\u030b\u0357\u035cS\u0337\u034e\u0325\u0323\u031f\u0300\u031a (approved yay)",
+        "subreddit": "surrealmemes",
+        "created_utc": 1550281494,
+        "year": 2019
+      },
+      "cosine": 0.9868073463439941,
+      "gap_years": 0.5350885987281799
+    },
+    {
+      "child": {
+        "id": "p5skw3",
+        "text": "Totally not sus code\n01110011 01110101 01100111 01101111 01101110 01100100 01100101 01100101 01110011 00100000 01101110 01110101 01110100 01110011",
+        "subreddit": "copypasta",
+        "created_utc": 1629159029,
+        "year": 2021
+      },
+      "parent": {
+        "id": "4xqpfl",
+        "text": "me irl\n01110100 01101000 01100101 01111001 00100111 01101100 01101100 00100000 01110101 01110000 01110110 01101111 01110100 01100101 00100000 01100001 01101110 01111001 01110100 01101000 01101001 01101110 01100111",
+        "subreddit": "me_irl",
+        "created_utc": 1471217276,
+        "year": 2016
+      },
+      "cosine": 0.9864938855171204,
+      "gap_years": 5.0048723220825195
+    },
+    {
+      "child": {
+        "id": "7ea5in",
+        "text": "It's the little things in life",
+        "subreddit": "wholesomememes",
+        "created_utc": 1511196309,
+        "year": 2017
+      },
+      "parent": {
+        "id": "2iqtr9",
+        "text": "It's the little things in life.",
+        "subreddit": "adviceanimals",
+        "created_utc": 1412846219,
+        "year": 2014
+      },
+      "cosine": 0.9863614439964294,
+      "gap_years": 3.1165263652801514
+    },
+    {
+      "child": {
+        "id": "8x5859",
+        "text": "T\u0338\u0321\u0321\u033c\u0356\u031c\u0324\u0355\u0356\u034e\u0331\u032d\u0323\u0351\u0308\u0301\u030d\u033d\u033d\u0346\u030b\u0307\u0303\u0315\u0315\u035dH\u0336\u0322\u0328\u032f\u0349\u031c\u0354\u031c\u032a\u0356\u0348\u0304\u030b\u035b\u0309\u0310\u0300\u030c\u0312\u0311\u0315\u0358\u031a\u0315\u035d\u035d\u0345I\u0336\u0327\u0327\u0359\u0317\u032b\u0330\u032b\u0347\u0331\u0353\u0349\u033c\u032b\u030d\u0302\u0309\u0314\u0307\u0350\u034b\u0351\u0302\u0312\u0357\u0301\u0313\u0307\u0302S\u0337\u032a\u0355\u0317\u031d\u0332\u0332\u030f\u0305\u0352\u033f\u0307\u0312\u034c\u0304\u035b\u0301\u031a \u0335\u0321\u033c\u032a\u0320\u0314\u034c\u030c\u0308\u0301\u0308\u0301\u035b\u0306\u034a\u030c\u0304\u0315\u0358I\u0334\u0327\u0327\u031d\u0330\u0359\u0326\u0331\u032c\u034d\u033f\u0306\u0310\u0350\u034a\u034cS\u0338\u031b\u033c\u0342\u0301\u0300\u0310\u030c\u0300\u030b\u030d\u031a\u0360\u035d \u0334\u0349\u0305T\u0337\u0353\u0347\u0300\u0309\u030c\u031a\u0360\u1e24\u0335\u0329\u030d\u0311\u030d\u0358\u0228\u0336\u0318\u0347\u031e\u0326\u032d\u034d\u0339\u0323\u033c\u034a\u030e\u035c \u0336\u0356\u035a\u0353\u0320\u0342\u0303\u0303\u0308\u0301\u0302 \ud835\udc35\ud835\udc38\ud835\udc9c\ud835\udc9e\ud835\udc3b.",
+        "subreddit": "surrealmemes",
+        "created_utc": 1531087654,
+        "year": 2018
+      },
+      "parent": {
+        "id": "88fyxc",
+        "text": "They have been R\u0338\u032d\u0330\u031d\u030a\u0311\u0307\u0352\u030aE\u0338\u0322\u0356\u0317\u031e\u033a\u0332\u0339\u031f\u032e\u0347\u0355\u0347\u031f\u0332\u032f\u0342\u0306L\u0337\u0328\u0322\u0329\u0347\u0356\u034d\u031e\u033b\u0317\u034e\u034d\u0353\u035a\u0308\u0301\u0309\u0351\u0303\u034a\u0307\u0313\u0307\u0308\u0301\u0350\u031a\u035c\u035c\u035d\u0112\u0335\u0322\u0327\u0310\u0303\u0303\u0307\u0358\u0315\u00c3\u0335\u032c\u0332\u033e\u0304\u0313\u0301\u030c\u035d\u015e\u0337\u033b\u035a\u0347\u031f\u031c\u0331\u0356\u035a\u032c\u030a\u0352\u030f\u0305\u0304\u033f\u0308\u0301\u034a\u0308\u0346\u0345E\u0334\u0354\u034d\u0346\u0302\u0304\u0350\u030a\u0310\u0351\u0310\u0300\u0350\u0313\u031a\u0358\u1e10\u0337\u032d\u034d\u0339\u0331\u0306\u0301\u0307\u030f\u033e\u0351\u0313\u0304\u034b\u030b\u030d\u0313\u0315",
+        "subreddit": "surrealmemes",
+        "created_utc": 1522465893,
+        "year": 2018
+      },
+      "cosine": 0.9863422513008118,
+      "gap_years": 0.2732071280479431
+    }
+  ],
+  "checkpoint_tokens_seen": 1000079360
+}

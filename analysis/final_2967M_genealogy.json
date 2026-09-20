@@ -1,0 +1,1027 @@
+{
+  "checkpoint_tokens_seen": 2967470080,
+  "sampled_nodes": 17014,
+  "clean_nodes": 16508,
+  "linked_nodes": 3545,
+  "edges": 2644,
+  "rejected": {
+    "single_word_repetition": 23,
+    "url": 176,
+    "bot_or_spam": 26,
+    "combining_mark_artifact": 254,
+    "punctuation_near_copy": 27
+  },
+  "selection": {
+    "random_pair_q999_cosine": 0.7914344072341919,
+    "absolute_cosine_floor": 0.85,
+    "effective_cosine_threshold": 0.85,
+    "time_penalty_per_year": 0.02,
+    "null_pairs": 100000
+  },
+  "components_size_at_least_3": 325,
+  "largest_component_sizes": [
+    136,
+    129,
+    89,
+    75,
+    50,
+    40,
+    35,
+    34,
+    32,
+    29,
+    28,
+    27,
+    27,
+    26,
+    26,
+    25,
+    22,
+    21,
+    21,
+    20
+  ],
+  "cross_subreddit_edge_rate": 0.3691376701966717,
+  "top_components": [
+    {
+      "index": 0,
+      "size": 136,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 134,
+        "dankmemes": 1,
+        "comedyheaven": 1
+      },
+      "early": [
+        "Le health crisis has arrived",
+        "Le nightmare has arrived",
+        "Le sculpture has arrived"
+      ],
+      "hubs": [
+        {
+          "text": "Le angst has arrived",
+          "children": 8
+        },
+        {
+          "text": "Le island has arrived",
+          "children": 7
+        },
+        {
+          "text": "Le transparency has arrived",
+          "children": 6
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "size": 129,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "bonehurtingjuice": 128,
+        "2meirl4meirl": 1
+      },
+      "early": [
+        "ow ouch oofity ow ouchity ow",
+        "oof ouch owie my karma",
+        "Owie ouch bone hurting sign"
+      ],
+      "hubs": [
+        {
+          "text": "Oof ouch owie my skin.",
+          "children": 9
+        },
+        {
+          "text": "oof ouch owie my karma",
+          "children": 8
+        },
+        {
+          "text": "Oof ouch my existence",
+          "children": 5
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "size": 89,
+      "years": [
+        2016,
+        2022
+      ],
+      "subreddits": {
+        "2meirl4meirl": 89
+      },
+      "early": [
+        "2meirl4meirl\nI'm not very happy with my life.",
+        "2meirl4meirl\nI go about my day hoping to die in a freak accident.",
+        "2meirl4meirl\nAll I really want is to not wake up in the morning wishing I had died in my sleep. Whatever it takes."
+      ],
+      "hubs": [
+        {
+          "text": "2meirl4meirl\ni hate myself",
+          "children": 8
+        },
+        {
+          "text": "2meirl4meirl\nI'm not very happy with my life.",
+          "children": 7
+        },
+        {
+          "text": "2meirl4meirl I'm gauging this",
+          "children": 5
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "size": 75,
+      "years": [
+        2014,
+        2022
+      ],
+      "subreddits": {
+        "starterpacks": 75
+      },
+      "early": [
+        "The \"my daughter's a cheerleader\" starter pack",
+        "The \"black uncle on the grill\" starter pack",
+        "The \"cool skater\" starter pack"
+      ],
+      "hubs": [
+        {
+          "text": "The \"cool skater\" starter pack",
+          "children": 5
+        },
+        {
+          "text": "The Robinhood \"Day Trader\" Starterpack",
+          "children": 4
+        },
+        {
+          "text": "The \"No Life\" Starter Pack.",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "size": 50,
+      "years": [
+        2018,
+        2022
+      ],
+      "subreddits": {
+        "dogelore": 50
+      },
+      "early": [
+        "le dark matter has arrived",
+        "le black hole has arrived",
+        "le anime has arrived"
+      ],
+      "hubs": [
+        {
+          "text": "le black hole has arrived",
+          "children": 7
+        },
+        {
+          "text": "le death has arrived",
+          "children": 5
+        },
+        {
+          "text": "le life threatening situation has arrived",
+          "children": 4
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "size": 40,
+      "years": [
+        2015,
+        2022
+      ],
+      "subreddits": {
+        "copypasta": 15,
+        "dogelore": 14,
+        "2meirl4meirl": 1,
+        "comedyheaven": 2,
+        "shitposting": 3,
+        "surrealmemes": 1,
+        "memes": 1,
+        "dankmemes": 1,
+        "okbuddyretard": 1,
+        "memeeconomy": 1
+      },
+      "early": [
+        "WEE WOO WEE WOO\n🚨🚨🚨 WEE WOO WEE WOO WEE WOO 🚨🚨🚨 YOU ARE BEING DETAINED 👮🏻👮🏻👮🏻 FOR BEING AWAKE DURING REAL NIGGA HOURS 🕐👌🏻😏 PLEASE SHOW ME YOUR REAL NIGGA REGIST",
+        "DOOT DOOT💀💀 HALLOWEEN IS NOW!!!! 📢📢👻 TIME TO GET SPOOKY👻🎃👻 FOR HALLOWEEN 👻👻🎃🎃 HALLOWEEN 🎃🙌🏼🙌🏼👻 GET YOUR TRUMPETS AND PRAY TO MR SKELETAL 💀💀💀🎺🎺🎺 BECAUSE🎃HALLOWEE",
+        "Prankd\n😈FUCK😰YOU😲😲😲WHOA BRO🙈🙀its JUST A PRANK!!!👉👊😂YOUVE JUST BEEN 💢💢💢PRANK'D💢💢💢SEND THIS TO 10 🔗🔗OTHER JOKESTERS⚠⚠to PRANK THEM TOO🏃 HURRY UP OR ELSE🏃YOULL NEV"
+      ],
+      "hubs": [
+        {
+          "text": "DOGECOIN BREAKING NEWS & PRICE PREDICTIONS! DOGE TO $1!!! ELON MUSK LATEST TWEET!!",
+          "children": 5
+        },
+        {
+          "text": "MR KRABS OVERDOSES ON KETAMINE AND DIES ANY PERCENT 40 SECOND SPEEDRUN",
+          "children": 4
+        },
+        {
+          "text": "THE GROOVING GORILLA FROM TIK TOK GETS PACKED UP‼️😂",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "size": 35,
+      "years": [
+        2015,
+        2020
+      ],
+      "subreddits": {
+        "memeeconomy": 6,
+        "okbuddyretard": 7,
+        "memes": 3,
+        "copypasta": 5,
+        "dankmemes": 4,
+        "starterpacks": 1,
+        "shitposting": 5,
+        "me_irl": 1,
+        "surrealmemes": 2,
+        "adviceanimals": 1
+      },
+      "early": [
+        "!! BREAKING IMPORTANT ADMIN UPDATE REGARDING THE QUALITY OF MEME FROM THIS SUB LATELY !!\ns\ndf\nkill urselves",
+        "DANKEST AND MOST SPECTACULAR PIECE OF ART VIDEO ON THE INTERWEBS UPDOOT IN 2.34523 SECS OR QUEEF 💎♿♿😀♿🎃🎃",
+        "PARODY MEMES ARE MAKING A BREAKTHROUGH INVEST NOW BEFORE THE PRICES SKYROCKET DURING THE HOLIDAYS!!!"
+      ],
+      "hubs": [
+        {
+          "text": "ADVANCED ARTIFICIAL INTELLIGENCE AL GORE RHYTHM PREDICTS SULTAN OF SWAT CARDS ARE ON THE RISE! POST HERE TO RESERVE THOSE TEMPLATES!",
+          "children": 8
+        },
+        {
+          "text": "PARODY MEMES ARE MAKING A BREAKTHROUGH INVEST NOW BEFORE THE PRICES SKYROCKET DURING THE HOLIDAYS!!!",
+          "children": 4
+        },
+        {
+          "text": "OM MY GOD PUMPKI IS RAPPER THANOS BABY RUUNn!!!!!",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "size": 34,
+      "years": [
+        2014,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 33,
+        "memes": 1
+      },
+      "early": [
+        "The Ron Swanson starter pack.",
+        "The football hooligan starter pack",
+        "The teenage weed dealer starter pack"
+      ],
+      "hubs": [
+        {
+          "text": "The black dad starter pack",
+          "children": 4
+        },
+        {
+          "text": "The Lithuanian starter pack",
+          "children": 4
+        },
+        {
+          "text": "The Ron Swanson starter pack.",
+          "children": 4
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "size": 32,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 32
+      },
+      "early": [
+        "Invest in JPEG memes asap",
+        "Invest in appreciation memes",
+        "Invest in the lego format of memes"
+      ],
+      "hubs": [
+        {
+          "text": "Invest in this template for smashing returns!",
+          "children": 6
+        },
+        {
+          "text": "Invest in new format!",
+          "children": 5
+        },
+        {
+          "text": "Invest in new template",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "size": 29,
+      "years": [
+        2014,
+        2021
+      ],
+      "subreddits": {
+        "starterpacks": 29
+      },
+      "early": [
+        "The \"I'm trying to be black, but really I'm white\" starter pack",
+        "The \"I'm not like other guys\" starter pack",
+        "The \"I'm a girl and totally into sports\" starter pack"
+      ],
+      "hubs": [
+        {
+          "text": "The \"I'm not like other guys\" starter pack",
+          "children": 5
+        },
+        {
+          "text": "The \"I'm from Lansing\" starter pack",
+          "children": 4
+        },
+        {
+          "text": "The \"I play hockey\" starter pack.",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "size": 28,
+      "years": [
+        2020,
+        2022
+      ],
+      "subreddits": {
+        "okbuddyretard": 24,
+        "copypasta": 3,
+        "shitposting": 1
+      },
+      "early": [
+        "when someone says I have to quarantine with my wife 😂🤣😂🤣🥶🥶🥵🥵🧐🧐🧐",
+        "LET ME TUCH TEM PLEEZ 😦😧😧😨😨🤯🤯🥵🥵🥵",
+        "MOM TOOK AWAY IPHONE 🤬🤬🤬😡😡😭😭😭😭😭😭😳😳😳😢😢😤😠😠😭"
+      ],
+      "hubs": [
+        {
+          "text": "MOM TOOK AWAY IPHONE 🤬🤬🤬😡😡😭😭😭😭😭😭😳😳😳😢😢😤😠😠😭",
+          "children": 4
+        },
+        {
+          "text": "Fuck the tyrannical moderators (Like I do with ur mom 🤓🤓). SIC SEMPER TYRANNIS! 😂🤨🤨😘😔😔😘🤩😘🤣🤪😎😎😎😎😎😎😎",
+          "children": 3
+        },
+        {
+          "text": "Get rekt kyle lmfao 🤭🤭🤣🤣🤣👿👿",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "size": 27,
+      "years": [
+        2015,
+        2022
+      ],
+      "subreddits": {
+        "2meirl4meirl": 4,
+        "shitposting": 3,
+        "bonehurtingjuice": 1,
+        "okbuddyretard": 1,
+        "comedyheaven": 2,
+        "dankmemes": 4,
+        "me_irl": 2,
+        "memeeconomy": 1,
+        "wholesomememes": 2,
+        "memes": 6,
+        "surrealmemes": 1
+      },
+      "early": [
+        "It BE Like That Sometimes... it really does",
+        "It do be like dat sometimes",
+        "It really be like that tho"
+      ],
+      "hubs": [
+        {
+          "text": "It really be like that tho",
+          "children": 5
+        },
+        {
+          "text": "It do be like that....",
+          "children": 3
+        },
+        {
+          "text": "It do be like dat sometimes",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "size": 27,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 27
+      },
+      "early": [
+        "Invest in dog love for unconditional profit!",
+        "Invest in charisma cat!",
+        "Invest in Botox cowboy"
+      ],
+      "hubs": [
+        {
+          "text": "Invest in steampunk cat template ;)",
+          "children": 6
+        },
+        {
+          "text": "Invest in Elon Musk template",
+          "children": 3
+        },
+        {
+          "text": "Invest in Botox cowboy",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "size": 26,
+      "years": [
+        2015,
+        2021
+      ],
+      "subreddits": {
+        "memes": 1,
+        "starterpacks": 24,
+        "shitposting": 1
+      },
+      "early": [
+        "The Baltimore Protester Starter Pack",
+        "The Festie Chick Starter Pack",
+        "The West Side Vancouver Housewife Starter Pack"
+      ],
+      "hubs": [
+        {
+          "text": "The Hipster Photographer Starter Pack",
+          "children": 4
+        },
+        {
+          "text": "The Christian Film Maker Starterpack.",
+          "children": 3
+        },
+        {
+          "text": "The Baltimore Protester Starter Pack",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "size": 26,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 26
+      },
+      "early": [
+        "Invest in this surprised baby",
+        "Invest in this hot, disgusting mess!",
+        "Invest in this quickie!"
+      ],
+      "hubs": [
+        {
+          "text": "Invest in the afterlife",
+          "children": 7
+        },
+        {
+          "text": "Invest in this template",
+          "children": 5
+        },
+        {
+          "text": "Invest in this surprised baby",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "size": 25,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memes": 1,
+        "me_irl": 3,
+        "wholesomememes": 5,
+        "comedyheaven": 4,
+        "surrealmemes": 1,
+        "okbuddyretard": 1,
+        "dogelore": 2,
+        "dankmemes": 3,
+        "bonehurtingjuice": 1,
+        "adviceanimals": 4
+      },
+      "early": [
+        "It isn’t a big deal guys",
+        "It’s not funny anymore",
+        "It’s a fricken donkey"
+      ],
+      "hubs": [
+        {
+          "text": "It’s an emotional time.",
+          "children": 4
+        },
+        {
+          "text": "It’s not funny anymore",
+          "children": 3
+        },
+        {
+          "text": "It’s stuffy open the window",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "size": 22,
+      "years": [
+        2015,
+        2022
+      ],
+      "subreddits": {
+        "starterpacks": 22
+      },
+      "early": [
+        "\"Teenage weed dealer\" Starter pack",
+        "\"Black Father\" Starter Pack",
+        "\"Annoying YouTuber\" starter pack"
+      ],
+      "hubs": [
+        {
+          "text": "\"Facebook Meteorologist\" starter pack",
+          "children": 6
+        },
+        {
+          "text": "\"Teenage weed dealer\" Starter pack",
+          "children": 4
+        },
+        {
+          "text": "\"Popular British teenage girl\" starter pack",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "size": 21,
+      "years": [
+        2014,
+        2021
+      ],
+      "subreddits": {
+        "2meirl4meirl": 9,
+        "me_irl": 11,
+        "wholesomememes": 1
+      },
+      "early": [
+        "me irl (x-post from /r/funny)",
+        "me irl (x post from WTF)",
+        "me_irl (saw on r/funny)"
+      ],
+      "hubs": [
+        {
+          "text": "me irl (x-post from /r/funny)",
+          "children": 5
+        },
+        {
+          "text": "2meirl4meirl (x-post from r/comics)",
+          "children": 2
+        },
+        {
+          "text": "2meirl4meirl (X-post from /r/youdontsurf)",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "size": 21,
+      "years": [
+        2017,
+        2022
+      ],
+      "subreddits": {
+        "memes": 1,
+        "memeeconomy": 1,
+        "surrealmemes": 11,
+        "dogelore": 1,
+        "dankmemes": 3,
+        "comedyheaven": 2,
+        "bonehurtingjuice": 1,
+        "shitposting": 1
+      },
+      "early": [
+        "H E L E N K E L L E R",
+        "T H E M A N H E A D D I S W A T C H I N G E V E R Y Y O U",
+        "I T I S M E M E W I T H B E P S U"
+      ],
+      "hubs": [
+        {
+          "text": "D O E S H E G E T I N ?",
+          "children": 4
+        },
+        {
+          "text": "T H E M A N H E A D D I S W A T C H I N G E V E R Y Y O U",
+          "children": 4
+        },
+        {
+          "text": "S T R E A M S N I P I N G",
+          "children": 4
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "size": 20,
+      "years": [
+        2013,
+        2021
+      ],
+      "subreddits": {
+        "copypasta": 11,
+        "okbuddyretard": 3,
+        "shitposting": 2,
+        "dankmemes": 1,
+        "me_irl": 2,
+        "memes": 1
+      },
+      "early": [
+        "You can't just laugh on the Internet\nYOU CAN'T LAUGH OVER THE INTERNET DUMBASS. LOL! YOU SEE I JUST PROVE YOU ARE A REAL DUMB ASS. AND YOU KEEP SPAMMING \"-_-\" L",
+        "\"Stop fetishizing blacks you weak racist white faggots\"\nSTOP SAYING MC RIDE YOU 4CHAN SLAVE FAGGOTS I HAVE READ EVERY INTERVIEW WITH DEATH GRIPS THEY NEVER ACKN",
+        "me irl\nWARNING: IF YOU HAVE A HEART CONDITION DO NOT READ THIS. YOU WILL DROP THE FLOOR, FLOPPING LIKE A FISH, WHILE CLENCHING YOUR HEART SEEING AS YOU ARE HAVI"
+      ],
+      "hubs": [
+        {
+          "text": "Birthday Games on Google+ are maDE BY THE ILLUMINATI TO DISCOVER YOUR BIRTHDAY\nYOU IDIOTS! YOU DARE FALL FOR THE LIE THAT IS BIRTHDAY GAMES!? THEY ARE MADE BY T",
+          "children": 5
+        },
+        {
+          "text": "\"Stop fetishizing blacks you weak racist white faggots\"\nSTOP SAYING MC RIDE YOU 4CHAN SLAVE FAGGOTS I HAVE READ EVERY INTERVIEW WITH DEATH GRIPS THEY NEVER ACKN",
+          "children": 4
+        },
+        {
+          "text": "OMGG!!1!11! BEN SHAPIRO IS SOOO EPICC GAMER LIBTARDS GET TROLLED EPIC STYLE 😎😎😎",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "size": 20,
+      "years": [
+        2015,
+        2019
+      ],
+      "subreddits": {
+        "copypasta": 20
+      },
+      "early": [
+        "It is COCKtober🍆\nIt's COCKtober🍆🎃 u know what that means 👀👅 Dick sucking awareness month😮🙆🏻👅 send this to 12 of ur closest hoes 👭😈 that love that dick 🍆🍆🍆💦💦💦",
+        "💯NicE🔥 fUckin🔥 ✔👌✔meme 💯👀m8y t0o bad 💯the👻🎃 sp0opky🎃👻 pirate💦💦 is 0n his 👀way tO steal👀👀 ur mEmeS repOst 👌this 💯👌to keep💯💯 ur b00ty👌🔥👀\n💯NicE🔥 fUckin🔥 ✔👌✔meme 💯👀",
+        "🔫🔫☣☢daNGerous shit🔫 ☢dangerous 🚬shit 💉 tHats some🔫 ☣ d angerous sHit 🔫🔫 right 💉thEre"
+      ],
+      "hubs": [
+        {
+          "text": "It is COCKtober🍆\nIt's COCKtober🍆🎃 u know what that means 👀👅 Dick sucking awareness month😮🙆🏻👅 send this to 12 of ur closest hoes 👭😈 that love that dick 🍆🍆🍆💦💦💦",
+          "children": 4
+        },
+        {
+          "text": "CHUJ GUCH\nDenTruMoo\nDrop a Boogie Bomb 💣 like ooo. Y’all get Rookie👶🏻 on this doo💩. Grab the bag 💼 and Rendezvous, we gon get this 🔱W🔱. 📚Stacking 📚 the sources ",
+          "children": 3
+        },
+        {
+          "text": "💯NicE🔥 fUckin🔥 ✔👌✔meme 💯👀m8y t0o bad 💯the👻🎃 sp0opky🎃👻 pirate💦💦 is 0n his 👀way tO steal👀👀 ur mEmeS repOst 👌this 💯👌to keep💯💯 ur b00ty👌🔥👀\n💯NicE🔥 fUckin🔥 ✔👌✔meme 💯👀",
+          "children": 3
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "size": 18,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "me_irl": 3,
+        "shitposting": 2,
+        "comedyheaven": 2,
+        "copypasta": 1,
+        "bonehurtingjuice": 2,
+        "2meirl4meirl": 2,
+        "memes": 2,
+        "dankmemes": 2,
+        "adviceanimals": 1,
+        "surrealmemes": 1
+      },
+      "early": [
+        "I don’t see what’s wrong",
+        "I don’t think that’s Shrek 3...",
+        "I don’t know where this belongs"
+      ],
+      "hubs": [
+        {
+          "text": "I don’t think we were cool",
+          "children": 3
+        },
+        {
+          "text": "I don’t know where this belongs",
+          "children": 2
+        },
+        {
+          "text": "I don't know how to do anything.",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "size": 17,
+      "years": [
+        2016,
+        2022
+      ],
+      "subreddits": {
+        "starterpacks": 17
+      },
+      "early": [
+        "Preachy Travel Blogger Starter Pack",
+        "Basic Suburban Housewife Starter Pack",
+        "Asian Grocery Store Starter Park"
+      ],
+      "hubs": [
+        {
+          "text": "Basic Suburban Housewife Starter Pack",
+          "children": 4
+        },
+        {
+          "text": "Basic Black Girl Starterpack",
+          "children": 3
+        },
+        {
+          "text": "Preachy Travel Blogger Starter Pack",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "size": 17,
+      "years": [
+        2016,
+        2022
+      ],
+      "subreddits": {
+        "starterpacks": 17
+      },
+      "early": [
+        "Popular buzzwords on reddit starterpack",
+        "Popular song in 2017 starter pack",
+        "Popular Reddit Circlejerk Starter Pack"
+      ],
+      "hubs": [
+        {
+          "text": "Indian Youtube trending section starter pack",
+          "children": 3
+        },
+        {
+          "text": "Popular buzzwords on reddit starterpack",
+          "children": 2
+        },
+        {
+          "text": "Street fight comment section starter pack",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "size": 17,
+      "years": [
+        2016,
+        2020
+      ],
+      "subreddits": {
+        "comedyheaven": 1,
+        "memeeconomy": 15,
+        "shitposting": 1
+      },
+      "early": [
+        "PENCE MEMES SKYROCKETING! BUY BUY BUY!",
+        "Mountain climber memes on the rise! BUY BUY BUY!!!",
+        "Biggie Cheese memes are soon going to explode. BUY BUY BUY!!!"
+      ],
+      "hubs": [
+        {
+          "text": "Mountain climber memes on the rise! BUY BUY BUY!!!",
+          "children": 4
+        },
+        {
+          "text": "SALTY SPLATOON FORMAT ON THE RISE INVEST (+0.33)",
+          "children": 3
+        },
+        {
+          "text": "NEW GIANT ORANGUTAN MEME TEMPLATE. VERY VERSITILE, INVEST NOW!",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "size": 16,
+      "years": [
+        2018,
+        2021
+      ],
+      "subreddits": {
+        "dogelore": 16
+      },
+      "early": [
+        "Le dogechomp has arrived",
+        "Le apothicon has arrived",
+        "Le Kiwifarms has arrived"
+      ],
+      "hubs": [
+        {
+          "text": "Le dogechomp has arrived",
+          "children": 4
+        },
+        {
+          "text": "Le terminator doge has arrived",
+          "children": 4
+        },
+        {
+          "text": "Le pyro doge has arrived",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "size": 16,
+      "years": [
+        2021,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 1,
+        "wholesomememes": 3,
+        "dogelore": 3,
+        "shitposting": 1,
+        "adviceanimals": 2,
+        "2meirl4meirl": 2,
+        "starterpacks": 1,
+        "bonehurtingjuice": 1,
+        "okbuddyretard": 2
+      },
+      "early": [
+        "🟩🟩 NOW LIVE 🟩🟩 🔒 LIQUIDITY LOCKED 🔒 ✔️ OWNERSHIP RENOUNCED 🚀🚀 HUGE LONG TERM POTENTIAL 🚀🚀",
+        "🚀 BIG POTENTIAL 🚀 - NO DEV WALLET - RENOUNCED CONTRACT - STAKE AND REWARD - BITNIK TOKEN 🔥",
+        "🌕MOONSMART.ORG 🌕 NEW GEMS x10 ON LISTING - THE INNOVATION OF DEFLATED TOKEN AND NEVER PANIC SELL, CHECK SMART RULES BELOW ⬇"
+      ],
+      "hubs": [
+        {
+          "text": "ENGLISH LEXIS AND STRUCTURE: WAEC ENGLISH PAST QUESTIONS - LEARN AT HOME SERIES 1",
+          "children": 3
+        },
+        {
+          "text": "THE SECRETS OF FORMAL LETTER WRITING IN WASSCE ENGLISH",
+          "children": 3
+        },
+        {
+          "text": "✔️📍 ELECTRIC SOLAR CARS 4 WHEELS VANS TRICYCLES TRUCKS SEDANS GREEN ENE...",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "size": 15,
+      "years": [
+        2016,
+        2022
+      ],
+      "subreddits": {
+        "2meirl4meirl": 15
+      },
+      "early": [
+        "2meirl4meirl\nI basically burnt through the entirety of regular culture and internet culture before I turned 20. Now the only things that really entertain me are",
+        "2Meirl4Meirl\nBefore I was afraid of my family finding my phone gallery because of Porn.\nNow I'm afraid that they'll find all these depressing memes and send me ",
+        "2meirl4meirl\nI am hung over from going out last night to celebrate my birthday. I just woke up hearing my sister tell my parents how I ruined the night but they"
+      ],
+      "hubs": [
+        {
+          "text": "2meirl4meirl\nSlept for sixteen hours today and woke up feeling worse than usual to my family getting pissed because I slept through most of the day. Basically e",
+          "children": 4
+        },
+        {
+          "text": "2meirl4meirl\nI am hung over from going out last night to celebrate my birthday. I just woke up hearing my sister tell my parents how I ruined the night but they",
+          "children": 3
+        },
+        {
+          "text": "2meirl4meirl\nI am depressed and hate myself but instead of actually doing anything about it I thorough a pity party circle jerk for myself. I know I’m quirky😳",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "size": 15,
+      "years": [
+        2019,
+        2022
+      ],
+      "subreddits": {
+        "memeeconomy": 15
+      },
+      "early": [
+        "Invest in James Charles now",
+        "Invest in Tom Hanks in Cast Away!",
+        "Invest in Terry Tate tackling Trump"
+      ],
+      "hubs": [
+        {
+          "text": "Invest in Terry Tate tackling Trump",
+          "children": 4
+        },
+        {
+          "text": "Invest in James Charles now",
+          "children": 2
+        },
+        {
+          "text": "Invest in Leo eating!",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "size": 14,
+      "years": [
+        2011,
+        2012
+      ],
+      "subreddits": {
+        "memes": 11,
+        "adviceanimals": 3
+      },
+      "early": [
+        "I don't always mistype my password...",
+        "I don't always shower at the gym...",
+        "I don't always clean..."
+      ],
+      "hubs": [
+        {
+          "text": "I don't always touch penis...",
+          "children": 6
+        },
+        {
+          "text": "I don't always clean...",
+          "children": 4
+        },
+        {
+          "text": "I don't always mistype my password...",
+          "children": 2
+        }
+      ]
+    }
+  ],
+  "graph_volume_path": "/data/analysis/final_2967M/genealogy/graph.json"
+}

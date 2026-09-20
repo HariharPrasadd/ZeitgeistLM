@@ -1,0 +1,320 @@
+{
+  "checkpoint_tokens_seen": 2967470080,
+  "settings": {
+    "seed": 42,
+    "top_k": 50,
+    "temperature": 0.8,
+    "new_tokens": 64,
+    "min_document_tokens": 16,
+    "prompts": [
+      "bro really thought",
+      "when you realize",
+      "nobody:",
+      "me when",
+      "this is fine",
+      "stonks",
+      "le doge has arrived",
+      "it's free real estate",
+      "sir this is a Wendy's",
+      "we live in a society",
+      "the meme economy",
+      "that feeling when"
+    ],
+    "dates": [
+      "2016",
+      "2020",
+      "2022",
+      "2023"
+    ]
+  },
+  "samples": [
+    {
+      "prompt": "bro really thought",
+      "date": "2016",
+      "first_document": " it was hilarious.\nEDIT: Just re-read your comment now. That's what I did and it's been 3 years and I still can't find it.",
+      "continuation": " it was hilarious.\nEDIT: Just re-read your comment now. That's what I did and it's been 3 years and I still can't find it.<|endoftext|><|subreddit_adviceanimals|> Oh no, it's a thing.<|endoftext|><|subreddit_adviceanimals"
+    },
+    {
+      "prompt": "bro really thought",
+      "date": "2020",
+      "first_document": " this was just a joke to begin with. Nice job, you get an upvote.",
+      "continuation": " this was just a joke to begin with. Nice job, you get an upvote.<|endoftext|><|subreddit_memes|> Who the fuck wants to live in a fucking hospital<|endoftext|><|subreddit_memes|> I don't know if this is a repost but here it is<|endoftext|><"
+    },
+    {
+      "prompt": "bro really thought",
+      "date": "2022",
+      "first_document": " it was a good meme! But alas, some people may have said it, and you cannot be certain it was just a bad idea!",
+      "continuation": " it was a good meme! But alas, some people may have said it, and you cannot be certain it was just a bad idea!<|endoftext|><|subreddit_memes|> I am from a middle east country so they're not the same<|endoftext|><|subreddit_memes|> Why is that"
+    },
+    {
+      "prompt": "bro really thought",
+      "date": "2023",
+      "first_document": " it was a good meme\nAnd the person who made it didn't, he just thought it was a good meme template",
+      "continuation": " it was a good meme\nAnd the person who made it didn't, he just thought it was a good meme template<|endoftext|><|subreddit_shitposting|> I thought he was dead<|endoftext|><|subreddit_shitposting|> I have this exact same pillow<|endoftext|><|subreddit_shit"
+    },
+    {
+      "prompt": "when you realize",
+      "date": "2016",
+      "first_document": " that you should be happy but also you won't be able to handle it in the long run. I mean, if you're not happy and that's all that matters.",
+      "continuation": " that you should be happy but also you won't be able to handle it in the long run. I mean, if you're not happy and that's all that matters.<|endoftext|><|subreddit_starterpacks|> It's always the people who are trying to get the most popular and not the kind of people"
+    },
+    {
+      "prompt": "when you realize",
+      "date": "2020",
+      "first_document": " that you were the only one left out before the game started. Good times.",
+      "continuation": " that you were the only one left out before the game started. Good times.<|endoftext|><|subreddit_memes|> It's the only way I can tell you to fuck off<|endoftext|><|subreddit_memes|> I don't know what it is but I just want someone to look at me"
+    },
+    {
+      "prompt": "when you realize",
+      "date": "2022",
+      "first_document": " that you just made this meme on your phone :/\nYou get banned on r/memes and you get banned on r/memes",
+      "continuation": " that you just made this meme on your phone :/\nYou get banned on r/memes and you get banned on r/memes<|endoftext|><|subreddit_memes|> *you are welcome*<|endoftext|><|subreddit_memes|> I'm not, I can't say I disagree"
+    },
+    {
+      "prompt": "when you realize",
+      "date": "2023",
+      "first_document": " that you just made this meme, don't put it in the fucking title of the meme",
+      "continuation": " that you just made this meme, don't put it in the fucking title of the meme<|endoftext|><|subreddit_shitposting|> The fuck?<|endoftext|><|subreddit_shitposting|> I feel you pain man<|endoftext|><|subreddit_shitposting|> *I'll take your"
+    },
+    {
+      "prompt": "nobody:",
+      "date": "2016",
+      "first_document": "\n>No one ever wants to fuck, as long as it's not the gay shit that keeps me from getting to a point where I don't get tired of it.\nThis is why i've always felt like a jerk with gay people in my life. I'm not gay, but the way you guys are",
+      "continuation": "\n>No one ever wants to fuck, as long as it's not the gay shit that keeps me from getting to a point where I don't get tired of it.\nThis is why i've always felt like a jerk with gay people in my life. I'm not gay, but the way you guys are"
+    },
+    {
+      "prompt": "nobody:",
+      "date": "2020",
+      "first_document": "\nMe: *takes up*\nNanime: what did we do to deserve this.\nMe: *gets out of bed and looks away*\nNanime: *shuts the chair back*\nMe: *sees this*\nMe: *sees another*\nMe:",
+      "continuation": "\nMe: *takes up*\nNanime: what did we do to deserve this.\nMe: *gets out of bed and looks away*\nNanime: *shuts the chair back*\nMe: *sees this*\nMe: *sees another*\nMe:"
+    },
+    {
+      "prompt": "nobody:",
+      "date": "2022",
+      "first_document": "\nMe:\nMy brother\nmy grandpa:\nMy family:\nMy grandma:\nmy grandpa:\nMy grandma:\nMe:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grand",
+      "continuation": "\nMe:\nMy brother\nmy grandpa:\nMy family:\nMy grandma:\nmy grandpa:\nMy grandma:\nMe:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grand"
+    },
+    {
+      "prompt": "nobody:",
+      "date": "2023",
+      "first_document": "\nMe:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting",
+      "continuation": "\nMe:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting"
+    },
+    {
+      "prompt": "me when",
+      "date": "2016",
+      "first_document": " I was 10.\nSo it's cool to be a bit younger than a lot of people on reddit, but when I was a kid, my mum didn't understand the concept of words. My mom didn't understand the concept of language, but she understood the concept of words.\nI remember the context of the",
+      "continuation": " I was 10.\nSo it's cool to be a bit younger than a lot of people on reddit, but when I was a kid, my mum didn't understand the concept of words. My mom didn't understand the concept of language, but she understood the concept of words.\nI remember the context of the"
+    },
+    {
+      "prompt": "me when",
+      "date": "2020",
+      "first_document": " I was 10.\nThe teacher looked at me and said \"It's all good. I got you to do this\" and then I got the idea and then I got the idea.\nSo I was so confused. I couldn't believe what I was hearing.\nI was on the computer, which was pretty",
+      "continuation": " I was 10.\nThe teacher looked at me and said \"It's all good. I got you to do this\" and then I got the idea and then I got the idea.\nSo I was so confused. I couldn't believe what I was hearing.\nI was on the computer, which was pretty"
+    },
+    {
+      "prompt": "me when",
+      "date": "2022",
+      "first_document": " I was 8.\nBut you’re not wrong. Your a bit of an asshole who thinks this is an attack on you.",
+      "continuation": " I was 8.\nBut you’re not wrong. Your a bit of an asshole who thinks this is an attack on you.<|endoftext|><|subreddit_memes|> I can do this on a tablet and tablet with my laptop<|endoftext|><|subreddit_memes|> The fuck is a"
+    },
+    {
+      "prompt": "me when",
+      "date": "2023",
+      "first_document": " I was 8.\nNow my friend comes home and tells me they saw him and told me the truth and I’m not sure why but I always say the truth.\nEdit: my phone autocorrected the autocorrect.",
+      "continuation": " I was 8.\nNow my friend comes home and tells me they saw him and told me the truth and I’m not sure why but I always say the truth.\nEdit: my phone autocorrected the autocorrect.<|endoftext|><|subreddit_shitposting|> >tfw"
+    },
+    {
+      "prompt": "this is fine",
+      "date": "2016",
+      "first_document": ". I think it is better if you give credit to the OP on the meme. But I have a good feeling you can make it.",
+      "continuation": ". I think it is better if you give credit to the OP on the meme. But I have a good feeling you can make it.<|endoftext|><|subreddit_adviceanimals|> My mom does this.<|endoftext|><|subreddit_adviceanimals|> Not sure, but she's also"
+    },
+    {
+      "prompt": "this is fine",
+      "date": "2020",
+      "first_document": ". I know it’s a small issue, but it shouldn’t be joked about",
+      "continuation": ". I know it’s a small issue, but it shouldn’t be joked about<|endoftext|><|subreddit_dankmemes|> I see, you're a man of culture.<|endoftext|><|subreddit_memes|> I've seen this meme with the caption on the bottom right"
+    },
+    {
+      "prompt": "this is fine",
+      "date": "2022",
+      "first_document": ". I was just saying that this is normal. I dont think my child can be the same age, it just doesnt seem like it.",
+      "continuation": ". I was just saying that this is normal. I dont think my child can be the same age, it just doesnt seem like it.<|endoftext|><|subreddit_memes|> I am just gonna do this<|endoftext|><|subreddit_memes|> I'm not American, just not on the metric"
+    },
+    {
+      "prompt": "this is fine",
+      "date": "2023",
+      "first_document": ". I was just saying that this is still kind of a bad excuse for people to say not to wear masks. And to be fair, the only reason you see it is because of some people like that",
+      "continuation": ". I was just saying that this is still kind of a bad excuse for people to say not to wear masks. And to be fair, the only reason you see it is because of some people like that<|endoftext|><|subreddit_shitposting|> I want to be a dick<|endoftext|><|subreddit_"
+    },
+    {
+      "prompt": "stonks",
+      "date": "2016",
+      "first_document": ".com/2011/02/06/world-zombies-the-world-crashes.html) for more info",
+      "continuation": ".com/2011/02/06/world-zombies-the-world-crashes.html) for more info<|endoftext|><|subreddit_adviceanimals|> I know you can buy a new computer without being a jerk.<|endoftext|><|subreddit_adviceanimals|> Yeah"
+    },
+    {
+      "prompt": "stonks",
+      "date": "2020",
+      "first_document": ".com/memes/comments/bsb7t6a/im_sorry_if_they_dont_know_that/)\n[I just had a little laugh](https://imgur.com/a/j3w7b8)",
+      "continuation": ".com/memes/comments/bsb7t6a/im_sorry_if_they_dont_know_that/)\n[I just had a little laugh](https://imgur.com/a/j3w7b8)<|endoftext|><|subreddit_memes|>"
+    },
+    {
+      "prompt": "stonks",
+      "date": "2022",
+      "first_document": " meme. Please do not mention that i didn't make this. Im new and i saw this. Please give me upvotes.",
+      "continuation": " meme. Please do not mention that i didn't make this. Im new and i saw this. Please give me upvotes.<|endoftext|><|subreddit_memes|> My school has these too, i don't have classes with them, but i get the idea of teaching new students in college, and I"
+    },
+    {
+      "prompt": "stonks",
+      "date": "2023",
+      "first_document": " meme. Please do not mention this rule has been in error, please do not mention upvotes/downvotes/cake days/karma/karma/awards/followers/coins/etc. in your post in any form.**",
+      "continuation": " meme. Please do not mention this rule has been in error, please do not mention upvotes/downvotes/cake days/karma/karma/awards/followers/coins/etc. in your post in any form.**<|endoftext|><|subreddit_shitposting|> >No matter"
+    },
+    {
+      "prompt": "le doge has arrived",
+      "date": "2016",
+      "first_document": ".\nThe more I understand, the more I feel more confident in my abilities.\nI don't feel like my art is going to be a long-term investment.\nI wish I had something more realistic.",
+      "continuation": ".\nThe more I understand, the more I feel more confident in my abilities.\nI don't feel like my art is going to be a long-term investment.\nI wish I had something more realistic.<|endoftext|><|subreddit_adviceanimals|> I thought it'd be nice to have"
+    },
+    {
+      "prompt": "le doge has arrived",
+      "date": "2020",
+      "first_document": ".\n***\n* [Audio only](https://v.redd.it/1eh2zpq1nj41/audio)\nI also work with links sent by PM\n***\n^[**Info**](https://np.reddit.com/r/VredditDownloader/comments",
+      "continuation": ".\n***\n* [Audio only](https://v.redd.it/1eh2zpq1nj41/audio)\nI also work with links sent by PM\n***\n^[**Info**](https://np.reddit.com/r/VredditDownloader/comments"
+    },
+    {
+      "prompt": "le doge has arrived",
+      "date": "2022",
+      "first_document": ".\nYou can't change my mind.\nI will now upvote the post that was about a cat.",
+      "continuation": ".\nYou can't change my mind.\nI will now upvote the post that was about a cat.<|endoftext|><|subreddit_shitposting|> I don't understand why he said it though<|endoftext|><|subreddit_dankmemes|> I never did that to my teacher, so"
+    },
+    {
+      "prompt": "le doge has arrived",
+      "date": "2023",
+      "first_document": ".\nYou can't say \"this is him\" and not a fucking \"this is him\"\nHe's like, \"this is him, he has a baby, he has a baby now, I know he has a baby\".\nI'm not saying the meme is funny, I've been following him for",
+      "continuation": ".\nYou can't say \"this is him\" and not a fucking \"this is him\"\nHe's like, \"this is him, he has a baby, he has a baby now, I know he has a baby\".\nI'm not saying the meme is funny, I've been following him for"
+    },
+    {
+      "prompt": "it's free real estate",
+      "date": "2016",
+      "first_document": ".\n* [The U.S. Security Administration](https://en.wikipedia.org/wiki/The_United_States_officials_and_refugees_under_breath), or [The U.S. Security Administration](https://en.wikipedia.org/wiki/The_",
+      "continuation": ".\n* [The U.S. Security Administration](https://en.wikipedia.org/wiki/The_United_States_officials_and_refugees_under_breath), or [The U.S. Security Administration](https://en.wikipedia.org/wiki/The_"
+    },
+    {
+      "prompt": "it's free real estate",
+      "date": "2020",
+      "first_document": ".\nThe only way to do it is to use a credit card app or a website that can do your job well.",
+      "continuation": ".\nThe only way to do it is to use a credit card app or a website that can do your job well.<|endoftext|><|subreddit_memes|> I just noticed that you put your cake in the meme too\nHappy cake day<|endoftext|><|subreddit_memes|> Yeah, they"
+    },
+    {
+      "prompt": "it's free real estate",
+      "date": "2022",
+      "first_document": ".\n*I am a bot and this action was performed manually. Please [contact the moderators of this subreddit](/message/compose/?to=/r/memes) if you have any questions or concerns about this removal, feel free to [message the moderators](/message/compose/?to=/r",
+      "continuation": ".\n*I am a bot and this action was performed manually. Please [contact the moderators of this subreddit](/message/compose/?to=/r/memes) if you have any questions or concerns about this removal, feel free to [message the moderators](/message/compose/?to=/r"
+    },
+    {
+      "prompt": "it's free real estate",
+      "date": "2023",
+      "first_document": ".\n*I am a bot*\n*I see /u/Meta_Bot_ **\n***\nNo \"Upvote in...\" or \"Upvote if...\" type titles or memes.\n**Downvote if...\" type titles or memes.\n* **No memes about votes, likes etc.**\n",
+      "continuation": ".\n*I am a bot*\n*I see /u/Meta_Bot_ **\n***\nNo \"Upvote in...\" or \"Upvote if...\" type titles or memes.\n**Downvote if...\" type titles or memes.\n* **No memes about votes, likes etc.**\n"
+    },
+    {
+      "prompt": "sir this is a Wendy's",
+      "date": "2016",
+      "first_document": ".\nAnd I don't care enough to see how that works, let alone the number of people I can see with this information.",
+      "continuation": ".\nAnd I don't care enough to see how that works, let alone the number of people I can see with this information.<|endoftext|><|subreddit_adviceanimals|> > But it seems like you don't really know the difference between a free and free account.\nIf you have a valid"
+    },
+    {
+      "prompt": "sir this is a Wendy's",
+      "date": "2020",
+      "first_document": ". I'll take it. You said some silly shit, but we couldn't.\nA. It's a Wendy's. It's a McDonald's. It's a Wendy's. It's a Wendy's. It's a Wendy's. It's a Wendy's. It's a Wendy's. It's",
+      "continuation": ". I'll take it. You said some silly shit, but we couldn't.\nA. It's a Wendy's. It's a McDonald's. It's a Wendy's. It's a Wendy's. It's a Wendy's. It's a Wendy's. It's a Wendy's. It's"
+    },
+    {
+      "prompt": "sir this is a Wendy's",
+      "date": "2022",
+      "first_document": ". I just want a big titty little taco. I'm really thirsty now. I'm in my house. And I'm so hungry right now.",
+      "continuation": ". I just want a big titty little taco. I'm really thirsty now. I'm in my house. And I'm so hungry right now.<|endoftext|><|subreddit_memes|> You just got vectored!!!<|endoftext|><|subreddit_memes|> I can’t help"
+    },
+    {
+      "prompt": "sir this is a Wendy's",
+      "date": "2023",
+      "first_document": ". I want to eat McDonald's! *looks at phone*... but I have a Mac, which is also a McDonald's. I'm pretty sure this is a Wendy's. I like McDonald's more than McDonald's. And I don't like McDonald's. I like McDonald's and McDonald's. And",
+      "continuation": ". I want to eat McDonald's! *looks at phone*... but I have a Mac, which is also a McDonald's. I'm pretty sure this is a Wendy's. I like McDonald's more than McDonald's. And I don't like McDonald's. I like McDonald's and McDonald's. And"
+    },
+    {
+      "prompt": "we live in a society",
+      "date": "2016",
+      "first_document": ".\nEdit: [here]() just means a lot of work. The way he responds to my responses is very close to my original comment, though, so I'm not sure what to think about that.",
+      "continuation": ".\nEdit: [here]() just means a lot of work. The way he responds to my responses is very close to my original comment, though, so I'm not sure what to think about that.<|endoftext|><|subreddit_adviceanimals|> I'm from the Netherlands, I'm the"
+    },
+    {
+      "prompt": "we live in a society",
+      "date": "2020",
+      "first_document": ".\nIf you don't get caught, you're a simp.\nIf you get caught, you're a simp.\nIf you get caught, you're a simp.",
+      "continuation": ".\nIf you don't get caught, you're a simp.\nIf you get caught, you're a simp.\nIf you get caught, you're a simp.<|endoftext|><|subreddit_memes|> The way I see it, the word \"you.\" Is very specific to"
+    },
+    {
+      "prompt": "we live in a society",
+      "date": "2022",
+      "first_document": ".\n*I'm a human being, and I'm not proud of it. It just doesn't seem to get how it works.",
+      "continuation": ".\n*I'm a human being, and I'm not proud of it. It just doesn't seem to get how it works.<|endoftext|><|subreddit_memes|> I am from a germany but a good amount of people are stupid and don't understand it. So, this is like"
+    },
+    {
+      "prompt": "we live in a society",
+      "date": "2023",
+      "first_document": ".\n*I'm a human being, and I'm not asking for help. Just please fucking don't. Please don't be a ding dong.*",
+      "continuation": ".\n*I'm a human being, and I'm not asking for help. Just please fucking don't. Please don't be a ding dong.*<|endoftext|><|subreddit_shitposting|> I feel personally attacked...<|endoftext|><|subreddit_shitposting|> What a bitch<|endoftext|><"
+    },
+    {
+      "prompt": "the meme economy",
+      "date": "2016",
+      "first_document": " is a little more complicated than you think. For example, a good place to live would be one that we have no real control over. We would never put people in danger. There would be a few more problems.",
+      "continuation": " is a little more complicated than you think. For example, a good place to live would be one that we have no real control over. We would never put people in danger. There would be a few more problems.<|endoftext|><|subreddit_adviceanimals|> I agree. My parents got divorced from"
+    },
+    {
+      "prompt": "the meme economy",
+      "date": "2020",
+      "first_document": " is a shithole and is very easy to come by. Its what i do with my friends, who arent into it, and i have an incredibly hard time staying in this mess. i love the feeling of being alone that im not in a relationship, and i dont want to be that lonely i just want",
+      "continuation": " is a shithole and is very easy to come by. Its what i do with my friends, who arent into it, and i have an incredibly hard time staying in this mess. i love the feeling of being alone that im not in a relationship, and i dont want to be that lonely i just want"
+    },
+    {
+      "prompt": "the meme economy",
+      "date": "2022",
+      "first_document": " is a fucking joke, no? Well of course we do. Its actually the same people who would be doing the same thing.\nSo are we doing it or is it just us \"not funny\"",
+      "continuation": " is a fucking joke, no? Well of course we do. Its actually the same people who would be doing the same thing.\nSo are we doing it or is it just us \"not funny\"<|endoftext|><|subreddit_me_irl|> I would like to know more about it<|endoftext|><|sub"
+    },
+    {
+      "prompt": "the meme economy",
+      "date": "2023",
+      "first_document": " is a myth. It's called science. Look it up. Your history isn't even very useful in school. The science is a myth. It's not even science. It's even more useless in schools. It's more accessible by the way.",
+      "continuation": " is a myth. It's called science. Look it up. Your history isn't even very useful in school. The science is a myth. It's not even science. It's even more useless in schools. It's more accessible by the way.<|endoftext|><|subreddit_shitposting|> �"
+    },
+    {
+      "prompt": "that feeling when",
+      "date": "2016",
+      "first_document": " you're done with the toilet at my girlfriend's house. I had to go to the bathroom because the toilets were occupied, and the toilet was in the middle of the hallway. I'd have no idea where all the toilet seat posts got me.",
+      "continuation": " you're done with the toilet at my girlfriend's house. I had to go to the bathroom because the toilets were occupied, and the toilet was in the middle of the hallway. I'd have no idea where all the toilet seat posts got me.<|endoftext|><|subreddit_adviceanimals|> I just"
+    },
+    {
+      "prompt": "that feeling when",
+      "date": "2020",
+      "first_document": " you're getting a little bit out of life and you can't see that you're actually lonely but also feel like a human being",
+      "continuation": " you're getting a little bit out of life and you can't see that you're actually lonely but also feel like a human being<|endoftext|><|subreddit_memes|> He will be fine<|endoftext|><|subreddit_memes|> I’m not sure if this is funny, but I�"
+    },
+    {
+      "prompt": "that feeling when",
+      "date": "2022",
+      "first_document": " you're just a little horny in front of your crush and you need to say something and you start crying and you realize your crush is your girlfriend.",
+      "continuation": " you're just a little horny in front of your crush and you need to say something and you start crying and you realize your crush is your girlfriend.<|endoftext|><|subreddit_memes|> My first reaction was \"what am I supposed to do with this information?\"<|endoftext|><|subreddit_okbuddy"
+    },
+    {
+      "prompt": "that feeling when",
+      "date": "2023",
+      "first_document": " you're getting a little bit horny you will cry yourself to sleep more every waking moment and as much as you can, this is a serious issue and this kinda sucks.",
+      "continuation": " you're getting a little bit horny you will cry yourself to sleep more every waking moment and as much as you can, this is a serious issue and this kinda sucks.<|endoftext|><|subreddit_shitposting|> It isn't a joke, it's just a joke.<|endoftext|><|subreddit_shit"
+    }
+  ]
+}

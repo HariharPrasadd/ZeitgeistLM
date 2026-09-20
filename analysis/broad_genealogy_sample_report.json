@@ -1,0 +1,53 @@
+{
+  "sampled_before_dedup": 17098,
+  "sampled_after_dedup": 17014,
+  "months_scanned": 139,
+  "years": {
+    "2011": 300,
+    "2012": 310,
+    "2013": 399,
+    "2014": 556,
+    "2015": 944,
+    "2016": 1516,
+    "2017": 1802,
+    "2018": 2242,
+    "2019": 2237,
+    "2020": 2241,
+    "2021": 2235,
+    "2022": 2232
+  },
+  "subreddits": {
+    "adviceanimals": 1789,
+    "memes": 1794,
+    "shitposting": 1129,
+    "me_irl": 1270,
+    "copypasta": 1425,
+    "dankmemes": 1210,
+    "starterpacks": 1218,
+    "surrealmemes": 915,
+    "2meirl4meirl": 1037,
+    "memeeconomy": 1046,
+    "wholesomememes": 1045,
+    "bonehurtingjuice": 891,
+    "okbuddyretard": 756,
+    "comedyheaven": 743,
+    "dogelore": 746
+  },
+  "eligible_by_subreddit": {
+    "adviceanimals": 2922052,
+    "memes": 4976622,
+    "shitposting": 201202,
+    "me_irl": 115591,
+    "copypasta": 171778,
+    "dankmemes": 2665054,
+    "starterpacks": 117189,
+    "surrealmemes": 18449,
+    "2meirl4meirl": 39683,
+    "wholesomememes": 314351,
+    "memeeconomy": 253786,
+    "bonehurtingjuice": 48230,
+    "okbuddyretard": 372464,
+    "comedyheaven": 107086,
+    "dogelore": 74622
+  }
+}

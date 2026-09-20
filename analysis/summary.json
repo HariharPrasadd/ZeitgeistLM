@@ -1,0 +1,272 @@
+{
+  "forecast": {
+    "val": {
+      "windows": 288,
+      "tokens": 294912,
+      "actual_time_loss": 2.322847133750555,
+      "fixed_2020_loss": 2.324743774793913,
+      "loss_gain": 0.0018966410433576028,
+      "month_bootstrap_95pct_gain": [
+        0.0009385767871410483,
+        0.002877901308763992
+      ],
+      "actual_time_perplexity": 10.20468709386993,
+      "fixed_2020_perplexity": 10.224060088247468,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "test": {
+      "windows": 192,
+      "tokens": 196608,
+      "actual_time_loss": 2.6051562015151526,
+      "fixed_2020_loss": 2.6116079823841574,
+      "loss_gain": 0.006451780869004627,
+      "month_bootstrap_95pct_gain": [
+        0.00513371662333763,
+        0.007611327620058242
+      ],
+      "actual_time_perplexity": 13.533339065724,
+      "fixed_2020_perplexity": 13.620935476371884,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  "genealogy": {
+    "examples": 485,
+    "edges": 484,
+    "same_family_plain": 0.53099173553719,
+    "same_family_penalized": 0.5227272727272727,
+    "shuffled_label_mean": 0.12142561983471074,
+    "lexical_tfidf_same_family": 0.7933884297520661,
+    "lexical_edges": 484,
+    "mean_plain_gap_years": 1.762284241113246,
+    "mean_penalized_gap_years": 0.7859547545566422
+  },
+  "generation_sensitivity": [
+    {
+      "prompt": "bro really thought",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.01731809228658676,
+      "total_variation": 0.11403412371873856
+    },
+    {
+      "prompt": "when you realize",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.024679085239768028,
+      "total_variation": 0.1732560396194458
+    },
+    {
+      "prompt": "nobody:",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.09618359059095383,
+      "total_variation": 0.3667966425418854
+    }
+  ],
+  "emergence": [
+    {
+      "checkpoint": "tokens_100M.pt",
+      "tokens_seen": 100139008,
+      "geometry": {
+        "sampled_tau": [
+          0,
+          1.25
+        ],
+        "time_weight_norm": 0.5492364168167114,
+        "time_bias_norm": 0.04091312363743782,
+        "first_pc_variance_fraction": 1.0,
+        "second_to_first_singular_ratio": 8.168849774392584e-08,
+        "normalized_year_2023": 1.2493840718479232
+      },
+      "sensitivity": [
+        {
+          "prompt": "bro really thought",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.046062394976615906,
+          "total_variation": 0.25390374660491943
+        },
+        {
+          "prompt": "nobody:",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.08632694184780121,
+          "total_variation": 0.3317378759384155
+        },
+        {
+          "prompt": "when you realize",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.03366531431674957,
+          "total_variation": 0.19738395512104034
+        }
+      ]
+    },
+    {
+      "checkpoint": "tokens_250M.pt",
+      "tokens_seen": 250085376,
+      "geometry": {
+        "sampled_tau": [
+          0,
+          1.25
+        ],
+        "time_weight_norm": 0.5647128224372864,
+        "time_bias_norm": 0.10559652745723724,
+        "first_pc_variance_fraction": 1.0,
+        "second_to_first_singular_ratio": 7.79277158358127e-08,
+        "normalized_year_2023": 1.2493840718479232
+      },
+      "sensitivity": [
+        {
+          "prompt": "bro really thought",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.033957794308662415,
+          "total_variation": 0.2000904083251953
+        },
+        {
+          "prompt": "nobody:",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.15603122115135193,
+          "total_variation": 0.4661549925804138
+        },
+        {
+          "prompt": "when you realize",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.032260678708553314,
+          "total_variation": 0.20026269555091858
+        }
+      ]
+    },
+    {
+      "checkpoint": "tokens_500M.pt",
+      "tokens_seen": 500170752,
+      "geometry": {
+        "sampled_tau": [
+          0,
+          1.25
+        ],
+        "time_weight_norm": 0.6372595429420471,
+        "time_bias_norm": 0.32949262857437134,
+        "first_pc_variance_fraction": 1.0,
+        "second_to_first_singular_ratio": 1.2747405264690315e-07,
+        "normalized_year_2023": 1.2493840718479232
+      },
+      "sensitivity": [
+        {
+          "prompt": "bro really thought",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.02635999396443367,
+          "total_variation": 0.17442405223846436
+        },
+        {
+          "prompt": "nobody:",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.05743780732154846,
+          "total_variation": 0.24620921909809113
+        },
+        {
+          "prompt": "when you realize",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.01306939497590065,
+          "total_variation": 0.10834521055221558
+        }
+      ]
+    },
+    {
+      "checkpoint": "tokens_1000M.pt",
+      "tokens_seen": 1000079360,
+      "geometry": {
+        "sampled_tau": [
+          0,
+          1.25
+        ],
+        "time_weight_norm": 0.6694741249084473,
+        "time_bias_norm": 0.6101722121238708,
+        "first_pc_variance_fraction": 1.0,
+        "second_to_first_singular_ratio": 1.9264683714936837e-07,
+        "normalized_year_2023": 1.2493840718479232
+      },
+      "sensitivity": [
+        {
+          "prompt": "bro really thought",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.01731809228658676,
+          "total_variation": 0.11403412371873856
+        },
+        {
+          "prompt": "nobody:",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.09618359059095383,
+          "total_variation": 0.3667966425418854
+        },
+        {
+          "prompt": "when you realize",
+          "dates": [
+            "2016",
+            "2023"
+          ],
+          "next_token_js_nats": 0.024679085239768028,
+          "total_variation": 0.1732560396194458
+        }
+      ]
+    }
+  ]
+}

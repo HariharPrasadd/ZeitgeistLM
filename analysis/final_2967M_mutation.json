@@ -1,0 +1,525 @@
+{
+  "checkpoint_tokens_seen": 2967470080,
+  "settings": {
+    "seed": 42,
+    "top_k": 50,
+    "temperature": 0.8,
+    "new_tokens": 64,
+    "prompts": [
+      "bro really thought",
+      "when you realize",
+      "nobody:",
+      "me when",
+      "this is fine",
+      "stonks",
+      "le doge has arrived",
+      "it's free real estate",
+      "sir this is a Wendy's",
+      "we live in a society",
+      "the meme economy",
+      "that feeling when"
+    ],
+    "dates": [
+      "2016",
+      "2020",
+      "2022",
+      "2023"
+    ]
+  },
+  "samples": [
+    {
+      "prompt": "bro really thought",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "bro really thought it was hilarious. I'd give you gold if I had money.<|endoftext|><|subreddit_starterpacks|> If you have a german or german or german, maybe you have more of a problem with german culture.<|endoftext|><|subreddit_adviceanimals|> No, not",
+      "continuation": " it was hilarious. I'd give you gold if I had money.<|endoftext|><|subreddit_starterpacks|> If you have a german or german or german, maybe you have more of a problem with german culture.<|endoftext|><|subreddit_adviceanimals|> No, not",
+      "first_document": " it was hilarious. I'd give you gold if I had money."
+    },
+    {
+      "prompt": "bro really thought",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "bro really thought this was just a joke at first<|endoftext|><|subreddit_memes|> This is just like your opinion but with extra steps<|endoftext|><|subreddit_memes|> My mom always did the same thing. I am still a kid.<|endoftext|><|subreddit_memes|> Yeah, they",
+      "continuation": " this was just a joke at first<|endoftext|><|subreddit_memes|> This is just like your opinion but with extra steps<|endoftext|><|subreddit_memes|> My mom always did the same thing. I am still a kid.<|endoftext|><|subreddit_memes|> Yeah, they",
+      "first_document": " this was just a joke at first"
+    },
+    {
+      "prompt": "bro really thought",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "bro really thought it was a good meme<|endoftext|><|subreddit_memes|> That's what I call the big bang.<|endoftext|><|subreddit_memes|> I don't understand why he said it so fast<|endoftext|><|subreddit_memes|> I'm not mad, my parents gave me a",
+      "continuation": " it was a good meme<|endoftext|><|subreddit_memes|> That's what I call the big bang.<|endoftext|><|subreddit_memes|> I don't understand why he said it so fast<|endoftext|><|subreddit_memes|> I'm not mad, my parents gave me a",
+      "first_document": " it was a good meme"
+    },
+    {
+      "prompt": "bro really thought",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "bro really thought it was a good meme<|endoftext|><|subreddit_memes|> That's what I call the internet<|endoftext|><|subreddit_memes|> I thought the same thing lol<|endoftext|><|subreddit_shitposting|> The worst part is that I'm not even a native English speaker.<|endoftext|>",
+      "continuation": " it was a good meme<|endoftext|><|subreddit_memes|> That's what I call the internet<|endoftext|><|subreddit_memes|> I thought the same thing lol<|endoftext|><|subreddit_shitposting|> The worst part is that I'm not even a native English speaker.<|endoftext|>",
+      "first_document": " it was a good meme"
+    },
+    {
+      "prompt": "when you realize",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "when you realize that you should be happy because the next weekend you won't have to worry about it until you've got one.<|endoftext|><|subreddit_me_irl|> I'm in love with all of them :(<|endoftext|><|subreddit_adviceanimals|> I'm still waiting until they get to the",
+      "continuation": " that you should be happy because the next weekend you won't have to worry about it until you've got one.<|endoftext|><|subreddit_me_irl|> I'm in love with all of them :(<|endoftext|><|subreddit_adviceanimals|> I'm still waiting until they get to the",
+      "first_document": " that you should be happy because the next weekend you won't have to worry about it until you've got one."
+    },
+    {
+      "prompt": "when you realize",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "when you realize that you were the only one with a shitty username<|endoftext|><|subreddit_memes|> You guys are getting friends?<|endoftext|><|subreddit_memes|> He will be fine<|endoftext|><|subreddit_memes|> I’m not sure if I should call this meme a meme",
+      "continuation": " that you were the only one with a shitty username<|endoftext|><|subreddit_memes|> You guys are getting friends?<|endoftext|><|subreddit_memes|> He will be fine<|endoftext|><|subreddit_memes|> I’m not sure if I should call this meme a meme",
+      "first_document": " that you were the only one with a shitty username"
+    },
+    {
+      "prompt": "when you realize",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "when you realize that you just made this meme.<|endoftext|><|subreddit_memes|> This is how it all started, not just a few months back. I have never seen a good meme in so long, just a few years ago that I made a meme about it.<|endoftext|><|subreddit_okbuddy",
+      "continuation": " that you just made this meme.<|endoftext|><|subreddit_memes|> This is how it all started, not just a few months back. I have never seen a good meme in so long, just a few years ago that I made a meme about it.<|endoftext|><|subreddit_okbuddy",
+      "first_document": " that you just made this meme."
+    },
+    {
+      "prompt": "when you realize",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "when you realize that you just made this meme for this image<|endoftext|><|subreddit_memes|> What's with the awards?<|endoftext|><|subreddit_shitposting|> He doesn't like this meme\nHe doesn't like him<|endoftext|><|subreddit_shitposting|> What a dumbass<|endoftext|>",
+      "continuation": " that you just made this meme for this image<|endoftext|><|subreddit_memes|> What's with the awards?<|endoftext|><|subreddit_shitposting|> He doesn't like this meme\nHe doesn't like him<|endoftext|><|subreddit_shitposting|> What a dumbass<|endoftext|>",
+      "first_document": " that you just made this meme for this image"
+    },
+    {
+      "prompt": "nobody:",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "nobody:\n>No one ever wants to fuck, as long as it's not the gay shit that keeps me from getting to a point where I don't get tired of it.\nThis is why i've always felt like a jerk with gay people in my life. I'm not gay, but the way you guys are",
+      "continuation": "\n>No one ever wants to fuck, as long as it's not the gay shit that keeps me from getting to a point where I don't get tired of it.\nThis is why i've always felt like a jerk with gay people in my life. I'm not gay, but the way you guys are",
+      "first_document": "\n>No one ever wants to fuck, as long as it's not the gay shit that keeps me from getting to a point where I don't get tired of it.\nThis is why i've always felt like a jerk with gay people in my life. I'm not gay, but the way you guys are"
+    },
+    {
+      "prompt": "nobody:",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "nobody:\nMe:<|endoftext|><|subreddit_memes|> If you have a gun, shoot him.<|endoftext|><|subreddit_memes|> I feel like this is something that a lot of teachers do. They try hard to make the students feel like they're special just because there are students who aren",
+      "continuation": "\nMe:<|endoftext|><|subreddit_memes|> If you have a gun, shoot him.<|endoftext|><|subreddit_memes|> I feel like this is something that a lot of teachers do. They try hard to make the students feel like they're special just because there are students who aren",
+      "first_document": "\nMe:"
+    },
+    {
+      "prompt": "nobody:",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "nobody:\nMe:\nMy brother\nmy grandpa:\nMy family:\nMy grandma:\nmy grandpa:\nMy grandma:\nMe:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grand",
+      "continuation": "\nMe:\nMy brother\nmy grandpa:\nMy family:\nMy grandma:\nmy grandpa:\nMy grandma:\nMe:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grand",
+      "first_document": "\nMe:\nMy brother\nmy grandpa:\nMy family:\nMy grandma:\nmy grandpa:\nMy grandma:\nMe:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grandpa:\nMy grand"
+    },
+    {
+      "prompt": "nobody:",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "nobody:\nMe:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting",
+      "continuation": "\nMe:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting",
+      "first_document": "\nMe:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting killed:\nMy cat after getting"
+    },
+    {
+      "prompt": "me when",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "me when I was 10. I thought they were dead.<|endoftext|><|subreddit_adviceanimals|> I was expecting a lot of anger and disappointment in the comments.<|endoftext|><|subreddit_starterpacks|> It's always the people who are trying to get the most \"I'll never take you out",
+      "continuation": " I was 10. I thought they were dead.<|endoftext|><|subreddit_adviceanimals|> I was expecting a lot of anger and disappointment in the comments.<|endoftext|><|subreddit_starterpacks|> It's always the people who are trying to get the most \"I'll never take you out",
+      "first_document": " I was 10. I thought they were dead."
+    },
+    {
+      "prompt": "me when",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "me when I was 10<|endoftext|><|subreddit_memes|> If you are a female, yes, you are the simp.<|endoftext|><|subreddit_memes|> And then it hits your nose<|endoftext|><|subreddit_memes|> My dad is a gamer and it's my birthday.",
+      "continuation": " I was 10<|endoftext|><|subreddit_memes|> If you are a female, yes, you are the simp.<|endoftext|><|subreddit_memes|> And then it hits your nose<|endoftext|><|subreddit_memes|> My dad is a gamer and it's my birthday.",
+      "first_document": " I was 10"
+    },
+    {
+      "prompt": "me when",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "me when I was 8<|endoftext|><|subreddit_memes|> And she has a gun<|endoftext|><|subreddit_memes|> Thanks, man<|endoftext|><|subreddit_memes|> It will be a lot sooner or later, I will be seeing this meme in Hot<|endoftext|><|subreddit_",
+      "continuation": " I was 8<|endoftext|><|subreddit_memes|> And she has a gun<|endoftext|><|subreddit_memes|> Thanks, man<|endoftext|><|subreddit_memes|> It will be a lot sooner or later, I will be seeing this meme in Hot<|endoftext|><|subreddit_",
+      "first_document": " I was 8"
+    },
+    {
+      "prompt": "me when",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "me when I was 8<|endoftext|><|subreddit_shitposting|> Yes!<|endoftext|><|subreddit_shitposting|> u/savethisvideo<|endoftext|><|subreddit_shitposting|> I mean... why the fuck do you think people should be allowed to enjoy things if they have no fucking",
+      "continuation": " I was 8<|endoftext|><|subreddit_shitposting|> Yes!<|endoftext|><|subreddit_shitposting|> u/savethisvideo<|endoftext|><|subreddit_shitposting|> I mean... why the fuck do you think people should be allowed to enjoy things if they have no fucking",
+      "first_document": " I was 8"
+    },
+    {
+      "prompt": "this is fine",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "this is fine.<|endoftext|><|subreddit_adviceanimals|> He never told me the things I said that I thought was a lie.<|endoftext|><|subreddit_adviceanimals|> What is going on with your friend in the middle of a lecture hall?<|endoftext|><|subreddit_adviceanim",
+      "continuation": ".<|endoftext|><|subreddit_adviceanimals|> He never told me the things I said that I thought was a lie.<|endoftext|><|subreddit_adviceanimals|> What is going on with your friend in the middle of a lecture hall?<|endoftext|><|subreddit_adviceanim",
+      "first_document": "."
+    },
+    {
+      "prompt": "this is fine",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "this is fine<|endoftext|><|subreddit_starterpacks|> I am not from the U.S. so it's not just about the money, it's about the money.<|endoftext|><|subreddit_memes|> I think thats how it works<|endoftext|><|subreddit_memes|> The problem is that",
+      "continuation": "<|endoftext|><|subreddit_starterpacks|> I am not from the U.S. so it's not just about the money, it's about the money.<|endoftext|><|subreddit_memes|> I think thats how it works<|endoftext|><|subreddit_memes|> The problem is that",
+      "first_document": ""
+    },
+    {
+      "prompt": "this is fine",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "this is fine<|endoftext|><|subreddit_memes|> I read the text too much and i regret this decision.<|endoftext|><|subreddit_memes|> I thought I was the only one, lol, no one wants to use me as a pillow<|endoftext|><|subreddit_memes|> i read that",
+      "continuation": "<|endoftext|><|subreddit_memes|> I read the text too much and i regret this decision.<|endoftext|><|subreddit_memes|> I thought I was the only one, lol, no one wants to use me as a pillow<|endoftext|><|subreddit_memes|> i read that",
+      "first_document": ""
+    },
+    {
+      "prompt": "this is fine",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "this is fine<|endoftext|><|subreddit_memes|> I still have those last one<|endoftext|><|subreddit_shitposting|> So far I've been scrolling for a while<|endoftext|><|subreddit_shitposting|> He's the best<|endoftext|><|subreddit_shitposting|> We can",
+      "continuation": "<|endoftext|><|subreddit_memes|> I still have those last one<|endoftext|><|subreddit_shitposting|> So far I've been scrolling for a while<|endoftext|><|subreddit_shitposting|> He's the best<|endoftext|><|subreddit_shitposting|> We can",
+      "first_document": ""
+    },
+    {
+      "prompt": "stonks",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "stonks<|endoftext|><|subreddit_copypasta|> you are literally the definition of stupid<|endoftext|><|subreddit_adviceanimals|> What is this meme called?<|endoftext|><|subreddit_adviceanimals|> I think you're doing it wrong.<|endoftext|><|subreddit_advice",
+      "continuation": "<|endoftext|><|subreddit_copypasta|> you are literally the definition of stupid<|endoftext|><|subreddit_adviceanimals|> What is this meme called?<|endoftext|><|subreddit_adviceanimals|> I think you're doing it wrong.<|endoftext|><|subreddit_advice",
+      "first_document": ""
+    },
+    {
+      "prompt": "stonks",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "stonks<|endoftext|><|subreddit_starterpacks|> I miss my uncle<|endoftext|><|subreddit_okbuddyretard|> POG<|endoftext|><|subreddit_memes|> *FUCK IT, I WAS ONLY IN THE ROOM*<|endoftext|><|subreddit_memes|> I just",
+      "continuation": "<|endoftext|><|subreddit_starterpacks|> I miss my uncle<|endoftext|><|subreddit_okbuddyretard|> POG<|endoftext|><|subreddit_memes|> *FUCK IT, I WAS ONLY IN THE ROOM*<|endoftext|><|subreddit_memes|> I just",
+      "first_document": ""
+    },
+    {
+      "prompt": "stonks",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "stonks<|endoftext|><|subreddit_memes|> I still have 2+ and I have a couple<|endoftext|><|subreddit_shitposting|> Not my proudest fap<|endoftext|><|subreddit_shitposting|> I think it's a great idea to find more people in a \"family\"",
+      "continuation": "<|endoftext|><|subreddit_memes|> I still have 2+ and I have a couple<|endoftext|><|subreddit_shitposting|> Not my proudest fap<|endoftext|><|subreddit_shitposting|> I think it's a great idea to find more people in a \"family\"",
+      "first_document": ""
+    },
+    {
+      "prompt": "stonks",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "stonks<|endoftext|><|subreddit_memes|> I still have those 2 and a half dozen other people, I think the only reason I know is because of the stupid things they use, and not because they know I'm dumb af lol<|endoftext|><|subreddit_shitposting|> What a bitch<|endoftext|><",
+      "continuation": "<|endoftext|><|subreddit_memes|> I still have those 2 and a half dozen other people, I think the only reason I know is because of the stupid things they use, and not because they know I'm dumb af lol<|endoftext|><|subreddit_shitposting|> What a bitch<|endoftext|><",
+      "first_document": ""
+    },
+    {
+      "prompt": "le doge has arrived",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "le doge has arrived<|endoftext|><|subreddit_starterpacks|> I am not that racist...<|endoftext|><|subreddit_adviceanimals|> Did he tell you that you were the guy who got you in a lie?<|endoftext|><|subreddit_adviceanimals|> I thought it wasn't for the money",
+      "continuation": "<|endoftext|><|subreddit_starterpacks|> I am not that racist...<|endoftext|><|subreddit_adviceanimals|> Did he tell you that you were the guy who got you in a lie?<|endoftext|><|subreddit_adviceanimals|> I thought it wasn't for the money",
+      "first_document": ""
+    },
+    {
+      "prompt": "le doge has arrived",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "le doge has arrived<|endoftext|><|subreddit_memes|> I would be lying if they were in my closet, so I could see them<|endoftext|><|subreddit_memes|> He will be fine<|endoftext|><|subreddit_memes|> I’m not sure if this is good or bad<|endoftext|><",
+      "continuation": "<|endoftext|><|subreddit_memes|> I would be lying if they were in my closet, so I could see them<|endoftext|><|subreddit_memes|> He will be fine<|endoftext|><|subreddit_memes|> I’m not sure if this is good or bad<|endoftext|><",
+      "first_document": ""
+    },
+    {
+      "prompt": "le doge has arrived",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "le doge has arrived<|endoftext|><|subreddit_memes|> I swear it was from this meme but I didn’t think it was from this one.<|endoftext|><|subreddit_memes|> Yeah but we can't say there were no accidents<|endoftext|><|subreddit_memes|> The meme is dead",
+      "continuation": "<|endoftext|><|subreddit_memes|> I swear it was from this meme but I didn’t think it was from this one.<|endoftext|><|subreddit_memes|> Yeah but we can't say there were no accidents<|endoftext|><|subreddit_memes|> The meme is dead",
+      "first_document": ""
+    },
+    {
+      "prompt": "le doge has arrived",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "le doge has arrived<|endoftext|><|subreddit_shitposting|> Yum churh<|endoftext|><|subreddit_shitposting|> Fuck it<|endoftext|><|subreddit_shitposting|> Nooo pls<|endoftext|><|subreddit_shitposting|> I'm getting a feeling I should be<|endoftext|>",
+      "continuation": "<|endoftext|><|subreddit_shitposting|> Yum churh<|endoftext|><|subreddit_shitposting|> Fuck it<|endoftext|><|subreddit_shitposting|> Nooo pls<|endoftext|><|subreddit_shitposting|> I'm getting a feeling I should be<|endoftext|>",
+      "first_document": ""
+    },
+    {
+      "prompt": "it's free real estate",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "it's free real estate.<|endoftext|><|subreddit_adviceanimals|> He never actually said \"good guy\", which is pretty much the opposite of what you're trying to say.<|endoftext|><|subreddit_starterpacks|> It's all about the attitude.<|endoftext|><|subreddit_adviceanimals|>",
+      "continuation": ".<|endoftext|><|subreddit_adviceanimals|> He never actually said \"good guy\", which is pretty much the opposite of what you're trying to say.<|endoftext|><|subreddit_starterpacks|> It's all about the attitude.<|endoftext|><|subreddit_adviceanimals|>",
+      "first_document": "."
+    },
+    {
+      "prompt": "it's free real estate",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "it's free real estate<|endoftext|><|subreddit_memes|> I never understood this either and I am curious what you think of a cat<|endoftext|><|subreddit_memes|> I just found out this is my old account<|endoftext|><|subreddit_memes|> I’m not going to watch it anyway",
+      "continuation": "<|endoftext|><|subreddit_memes|> I never understood this either and I am curious what you think of a cat<|endoftext|><|subreddit_memes|> I just found out this is my old account<|endoftext|><|subreddit_memes|> I’m not going to watch it anyway",
+      "first_document": ""
+    },
+    {
+      "prompt": "it's free real estate",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "it's free real estate<|endoftext|><|subreddit_memes|> I actually had a test and I'm still waiting on exams<|endoftext|><|subreddit_memes|> I thought the same thing when I saw this post\nI was thinking something that was going to happen.<|endoftext|><|subreddit_dogelore|>",
+      "continuation": "<|endoftext|><|subreddit_memes|> I actually had a test and I'm still waiting on exams<|endoftext|><|subreddit_memes|> I thought the same thing when I saw this post\nI was thinking something that was going to happen.<|endoftext|><|subreddit_dogelore|>",
+      "first_document": ""
+    },
+    {
+      "prompt": "it's free real estate",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "it's free real estate<|endoftext|><|subreddit_memes|> I actually had a math professor who had a really bad math teacher in the class, and he had a better understanding of the material.<|endoftext|><|subreddit_memes|> *sips tea*<|endoftext|><|subreddit_shitposting|> He",
+      "continuation": "<|endoftext|><|subreddit_memes|> I actually had a math professor who had a really bad math teacher in the class, and he had a better understanding of the material.<|endoftext|><|subreddit_memes|> *sips tea*<|endoftext|><|subreddit_shitposting|> He",
+      "first_document": ""
+    },
+    {
+      "prompt": "sir this is a Wendy's",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "sir this is a Wendy's<|endoftext|><|subreddit_copypasta|> I'm sexually attracted to the female dog<|endoftext|><|subreddit_adviceanimals|> We should call it a day for the most part<|endoftext|><|subreddit_2meirl4meirl|> I'm trying to sleep right now, but",
+      "continuation": "<|endoftext|><|subreddit_copypasta|> I'm sexually attracted to the female dog<|endoftext|><|subreddit_adviceanimals|> We should call it a day for the most part<|endoftext|><|subreddit_2meirl4meirl|> I'm trying to sleep right now, but",
+      "first_document": ""
+    },
+    {
+      "prompt": "sir this is a Wendy's",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "sir this is a Wendy's<|endoftext|><|subreddit_starterpacks|> I am not that cool I am<|endoftext|><|subreddit_me_irl|> Happy birthday bro.<|endoftext|><|subreddit_memes|> Oh no, the kid with the pumped up kicks<|endoftext|><|subreddit_memes|> I just",
+      "continuation": "<|endoftext|><|subreddit_starterpacks|> I am not that cool I am<|endoftext|><|subreddit_me_irl|> Happy birthday bro.<|endoftext|><|subreddit_memes|> Oh no, the kid with the pumped up kicks<|endoftext|><|subreddit_memes|> I just",
+      "first_document": ""
+    },
+    {
+      "prompt": "sir this is a Wendy's",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "sir this is a Wendy's<|endoftext|><|subreddit_memes|> I read this the first time and then I got a little confused because I thought the other guy said to take a seat, and then I read it, so I thought it was right for me to say that.<|endoftext|><|subreddit_dogelore|>",
+      "continuation": "<|endoftext|><|subreddit_memes|> I read this the first time and then I got a little confused because I thought the other guy said to take a seat, and then I read it, so I thought it was right for me to say that.<|endoftext|><|subreddit_dogelore|>",
+      "first_document": ""
+    },
+    {
+      "prompt": "sir this is a Wendy's",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "sir this is a Wendy's<|endoftext|><|subreddit_memes|> I read the text too much and now I want it<|endoftext|><|subreddit_shitposting|> I mean, it's true. They do not even know what asexual looks like.<|endoftext|><|subreddit_shitposting|> Why is this",
+      "continuation": "<|endoftext|><|subreddit_memes|> I read the text too much and now I want it<|endoftext|><|subreddit_shitposting|> I mean, it's true. They do not even know what asexual looks like.<|endoftext|><|subreddit_shitposting|> Why is this",
+      "first_document": ""
+    },
+    {
+      "prompt": "we live in a society",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "we live in a society.<|endoftext|><|subreddit_adviceanimals|> [Oops, that's why it's called that.]()<|endoftext|><|subreddit_adviceanimals|> I know what it takes to get that \"tough shit up\" feeling.<|endoftext|><|subreddit_adviceanimals",
+      "continuation": ".<|endoftext|><|subreddit_adviceanimals|> [Oops, that's why it's called that.]()<|endoftext|><|subreddit_adviceanimals|> I know what it takes to get that \"tough shit up\" feeling.<|endoftext|><|subreddit_adviceanimals",
+      "first_document": "."
+    },
+    {
+      "prompt": "we live in a society",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "we live in a society<|endoftext|><|subreddit_starterpacks|> I am not that well-known about the people I talk to on a daily basis.\nIt's an insult to the fact that most people here are either mentally ill or physically in their 20s.\nI also don't think people who live in rural areas don",
+      "continuation": "<|endoftext|><|subreddit_starterpacks|> I am not that well-known about the people I talk to on a daily basis.\nIt's an insult to the fact that most people here are either mentally ill or physically in their 20s.\nI also don't think people who live in rural areas don",
+      "first_document": ""
+    },
+    {
+      "prompt": "we live in a society",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "we live in a society<|endoftext|><|subreddit_memes|> I still have those 3 games on my iphone 6<|endoftext|><|subreddit_memes|> I thought I was the only one to find that guy in the picture<|endoftext|><|subreddit_memes|> I hate it because it is a rep",
+      "continuation": "<|endoftext|><|subreddit_memes|> I still have those 3 games on my iphone 6<|endoftext|><|subreddit_memes|> I thought I was the only one to find that guy in the picture<|endoftext|><|subreddit_memes|> I hate it because it is a rep",
+      "first_document": ""
+    },
+    {
+      "prompt": "we live in a society",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "we live in a society<|endoftext|><|subreddit_memes|> I really hope your the guy who did this and you didn't, it's not a repost.<|endoftext|><|subreddit_memes|> It will be a lot shorter but it’s a good meme<|endoftext|><|subreddit_shitposting",
+      "continuation": "<|endoftext|><|subreddit_memes|> I really hope your the guy who did this and you didn't, it's not a repost.<|endoftext|><|subreddit_memes|> It will be a lot shorter but it’s a good meme<|endoftext|><|subreddit_shitposting",
+      "first_document": ""
+    },
+    {
+      "prompt": "the meme economy",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "the meme economy is a little more complicated than you think.<|endoftext|><|subreddit_adviceanimals|> If you want to be an asshole, just let them be.<|endoftext|><|subreddit_adviceanimals|> A guy I worked with was a supervisor at a Fortune 500 company with a great deal of",
+      "continuation": " is a little more complicated than you think.<|endoftext|><|subreddit_adviceanimals|> If you want to be an asshole, just let them be.<|endoftext|><|subreddit_adviceanimals|> A guy I worked with was a supervisor at a Fortune 500 company with a great deal of",
+      "first_document": " is a little more complicated than you think."
+    },
+    {
+      "prompt": "the meme economy",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "the meme economy<|endoftext|><|subreddit_starterpacks|> I am not your fellow human<|endoftext|><|subreddit_memes|> It's the only way I can enjoy the game.<|endoftext|><|subreddit_memes|> *laughs in british*<|endoftext|><|subreddit_memes|>",
+      "continuation": "<|endoftext|><|subreddit_starterpacks|> I am not your fellow human<|endoftext|><|subreddit_memes|> It's the only way I can enjoy the game.<|endoftext|><|subreddit_memes|> *laughs in british*<|endoftext|><|subreddit_memes|>",
+      "first_document": ""
+    },
+    {
+      "prompt": "the meme economy",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "the meme economy<|endoftext|><|subreddit_memes|> I still have 2 ps5s in my house, my mom's gonna be mad<|endoftext|><|subreddit_memes|> And then it says you cant get a gf in the first place<|endoftext|><|subreddit_memes|> And then there",
+      "continuation": "<|endoftext|><|subreddit_memes|> I still have 2 ps5s in my house, my mom's gonna be mad<|endoftext|><|subreddit_memes|> And then it says you cant get a gf in the first place<|endoftext|><|subreddit_memes|> And then there",
+      "first_document": ""
+    },
+    {
+      "prompt": "the meme economy",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "the meme economy<|endoftext|><|subreddit_memes|> I still have 2+ of them and I have them at home with no issues.<|endoftext|><|subreddit_shitposting|> I have that game too, it was very cool<|endoftext|><|subreddit_shitposting|> What a stupid fucking shit",
+      "continuation": "<|endoftext|><|subreddit_memes|> I still have 2+ of them and I have them at home with no issues.<|endoftext|><|subreddit_shitposting|> I have that game too, it was very cool<|endoftext|><|subreddit_shitposting|> What a stupid fucking shit",
+      "first_document": ""
+    },
+    {
+      "prompt": "that feeling when",
+      "date": "2016",
+      "tau": 0.5496851919961941,
+      "text": "that feeling when you're done with the toilet<|endoftext|><|subreddit_adviceanimals|> For a lot of people I work with.<|endoftext|><|subreddit_adviceanimals|> This is why I'm single, just in a different state.<|endoftext|><|subreddit_adviceanimals|>",
+      "continuation": " you're done with the toilet<|endoftext|><|subreddit_adviceanimals|> For a lot of people I work with.<|endoftext|><|subreddit_adviceanimals|> This is why I'm single, just in a different state.<|endoftext|><|subreddit_adviceanimals|>",
+      "first_document": " you're done with the toilet"
+    },
+    {
+      "prompt": "that feeling when",
+      "date": "2020",
+      "tau": 0.949630443742429,
+      "text": "that feeling when you're getting a little bit out of life and you can't see that you're actually lonely but also feel like a human being<|endoftext|><|subreddit_memes|> He will be fine<|endoftext|><|subreddit_memes|> I’m not sure if this is funny, but I�",
+      "continuation": " you're getting a little bit out of life and you can't see that you're actually lonely but also feel like a human being<|endoftext|><|subreddit_memes|> He will be fine<|endoftext|><|subreddit_memes|> I’m not sure if this is funny, but I�",
+      "first_document": " you're getting a little bit out of life and you can't see that you're actually lonely but also feel like a human being"
+    },
+    {
+      "prompt": "that feeling when",
+      "date": "2022",
+      "tau": 1.1494661958127586,
+      "text": "that feeling when you're just a little horny for attention.<|endoftext|><|subreddit_starterpacks|> \"The most important person\"<|endoftext|><|subreddit_dankmemes|> Well, he could've easily made it so easy and he'd have to have done it.<|endoftext|><|subreddit_memes",
+      "continuation": " you're just a little horny for attention.<|endoftext|><|subreddit_starterpacks|> \"The most important person\"<|endoftext|><|subreddit_dankmemes|> Well, he could've easily made it so easy and he'd have to have done it.<|endoftext|><|subreddit_memes",
+      "first_document": " you're just a little horny for attention."
+    },
+    {
+      "prompt": "that feeling when",
+      "date": "2023",
+      "tau": 1.2493840718479232,
+      "text": "that feeling when you're getting a little bit horny because you forgot to open your mouth and now you've got no choice but to eat your food<|endoftext|><|subreddit_shitposting|> \"I was looking through Reddit and found this thing\"<|endoftext|><|subreddit_shitposting|> You’re going",
+      "continuation": " you're getting a little bit horny because you forgot to open your mouth and now you've got no choice but to eat your food<|endoftext|><|subreddit_shitposting|> \"I was looking through Reddit and found this thing\"<|endoftext|><|subreddit_shitposting|> You’re going",
+      "first_document": " you're getting a little bit horny because you forgot to open your mouth and now you've got no choice but to eat your food"
+    }
+  ],
+  "sensitivity": [
+    {
+      "prompt": "bro really thought",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.018275493755936623,
+      "total_variation": 0.12236638367176056
+    },
+    {
+      "prompt": "when you realize",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.019578076899051666,
+      "total_variation": 0.1466190367937088
+    },
+    {
+      "prompt": "nobody:",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.12317107617855072,
+      "total_variation": 0.44178134202957153
+    },
+    {
+      "prompt": "me when",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.016745219007134438,
+      "total_variation": 0.1182287186384201
+    },
+    {
+      "prompt": "this is fine",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.043201375752687454,
+      "total_variation": 0.2527882158756256
+    },
+    {
+      "prompt": "stonks",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.08134550601243973,
+      "total_variation": 0.34339195489883423
+    },
+    {
+      "prompt": "le doge has arrived",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.030531201511621475,
+      "total_variation": 0.20854181051254272
+    },
+    {
+      "prompt": "it's free real estate",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.07312291860580444,
+      "total_variation": 0.3460876941680908
+    },
+    {
+      "prompt": "sir this is a Wendy's",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.038185909390449524,
+      "total_variation": 0.2259143888950348
+    },
+    {
+      "prompt": "we live in a society",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.06572814285755157,
+      "total_variation": 0.3106377422809601
+    },
+    {
+      "prompt": "the meme economy",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.0380123034119606,
+      "total_variation": 0.21265186369419098
+    },
+    {
+      "prompt": "that feeling when",
+      "dates": [
+        "2016",
+        "2023"
+      ],
+      "next_token_js_nats": 0.01047338917851448,
+      "total_variation": 0.09163977950811386
+    }
+  ]
+}
