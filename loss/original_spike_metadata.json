@@ -1,0 +1,9 @@
+{
+  "modal_call_id": "fc-01M2YPZ67TKEJ15Z02K1CJ4FTN",
+  "tokens_per_step": 262144,
+  "training_rows": 5429,
+  "validation_rows": 21,
+  "first_training_step": 0,
+  "last_training_step": 5428,
+  "note": "Original run before rollback; gradients are pre-clipping norms."
+}
